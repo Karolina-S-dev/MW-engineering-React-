@@ -1,0 +1,541 @@
+/* adjustment for nav width and cards icons */
+@media only screen and (max-width: 1450px) {
+  html,
+  body {
+    font-size: 9.5px;
+  }
+
+  header {
+    padding: 1.5rem 7rem;
+  }
+
+  .nav-links {
+    gap: 0;
+  }
+
+  .home-offer-container {
+    padding: 4rem;
+  }
+
+  .home-offer-cards-div {
+    gap: 1.5rem;
+  }
+
+  .home-offer-card {
+    flex: 0 0 calc(25% - 1.1rem);
+    padding: 2rem;
+  }
+
+  .home-offer-card h3 {
+    line-height: 3.2rem;
+  }
+
+  .home-proof-container {
+    padding: 7rem 15rem;
+  }
+
+  .home-proof-container h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .home-proof-stat {
+    padding: 2rem 1.5rem;
+  }
+
+  .home-benefits-container-list li {
+    margin-top: 3rem;
+  }
+
+  .home-benefits-content {
+    padding: 5rem 0 5rem 10rem;
+  }
+
+  .clients {
+    max-width: 115rem;
+  }
+  .carousel-group img {
+    height: 8.5rem;
+  }
+
+  footer {
+    padding: 4rem 7rem;
+  }
+
+  .footer-contact-and-map-data-row {
+    max-width: 68rem;
+  }
+}
+
+/* laptops and big tablets - 1024px - 1200px */
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 8.5px;
+  }
+
+  .nav-button {
+    letter-spacing: 1.2px;
+    padding: 1.5rem 2rem;
+  }
+
+  .home-hero-content {
+    margin-left: 5rem;
+  }
+
+  .btn {
+    padding: 1.5rem 2rem;
+  }
+
+  .home-offer-cards-div {
+    gap: 1.8rem;
+  }
+
+  .home-offer-card {
+    flex: 0 0 calc(25% - 1.35rem);
+  }
+
+  .home-offer-card img {
+    max-width: 6rem;
+  }
+  .home-offer-card h3 {
+    font-size: 1.8rem;
+  }
+
+  .home-offer-card-icon-header-row {
+    gap: 0.5rem;
+  }
+
+  .home-benefits-content {
+    padding-left: 6rem;
+  }
+
+  .home-benefits-container h2 {
+    font-size: 2.7rem;
+    line-height: 4rem;
+  }
+  .home-benefits-container-list li {
+    margin-top: 1.5rem;
+  }
+
+  .footer img {
+    max-height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1051px) {
+  .home-offer-container {
+    padding: 3rem;
+  }
+}
+
+/* adjustment for home-offer-card header  */
+@media only screen and (max-width: 800px) {
+  .home-offer-card:last-child h3 {
+    font-size: 1.65rem;
+  }
+}
+
+/* tablets 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 7.5px;
+  }
+
+  header {
+    padding: 1.5rem 3rem;
+  }
+
+  .header-brand-col img {
+    max-width: 10rem;
+  }
+
+  .header-tagline {
+    color: #fff;
+  }
+
+  .nav-button--secondary {
+    padding: 1.5rem 1rem;
+  }
+
+  .nav-links {
+    gap: 0.7rem;
+  }
+
+  .home-hero-section {
+    background-attachment: scroll;
+  }
+  .home-hero-content {
+    max-width: 70rem;
+  }
+
+  .home-hero-buttons {
+    gap: 2rem;
+  }
+
+  .section-light {
+    margin: 3rem;
+  }
+
+  .home-offer-intro p {
+    margin-bottom: 2rem;
+    max-width: 70vw;
+  }
+
+  .home-offer-intro h2::after {
+    width: 80vw;
+  }
+
+  .home-offer-card {
+    padding: 1.6rem;
+    flex: 0 0 calc(25% - 0.5rem);
+  }
+
+  .home-offer-card img {
+    max-width: 5rem;
+  }
+
+  .home-offer-cards-div {
+    gap: 1rem;
+  }
+
+  .home-proof-container {
+    padding: 4rem 15rem;
+  }
+
+  .home-proof-logos img {
+    max-height: 4.8rem;
+  }
+
+  .home-proof-logos {
+    gap: 1rem;
+  }
+
+  .section-dark {
+    margin: 3rem;
+  }
+
+  .home-benefits-container-list li {
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+    padding-bottom: 0.6rem;
+    gap: 1.5rem;
+  }
+
+  .home-benefits-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .home-benefits-content {
+    padding-left: 5rem;
+  }
+
+  .clients {
+    margin: 0rem auto;
+  }
+
+  .footer-google-map {
+    max-width: 17rem;
+  }
+
+  footer img {
+    max-width: 17rem;
+  }
+
+  .footer-contact-and-map-data-row {
+    gap: 2rem;
+    max-width: 58rem;
+  }
+}
+
+/* mobile - phones */
+@media only screen and (max-width: 767px) {
+  nav {
+    position: relative;
+  }
+
+  nav ion-icon[name="reorder-three"] {
+    display: block;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+  }
+
+  .nav-links {
+    opacity: 0;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.4s ease;
+    gap: 1.2rem;
+    z-index: 5;
+    right: -0.3rem;
+    top: -0.3rem;
+    background-color: #11151b;
+    width: 25rem;
+    padding: 2rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #2b2b2c;
+    padding-top: 5rem;
+  }
+
+  .nav-button::after {
+    bottom: 3px;
+    left: 50%;
+    height: 1.5px;
+    width: 75%;
+  }
+
+  .header-tagline {
+    letter-spacing: 0;
+  }
+
+  .home-hero-section {
+    padding: 5rem;
+  }
+
+  .home-hero-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .home-hero-content p {
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .home-hero-section::before {
+    background: linear-gradient(
+      90deg,
+      rgba(3, 8, 20, 0.82) 0%,
+      rgba(3, 8, 20, 0.72) 25%,
+      rgba(3, 8, 20, 0.45) 55%,
+      rgba(3, 8, 20, 0.15) 100%
+    );
+    -webkit-filter: brightness(85%) contrast(115%) saturate(90%);
+    filter: brightness(85%) contrast(115%) saturate(90%);
+    z-index: 2;
+  }
+
+  .home-hero-buttons {
+    gap: 1rem;
+  }
+
+  .section-light {
+    margin: 2rem;
+  }
+  .home-offer-cards-div {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-offer-card-icon-header-row {
+    gap: 1.5rem;
+    min-height: 4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .home-offer-card {
+    padding: 2rem;
+  }
+
+  .home-offer-card h3 {
+    font-size: 1.8rem !important;
+  }
+
+  .home-offer-card p {
+    font-size: 1.7rem;
+  }
+  .home-offer-intro p {
+    max-width: 100%;
+  }
+
+  .home-proof-container {
+    padding: 3rem 5rem;
+  }
+
+  .home-proof-stat strong {
+    font-size: 3.3rem;
+  }
+  .home-proof-stat:last-child strong {
+    font-size: 3.3rem;
+  }
+
+  .home-proof-logos {
+    flex-wrap: wrap;
+    gap: 0rem;
+    max-width: 70vw;
+  }
+  .home-proof-logos img {
+    max-height: 4.5rem;
+  }
+
+  .section-dark {
+    margin: 2rem;
+  }
+
+  .home-benefits-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .home-benefits-content {
+    padding: 2rem 4rem;
+  }
+
+  .home-benefits-container-list li {
+    line-height: 2.3rem;
+    align-items: center;
+  }
+
+  .home-benefits-image {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    width: 100%;
+    height: 32rem;
+    flex: none;
+  }
+
+  .home-benefits-container h2 {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+
+  .home-benefits-container-list ion-icon {
+    font-size: 2rem;
+  }
+
+  .clients-header {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  .carousel-group {
+    gap: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .clients {
+    padding: 3rem 0;
+  }
+
+  .carousel-group img {
+    height: 7.3rem;
+  }
+
+  .footer-top-main-div-row {
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contact-and-map-data-row {
+    margin: 0 auto;
+    max-width: 85vw;
+  }
+
+  footer img {
+    max-width: 16rem;
+    align-self: flex-start;
+  }
+
+  .footer-contact-data h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer-contact-data {
+    margin-bottom: 0;
+  }
+  footer {
+    padding: 2rem;
+  }
+
+  .footer-menu-text {
+    gap: 0;
+  }
+  .footer-google-map {
+    max-width: 22rem;
+  }
+
+  .footer-ion-icon-and-data-row {
+    line-height: 2.2rem;
+  }
+
+  .scroll-top {
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2.5rem;
+    line-height: 2.1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-proof-container {
+    padding: 2rem 2rem;
+  }
+  .footer-contact-and-map-data-row {
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+  }
+  .footer-google-map {
+    margin: 0 auto;
+  }
+
+  .footer-data {
+    text-align: center;
+  }
+  .footer-ion-icon-and-data-row {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    padding: 1.5rem 2.5rem;
+  }
+  footer img {
+    align-self: center;
+  }
+}
+/* small mobile - phones*/
+@media only screen and (max-width: 400px) {
+  html,
+  body {
+    font-size: 7px;
+  }
+
+  .home-hero-content h1 {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+  }
+
+  .btn {
+    padding: 1.5rem;
+  }
+  .home-proof-stat {
+    padding: 1rem;
+  }
+  .home-proof-stat:last-child strong {
+    font-size: 3rem;
+  }
+  .footer-bottom {
+    padding: 1.5rem 4rem;
+  }
+}
