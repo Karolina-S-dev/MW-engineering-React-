@@ -17,7 +17,7 @@ const Offer = () => {
             </p>
           </div>
           <div className="home-offer-cards-div flex-row">
-            {offerCardData.map((item, index) => (
+            {offerCardData.map((item) => (
               <OfferCard item={item} key={item.id} />
             ))}           
           </div>

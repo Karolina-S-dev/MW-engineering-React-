@@ -43,7 +43,7 @@ const Footer = () => {
               <ion-icon name="call-outline"></ion-icon>
               <div className="footer-menu-text">
                 <p>
-                  tel.<a href="tel:+48695413382">+48 695 413 382</a>
+                  tel.{" "}<a href="tel:+48695413382">+48 695 413 382</a>
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Footer = () => {
               <ion-icon name="mail-outline"></ion-icon>
               <div className="footer-menu-text">
                 <p>
-                  email:
+                  email:{" "}
                   <a href="mailto:biuro@mw-engineering.pl">
                     biuro@mw-engineering.pl
                   </a>

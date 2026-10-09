@@ -1,4 +1,5 @@
-import "./assets/css/App.css";
+import "./assets/css/index.css";
+import "./assets/css/queries.css";
 import HomeScreen from "./components/HomeScreen";
 
 function App() {

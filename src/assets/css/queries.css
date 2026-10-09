@@ -42,12 +42,16 @@
     padding: 2rem 1.5rem;
   }
 
+  .home-benefits-container {
+    height: 55vh;
+  }
+
   .home-benefits-container-list li {
     margin-top: 3rem;
   }
 
   .home-benefits-content {
-    padding: 5rem 0 5rem 10rem;
+    padding-left: 8rem;
   }
 
   .clients {
@@ -109,6 +113,10 @@
     padding-left: 6rem;
   }
 
+  .home-benefits-container {
+    height: 50vh;
+  }
+
   .home-benefits-container h2 {
     font-size: 2.7rem;
     line-height: 4rem;
@@ -163,10 +171,12 @@
   }
 
   .home-hero-section {
+    height: 53vh;
     background-attachment: scroll;
   }
   .home-hero-content {
-    max-width: 70rem;
+    margin: 0 3rem;
+    max-width: 46vw;
   }
 
   .home-hero-buttons {
@@ -213,6 +223,10 @@
 
   .section-dark {
     margin: 3rem;
+  }
+
+  .home-benefits-container {
+    height: 45rem;
   }
 
   .home-benefits-container-list li {
@@ -292,13 +306,14 @@
   }
 
   .home-hero-section {
-    padding: 5rem;
+    max-height: 55rem;
+    justify-content: center;
+    background-attachment: scroll;
   }
 
   .home-hero-content {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    max-width: 100vw;
+    padding-top: 2rem;
   }
 
   .home-hero-content h1 {
@@ -382,6 +397,7 @@
   }
 
   .home-benefits-container {
+    height: auto;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -481,9 +497,7 @@
   }
 
   .footer-bottom {
-    padding: 2rem 2.5rem;
-    line-height: 2.1rem;
-    text-align: center;
+    padding: 2rem 0;
   }
 }
 
@@ -508,7 +522,7 @@
   }
 
   .footer-bottom {
-    padding: 1.5rem 2.5rem;
+    text-align: center;
   }
   footer img {
     align-self: center;
@@ -534,8 +548,5 @@
   }
   .home-proof-stat:last-child strong {
     font-size: 3rem;
-  }
-  .footer-bottom {
-    padding: 1.5rem 4rem;
   }
 }
