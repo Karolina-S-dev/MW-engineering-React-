@@ -12,10 +12,10 @@ const Hero = () => {
           optymalizacji kosztów inwestycji.
         </p>
         <div className="home-hero-buttons flex-row">
-          <a href="contact.html" className="btn btn-primary">
+          <a href="/contact" className="btn btn-primary">
             Skontaktuj się
           </a>
-          <a href="projects.html" className="btn btn-secondary">
+          <a href="/projects" className="btn btn-secondary">
             Zobacz realizacje
           </a>
         </div>

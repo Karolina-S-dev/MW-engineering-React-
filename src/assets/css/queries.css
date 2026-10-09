@@ -2,7 +2,7 @@
 @media only screen and (max-width: 1450px) {
   html,
   body {
-    font-size: 9.5px;
+    font-size: 9.5px !important;
   }
 
   header {
@@ -74,7 +74,7 @@
 @media only screen and (max-width: 1200px) {
   html,
   body {
-    font-size: 8.5px;
+    font-size: 8.5px !important;
   }
 
   .nav-button {
@@ -147,7 +147,7 @@
 @media only screen and (max-width: 1023px) {
   html,
   body {
-    font-size: 7.5px;
+    font-size: 7.5px !important;
   }
 
   header {
@@ -532,7 +532,7 @@
 @media only screen and (max-width: 400px) {
   html,
   body {
-    font-size: 7px;
+    font-size: 7px !important;
   }
 
   .home-hero-content h1 {

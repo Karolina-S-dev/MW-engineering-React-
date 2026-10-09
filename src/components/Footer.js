@@ -77,7 +77,7 @@ const Footer = () => {
         <p>
           2026 © Wszystkie prawa zastrzeżone
           <span> | </span>
-          <a href="privacy-policy.html">Polityka prywatności</a>
+          <a href="/privacy-policy">Polityka prywatności</a>
           <span> | </span>Projekt i wykonanie:{" "}
           <a href="https://www.linkedin.com/in/karolina-s-123bb238b/">
             Karolina Szary
