@@ -19,7 +19,7 @@ const Value = () => {
           </div>
           <div className="value-cards-container">
             {valueData.map((item) => (
-              <div className="value-card flex-col">
+              <div className="value-card flex-col" key={item.id}>
                 <div className="value-row flex-col">
                   <img src={item.icon} alt="" />
                   <h3>{item.title}</h3>
