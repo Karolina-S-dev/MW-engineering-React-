@@ -7,7 +7,7 @@ const ScrollToTop = ({ headerRef }) => {
     const handleScroll = () => {
       setisVisible(window.scrollY > 400);
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll); //utrzymuje nasłuchiwanie zdarzenia przez przeglądarkę
     handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -22,11 +22,12 @@ const ScrollToTop = ({ headerRef }) => {
 
   return (
     <>
-      {isVisible && (
-        <button className="scroll-top" onClick={handleScrollToTop}>
-          <ion-icon name="arrow-up-outline"></ion-icon>
-        </button>
-      )}
+      <button
+        className={`scroll-top ${isVisible ? "visible" : ""}`}
+        onClick={handleScrollToTop}
+      >
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </button>
     </>
   );
 };
