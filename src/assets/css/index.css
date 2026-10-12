@@ -88,7 +88,7 @@ header {
   border-radius: 6px;
   color: #11151b;
   font-weight: 600;
-  margin-right: 0.7rem;
+  margin-right: 1.5rem;
 }
 
 .nav-button--primary:hover {
@@ -97,6 +97,41 @@ header {
 
 .nav-button:hover::after {
   transform: translateX(-50%) scaleX(1);
+}
+
+/* ---------- Language change flag ---------- */
+.emoji-flag {
+  width: 1.9rem !important;
+  height: 1.3rem !important;
+  object-fit: cover;
+  margin-right: 0.6rem;
+}
+/* ------------------------------------------ */
+
+.language-switcher {
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.language-change {
+  transition: all 0.4s ease;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  background-color: transparent;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  color: #cbd0d8;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1.3rem 0.5rem;
+}
+
+.language-change:hover {
+  transform: scale(1.07);
 }
 
 /* ------------ MOBILE NAV ----------- */
@@ -112,15 +147,13 @@ header {
 .header-section-mobile {
   padding: 4rem 5rem;
   justify-content: flex-start;
+  position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
-  min-width: 70%;
+  min-width: 85%;
   background-color: #11151b;
   z-index: 999;
-  position: fixed;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
 }
 
 .header-logo-mobile {
@@ -131,7 +164,7 @@ header {
 }
 
 .header-tagline-mobile {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #b1b1b1;
   letter-spacing: 1px;
   margin-bottom: 10rem;
@@ -142,44 +175,20 @@ header {
   position: absolute;
   content: "";
   background-color: #b1b1b1;
-  bottom: -10px;
+  bottom: -8px;
   height: 1px;
-  width: 70%;
-  opacity: 0.5;
+  width: 55%;
+  opacity: 0.3;
   left: 0;
 }
 
 .nav-button-mobile {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 1.5rem;
 }
 
 .nav-button--primary-mobile {
   margin-bottom: 10rem;
-}
-
-/* ---------- Language change flag ---------- */
-.emoji-flag {
-  width: 2.3rem !important;
-  height: 2rem !important;
-  margin-right: 0.6rem;
-}
-/* ------------------------------------------ */
-
-.language-change {
-  padding: 1.5rem 1rem !important;
-  transition: transform 0.2s ease;
-}
-.language-change::after {
-  display: none;
-}
-
-.language-change:hover {
-  transform: scale(1.07);
-}
-
-.language-change:hover span::after {
-  display: none !important;
 }
 
 /* --------------------------- */

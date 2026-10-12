@@ -29,23 +29,24 @@ const NavItem = ({ util, isMobile }) => {
           <span>{util.text}</span>
         </button>
       )}
+
       {util.type === "languagePL" && (
-        <button className="nav-button language-change">
+        <button className="language-change">
           <ReactCountryFlag countryCode="PL" svg className="emoji-flag" />
-          <span>{util.text}</span>
+          {util.text}
         </button>
       )}
 
       {util.type === "languageDE" && (
-        <button className="nav-button language-change">
+        <button className="language-change">
           <ReactCountryFlag countryCode="DE" svg className="emoji-flag" />
-          <span>{util.text}</span>
+          {util.text}
         </button>
       )}
       {util.type === "languageENG" && (
-        <button className="nav-button language-change">
+        <button className="language-change">
           <ReactCountryFlag countryCode="GB" svg className="emoji-flag" />
-          <span>{util.text}</span>
+          {util.text}
         </button>
       )}
     </>

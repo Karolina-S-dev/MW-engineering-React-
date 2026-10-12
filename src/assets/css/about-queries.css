@@ -47,14 +47,14 @@
   }
 
   .industries-header {
-    flex: 0 0 calc(25% - 4 / 3rem);
+    flex: 0 0 calc(25% - 4rem / 3);
   }
 
   .industries-cards-container {
-    flex: 0 0 calc(55% - 4 / 3rem);
+    flex: 0 0 calc(55% - 4rem / 3);
   }
   .industries-description {
-    flex: 0 0 calc(20% - 4 / 3rem);
+    flex: 0 0 calc(20% - 4rem / 3);
   }
 
   .realization-links {
