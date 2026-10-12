@@ -1,0 +1,494 @@
+/* ----SECTION-HERO---- */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    #000000 0%,
+    #0f0f0ff0 40%,
+    #b789335f 100%
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  left: 8rem;
+  color: #fff;
+  z-index: 3;
+  max-width: 60rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #e2b041;
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+.section-label::after {
+  position: absolute;
+  content: "";
+  background-color: #e2b041;
+  height: 1.5px;
+  width: 5rem;
+  left: 14rem;
+  top: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 5rem;
+}
+
+.hero-description {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-stat {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 20rem;
+}
+
+.hero-stat ion-icon {
+  font-size: 3.6rem;
+  color: #e2b041;
+  flex-shrink: 0;
+}
+
+.hero-stat-col p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.hero-stat-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hero-stat-text span {
+  font-size: 2.5rem;
+  color: #e2b041;
+  font-weight: 600;
+}
+
+/* ------------- REUSABLE ------------- */
+.projects-section {
+  padding: 5rem;
+  background-color: #838e9d30;
+  gap: 3rem;
+  display: flex;
+}
+.projects-light {
+  background-color: #838e9d30;
+}
+
+.projects-dark {
+  background-color: #11151b;
+  color: #fff;
+}
+
+.projects-content {
+  display: flex;
+  flex: 0 0 calc(25% - 1.5rem);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-content h2 {
+  font-size: 2.6rem;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.projects-content h2::after {
+  position: absolute;
+  content: "";
+  background-color: #e2b041;
+  height: 2px;
+  width: 5rem;
+  left: 0;
+  bottom: -2rem;
+}
+
+.projects-content img {
+  width: 7rem;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.projects-description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.project-cards-row {
+  display: flex;
+  gap: 1.5rem;
+  flex: 0 0 calc(75% - 1.5rem);
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.project-card-light {
+  background: #f4f5f6;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.project-card-dark {
+  background: linear-gradient(180deg, #151b23 0%, #121821 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(33% - 0.75rem);
+  border-radius: 8px;
+  transition: all 0.6s ease;
+  overflow: hidden;
+}
+
+.project-card:hover .project-card-img img {
+  transform: scale(1.07);
+}
+
+.project-card-img {
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16/10;
+}
+
+.project-card-img img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s ease;
+  object-fit: cover;
+  display: block;
+}
+
+.project-card-content {
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card h3 {
+  color: #6e6f71;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 1.45rem;
+  text-align: left;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card span {
+  font-weight: 600;
+}
+
+.location-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aeafb030;
+  padding: 1rem 1.4rem;
+  width: fit-content;
+  gap: 0.6rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  margin-top: auto;
+}
+
+.location-div ion-icon {
+  color: #e2b041;
+  font-size: 2.2rem;
+}
+
+.location-text {
+  font-size: 1.45rem;
+}
+
+/* ---------- AERONAUTICAL-INDUSTRY ---------- */
+
+.single-card {
+  display: flex;
+  flex: 0 0 calc(75% - 1.5rem);
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  z-index: 4;
+  position: relative;
+}
+
+.single-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  transition: all 0.6s ease;
+  border-radius: 8px;
+  aspect-ratio: 25/9;
+  z-index: 4;
+  filter: brightness(0.75);
+}
+
+.single-card img:hover {
+  transform: scale(1.05);
+}
+
+.single-card-overlay {
+  position: absolute;
+  background-color: #11151b;
+  opacity: 0.9;
+  color: #fff;
+  left: 2rem;
+  bottom: 2rem;
+  z-index: 5;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-card h3 {
+  color: #e2b041;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.single-card span {
+  font-weight: 600;
+}
+
+/* ---------- CONTACT-BANNER ---------- */
+
+.projects-contact-section {
+  background-color: #11151b;
+  padding: 5rem 8rem;
+  position: relative;
+}
+
+.projects-contact-section::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.08);
+  bottom: 1rem;
+  left: 0;
+}
+
+.projects-contact-banner {
+  background-color: #f4f5f6;
+  display: flex;
+  border-radius: 8px;
+  padding: 3.4rem 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-contact-banner ion-icon {
+  width: 5rem;
+  height: 5rem;
+  color: #e2b041;
+  flex-shrink: 0;
+}
+
+.projects-contact-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.projects-contact-col h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.projects-contact-col p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.projects-contact-button {
+  background-color: #11151b;
+  border-radius: 8px;
+  border: none;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  gap: 1.3rem;
+}
+
+.projects-contact-button a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects-contact-button ion-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #e2b041;
+}
+
+/* -----Modal Gallery----- */
+.btn-activate-modal {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #e2b041;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.35rem;
+  right: 2rem;
+  transition: all 0.3s ease;
+  align-self: flex-end;
+}
+
+.btn-activate-modal:hover {
+  color: #878686;
+}
+
+.modal-gallery-background {
+  position: fixed;
+  z-index: 9998;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-gallery-background.active {
+  opacity: 1;
+  display: flex;
+}
+
+.modal-gallery-content {
+  width: 90vw;
+  height: 80vh;
+  background-color: #11151b;
+  z-index: 9999;
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-gallery-content ion-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.3rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #f4f5f6;
+  color: #11151b;
+  align-self: flex-end !important;
+  margin-bottom: 2rem;
+}
+
+.modal-gallery-content ion-icon:hover {
+  background-color: #c8caca;
+}
+
+.gallery-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin: auto 0;
+}
+
+.gallery-scroll::-webkit-scrollbar {
+  height: 1.2rem;
+  background: #11151b;
+}
+
+.gallery-scroll::-webkit-scrollbar-track {
+  background: #2c2f33;
+  border-radius: 10px;
+  height: 1.5rem;
+}
+
+.gallery-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.gallery-scroll::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.gallery-scroll img {
+  flex: 0 0 100%;
+  width: 100%;
+  max-height: 65vh;
+  object-fit: contain;
+  scroll-snap-align: center;
+  margin-bottom: 3rem;
+}
