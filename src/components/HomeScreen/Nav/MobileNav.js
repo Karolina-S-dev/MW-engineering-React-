@@ -1,14 +1,14 @@
 import { AnimatePresence } from "motion/react";
 import { motion } from "motion/react";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import headerLogo from "../../../assets/img/header-logo.png";
 import { navUtils } from "../../../utils/HomeScreen/navUtils";
 import NavItem from "./NavItem";
 
 const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
-  const location = useLocation();
-  const isHome = location.pathname === "/";
+  // const location = useLocation();
+  // const isHome = location.pathname === "/";
 
   // body scroll blockade when mobile nav is open
   useEffect(() => {

@@ -1,11 +1,12 @@
 import ReactCountryFlag from "react-country-flag";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const NavItem = ({ util, isMobile }) => {
   const navigate = useNavigate();
 
-  const location = useLocation();
-  const isActive = location.pathname === util.route;
+  // const location = useLocation();
+  // const isActive = location.pathname === util.route;
 
   const redirect = () => {
     navigate(util.route);
