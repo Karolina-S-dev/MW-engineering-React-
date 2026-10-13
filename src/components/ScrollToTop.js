@@ -8,7 +8,6 @@ const ScrollToTop = ({ headerRef }) => {
       setisVisible(window.scrollY > 400);
     };
     window.addEventListener("scroll", handleScroll); //utrzymuje nasłuchiwanie zdarzenia przez przeglądarkę
-    handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

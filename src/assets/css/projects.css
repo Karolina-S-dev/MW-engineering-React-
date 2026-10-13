@@ -409,86 +409,24 @@
   color: #878686;
 }
 
-.modal-gallery-background {
-  position: fixed;
-  z-index: 9998;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  opacity: 0;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-gallery-background.active {
-  opacity: 1;
-  display: flex;
-}
-
-.modal-gallery-content {
-  width: 90vw;
-  height: 80vh;
+/* ----- YET ANOTHER REACT LIGHTBOX -----  */
+.yarl__counter {
+  font-size: 1.5rem;
   background-color: #11151b;
-  z-index: 9999;
-  border-radius: 8px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  border-radius: 6px;
+  padding: 0.6rem 2rem !important;
+  font-weight: 500;
 }
 
-.modal-gallery-content ion-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 0.3rem;
-  font-size: 2rem;
-  border-radius: 5px;
-  background-color: #f4f5f6;
-  color: #11151b;
-  align-self: flex-end !important;
-  margin-bottom: 2rem;
-}
-
-.modal-gallery-content ion-icon:hover {
-  background-color: #c8caca;
-}
-
-.gallery-scroll {
-  display: flex;
-  overflow-x: auto;
-  gap: 1rem;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  margin: auto 0;
-}
-
-.gallery-scroll::-webkit-scrollbar {
-  height: 1.2rem;
-  background: #11151b;
-}
-
-.gallery-scroll::-webkit-scrollbar-track {
-  background: #2c2f33;
-  border-radius: 10px;
-  height: 1.5rem;
-}
-
-.gallery-scroll::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.gallery-scroll::-webkit-scrollbar-thumb:hover {
-  background: #999;
-}
-
-.gallery-scroll img {
-  flex: 0 0 100%;
-  width: 100%;
-  max-height: 65vh;
-  object-fit: contain;
-  scroll-snap-align: center;
-  margin-bottom: 3rem;
+.lightbox-title {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: #11151b;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: 500;
 }

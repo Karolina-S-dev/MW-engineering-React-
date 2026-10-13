@@ -10,8 +10,7 @@ import ScreenWrapper from "./ScreenWrapper";
 const AboutScreen = () => {
   return (
     <>
-      <ScreenWrapper>
-        {" "}
+      <ScreenWrapper>    
         <WhyUs />
         <Industries />
         <HowWeWork />

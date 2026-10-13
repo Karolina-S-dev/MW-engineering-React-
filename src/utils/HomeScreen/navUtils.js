@@ -4,7 +4,7 @@ const navUtils = [
     route: "/",
     type: "common",
   },
-    {
+  {
     text: "O FIRMIE",
     route: "/about-company",
     type: "common",
@@ -14,7 +14,7 @@ const navUtils = [
     route: "/projects",
     type: "common",
   },
-   {
+  {
     text: "KONTAKT",
     route: "/contact",
     type: "contact",
@@ -25,14 +25,14 @@ const navUtils = [
     type: "languagePL",
   },
   {
-    text: "ENG",
-    route: "",
-    type: "languageENG",
-  },
-    {
     text: "DE",
     route: "",
     type: "languageDE",
+  },
+  {
+    text: "ENG",
+    route: "",
+    type: "languageENG",
   },
 ];
 
