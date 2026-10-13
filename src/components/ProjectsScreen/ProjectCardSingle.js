@@ -4,7 +4,7 @@ import GalleryLightbox from "./Lightbox";
 const ProjectCardSingle = ({ category }) => {
   const project = category.projects[0];
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
-  
+
   return (
     <>
       <div className="single-card">
@@ -19,7 +19,7 @@ const ProjectCardSingle = ({ category }) => {
             <ion-icon name="location"></ion-icon>
             <p className="location-text">{project.cardLocation}</p>
           </div>
-          {project.cardInvestmentPhotos.length != 0 && (
+          {project.cardInvestmentPhotos.length !== 0 && (
             <button
               className="btn-activate-modal"
               onClick={() => {

@@ -19,7 +19,7 @@ const ProjectCard = ({ project, category }) => {
             <ion-icon name="location"></ion-icon>
             <p className="location-text">{project.cardLocation}</p>
           </div>
-          {project.cardInvestmentPhotos.length != 0 && (
+          {project.cardInvestmentPhotos.length !== 0 && (
             <button
               className="btn-activate-modal"
               onClick={() => {
@@ -36,54 +36,6 @@ const ProjectCard = ({ project, category }) => {
           setIsGalleryOpen={setIsGalleryOpen}
         />
       </div>
-
-      {/* /* <div className="modal-gallery-background" id="gallery1">
-        <div className="modal-gallery-content">
-          <ion-icon name="close-outline"></ion-icon>
-          <div class="gallery-scroll">
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-1.jpeg"
-              alt="Trasy oświetleniowe w centrum logistycznym Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-3.jpeg"
-              alt="Trasy oświetleniowe w centrum logistycznym Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-4.jpeg"
-              alt="Instalacja oświetlenia w centrum logistycznym Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-6.jpeg"
-              alt="System oświetlenia przemysłowego Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-7.jpeg"
-              alt="Oświetlenie generalne w centrum logistycznym Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-8.jpeg"
-              alt="Realizacja MW-Engineering dla centrum logistycznego Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/Amazon-9.jpeg"
-              alt="Instalacja oświetlenia i systemu sterowania w centrum logistycznym Amazon"
-              loading="lazy"
-            />
-            <img
-              src="./img/photos-from-investments/amazon/project-amazon.jpg"
-              alt="Montaż instalacji elektrycznej Amazon"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };
