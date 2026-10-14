@@ -8,7 +8,8 @@ const ProjectsCategories = ({ category }) => {
       <section className={`projects-section ${category.backgroundColor}`}>
         <ProjectCategoryHeader category={category} />
 
-        {category.title === "Automotive" || category.title === "Przemysł lotniczy" ? (
+        {category.title === "categories.automotive.title" ||
+        category.title === "categories.aviation.title" ? (
           <ProjectCardSingle category={category} />
         ) : (
           <div className="project-cards-row">

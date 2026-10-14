@@ -3,10 +3,12 @@ import headerLogo from "../../../assets/img/header-logo.png";
 import { navUtils } from "../../../utils/HomeScreen/navUtils";
 import NavItem from "./NavItem";
 import { motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 const DesktopNav = ({ isMobileNavOpen }) => {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const { t } = useTranslation("common");
 
   const navLinks = (
     <ul className="nav-links flex-row">
@@ -26,9 +28,7 @@ const DesktopNav = ({ isMobileNavOpen }) => {
           className={`header-brand-col flex-col ${isMobileNavOpen && "header-brand-none"}`}
         >
           <img src={headerLogo} alt="MW-Engineering - instalacje elektryczne" />
-          <p className="header-tagline">
-            ELECTRICAL INSTALLATIONS | LIGHTING | INDUSTRY
-          </p>
+          <p className="header-tagline">{t("header.tagline")}</p>
         </a>
 
         {isHome ? (

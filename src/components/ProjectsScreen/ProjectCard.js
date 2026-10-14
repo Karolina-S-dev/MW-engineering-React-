@@ -1,8 +1,10 @@
 import { useState } from "react";
 import GalleryLightbox from "./Lightbox";
+import { useTranslation } from "react-i18next";
 
 const ProjectCard = ({ project, category }) => {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const { t } = useTranslation("projects");
 
   return (
     <>
@@ -13,11 +15,12 @@ const ProjectCard = ({ project, category }) => {
         <div className="project-card-content">
           <h3>{project.cardTitle}</h3>
           <p className="project-description">
-            <span> Zakres wykonanych prac:</span> {project.cardWorkRange}
+            <span> {t("categoriesCards.workRangeLabel")}</span>{" "}
+            {t(project.cardWorkRange)}
           </p>
           <div className="location-div">
             <ion-icon name="location"></ion-icon>
-            <p className="location-text">{project.cardLocation}</p>
+            <p className="location-text">{t(project.cardLocation)}</p>
           </div>
           {project.cardInvestmentPhotos.length !== 0 && (
             <button
@@ -26,7 +29,7 @@ const ProjectCard = ({ project, category }) => {
                 setIsGalleryOpen(true);
               }}
             >
-              Zobacz realizację
+              {t("categoriesCards.projectsButton")}
             </button>
           )}
         </div>

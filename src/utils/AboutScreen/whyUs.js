@@ -8,32 +8,32 @@ const whyUsData = [
   {
     id: 1,
     image: factoryIcon,
-    title: "Dostosowanie do pracy zakładu",
-    desc: "Planujemy i realizujemy prace w taki sposób, aby ograniczyć wpływ na bieżącą produkcję.",
+    title: "whyUs.cards.factory.title",
+    desc: "whyUs.cards.factory.desc",
   },
   {
     id: 2,
     image: optimalUsageIcon,
-    title: "Optymalne wykorzystanie infrastruktury",
-    desc: " Wykorzystujemy istniejące instalacje tam, gdzie jest to uzasadnione — co realnie obniża koszty inwestycji.",
+    title: "whyUs.cards.infrastructure.title",
+    desc: "whyUs.cards.infrastructure.desc",
   },
   {
     id: 3,
     image: solutionsIcon,
-    title: "Rozwiązania szyte na miarę",
-    desc: " Każdy projekt dopasowujemy do warunków pracy, a nie do katalogowych założeń.",
+    title: "whyUs.cards.solutions.title",
+    desc: "whyUs.cards.solutions.desc",
   },
   {
     id: 4,
     image: safetyIcon,
-    title: "Bezpieczeństwo i zgodność z normami",
-    desc: " Pracujemy zgodnie z wymaganiami BHP, normami branżowymi oraz uzgodnieniami PPOŻ.",
+    title: "whyUs.cards.safety.title",
+    desc: "whyUs.cards.safety.desc",
   },
   {
     id: 5,
     image: componentsIcon,
-    title: "Sprawdzone komponenty i technologie",
-    desc: " Stosujemy rozwiązania oparte na komponentach renomowanych producentów (m.in. Siemens, Eaton, WAGO, Hager).",
+    title: "whyUs.cards.components.title",
+    desc: "whyUs.cards.components.desc",
   },
 ];
 

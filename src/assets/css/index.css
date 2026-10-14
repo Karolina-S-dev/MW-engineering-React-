@@ -9,7 +9,7 @@
 header {
   background-color: #11151b;
   margin: 0 auto;
-  padding: 1.5rem 5rem 1.5rem 13rem;
+  padding: 1.5rem 5rem;
   justify-content: space-between;
 }
 
@@ -133,6 +133,10 @@ header {
 
 .language-change:hover {
   transform: scale(1.07);
+}
+
+.language-change.active {
+  font-weight: 800;
 }
 
 /* ------------ MOBILE NAV ----------- */

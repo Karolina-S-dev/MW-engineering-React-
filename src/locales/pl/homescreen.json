@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title1": "Oświetlenie przemysłowe",
+    "title2": "i instalacje elektryczne dopasowane do pracy zakładu",
+    "description1": "Realizujemy modernizacje w istniejącej infrastrukturze — ",
+    "description2": "z uwzględnieniem organizacji produkcji, wymagań BHP i optymalizacji kosztów inwestycji.",
+    "contactButton": "Skontaktuj się",
+    "projectsButton": "Zobacz realizacje"
+  },
+
+  "offer": {
+    "title1": "Kompleksowa realizacja projektów elektrycznych",
+    "title2": "i oświetleniowych",
+    "description": "Realizujemy projekty w formule „zaprojektuj i wybuduj” — od audytu, przez projekt, po wdrożenie i uruchomienie instalacji.",
+    "cards": {
+      "lighting": {
+        "title": "Oświetlenie przemysłowe",
+        "content": "Projektowanie i modernizacja oświetlenia ogólnego oraz awaryjnego — z uwzględnieniem norm, warunków pracy i efektywności energetycznej."
+      },
+      "installations": {
+        "title": "Instalacje elektryczne",
+        "content": "Wykonawstwo instalacji, przebudowy zasilania, prefabrykacja rozdzielnic oraz integracja z istniejącą infrastrukturą."
+      },
+      "control": {
+        "title": "Systemy sterowania",
+        "content": "Projekt i wdrożenie systemów sterowania oświetleniem (m.in. WAGO, Helvar, Signify) dopasowanych do specyfiki zakładu."
+      },
+      "modernization": {
+        "title": "Modernizacje i optymalizacja",
+        "content": "Analiza istniejącej instalacji i dobór rozwiązań pozwalających ograniczyć koszty inwestycji i eksploatacji."
+      }
+    }
+  },
+
+  "proof": {
+    "title": "Doświadczenie potwierdzone w wymagających środowiskach",
+    "projectsCount": "zrealizowanych projektów",
+    "years": "lat",
+    "experience": "doświadczenia",
+    "projects": "Projekty",
+    "locations": "w Polsce i Niemczech"
+  },
+  "benefits": {
+    "title": "Podejście dopasowane do realiów przemysłu",
+    "item1": "Dostosowanie do pracy zakładu",
+    "item2": "Wykorzystanie istniejącej infrastruktury",
+    "item3": "Bezpieczeństwo i zgodność z normami",
+    "item4": "Rozwiązania dopasowane do realnych warunków pracy",
+    "imageAlt": "Inżynierowie analizujący dokumentację przy rozdzielnicach elektrycznych"
+  },
+  "clients": {
+    "title": "Współpracujemy z:"
+  }
+}

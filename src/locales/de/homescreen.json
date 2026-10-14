@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title1": "Industriebeleuchtung",
+    "title2": "und Elektroinstallationen, abgestimmt auf die Betriebsabläufe Ihres Unternehmens",
+    "description1": "Wir modernisieren bestehende Infrastrukturen - ",
+    "description2": "unter Berücksichtigung der Produktionsabläufe, der Arbeitsschutzanforderungen und der Optimierung der Investitionskosten.",
+    "contactButton": "Kontaktieren Sie uns",
+    "projectsButton": "Projekte ansehen"
+  },
+
+  "offer": {
+    "title1": "Umfassende Umsetzung von Elektro-",
+    "title2": "und Beleuchtungsprojekten",
+    "description": "Wir realisieren Projekte nach dem Planungs- und Ausführungsmodell „Design-Build“ - von der Bestandsaufnahme über die Planung bis zur Umsetzung und Inbetriebnahme der Anlagen.",
+    "cards": {
+      "lighting": {
+        "title": "Industriebeleuchtung",
+        "content": "Planung und Modernisierung der Allgemein- und Notbeleuchtung - unter Berücksichtigung geltender Normen, Arbeitsbedingungen und Energieeffizienz."
+      },
+      "installations": {
+        "title": "Elektroinstallationen",
+        "content": "Ausführung von Elektroinstallationen, Umbau der Stromversorgung, Vorfertigung von Schaltanlagen sowie Integration in die bestehende Infrastruktur."
+      },
+      "control": {
+        "title": "Steuerungssysteme",
+        "content": "Planung und Implementierung von Beleuchtungssteuerungssystemen (u. a. WAGO, Helvar, Signify), abgestimmt auf die spezifischen Anforderungen des Betriebs."
+      },
+      "modernization": {
+        "title": "Modernisierung und Optimierung",
+        "content": "Analyse bestehender Anlagen und Auswahl geeigneter Lösungen zur Senkung der Investitions- und Betriebskosten."
+      }
+    }
+  },
+
+  "proof": {
+    "title": "Bewährte Erfahrung in anspruchsvollen Industrieumgebungen",
+    "projectsCount": "abgeschlossene Projekte",
+    "years": "Jahre",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "locations": "in Polen und Deutschland"
+  },
+  "benefits": {
+    "title": "Ein Ansatz, der auf die Anforderungen der Industrie abgestimmt ist",
+    "item1": "Anpassung an die Betriebsabläufe",
+    "item2": "Nutzung der bestehenden Infrastruktur",
+    "item3": "Sicherheit und Einhaltung geltender Normen",
+    "item4": "Lösungen, die auf die tatsächlichen Betriebsbedingungen abgestimmt sind",
+    "imageAlt": "Ingenieure prüfen technische Unterlagen an elektrischen Schaltanlagen"
+  },
+  "clients": {
+    "title": "Wir arbeiten mit:"
+  }
+}

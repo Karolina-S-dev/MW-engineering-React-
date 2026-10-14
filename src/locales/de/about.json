@@ -1,0 +1,108 @@
+{
+  "whyUs": {
+    "label": "WARUM WIR",
+    "title": "Ein Ansatz, der auf die Anforderungen des industriellen Betriebs abgestimmt ist",
+    "description": "Die Modernisierung eines laufenden Betriebs ist immer mit betrieblichen Risiken verbunden. Deshalb konzentrieren wir uns auf Lösungen, die planbar, sicher und wirtschaftlich sinnvoll sind.",
+    "experience": "Erfahrung in der Chemie-, Lebensmittel-, Automobil-, Luftfahrt- und Schwerindustrie.",
+    "cards": {
+      "factory": {
+        "title": "Anpassung an die Betriebsabläufe",
+        "desc": "Wir planen und führen Arbeiten so durch, dass die laufende Produktion möglichst wenig beeinträchtigt wird."
+      },
+      "infrastructure": {
+        "title": "Optimale Nutzung der Infrastruktur",
+        "desc": "Wir nutzen bestehende Installationen dort, wo es sinnvoll ist - und senken dadurch die Investitionskosten."
+      },
+      "solutions": {
+        "title": "Maßgeschneiderte Lösungen",
+        "desc": "Wir passen jedes Projekt an die tatsächlichen Betriebsbedingungen an, anstatt uns auf standardisierte Kataloglösungen zu stützen."
+      },
+      "safety": {
+        "title": "Sicherheit und Einhaltung geltender Normen",
+        "desc": "Wir arbeiten gemäß den Arbeitsschutzanforderungen, den geltenden Branchennormen sowie den abgestimmten Brandschutzvorgaben."
+      },
+      "components": {
+        "title": "Bewährte Komponenten und Technologien",
+        "desc": "Wir setzen Lösungen mit Komponenten renommierter Hersteller ein (u. a. Siemens, Eaton, WAGO und Hager)."
+      }
+    }
+  },
+
+  "industries": {
+    "label": "ERFAHRUNG",
+    "title": "Branchen, in denen wir tätig sind",
+    "cards": {
+      "chemical": "Chemische Industrie",
+      "food": "Lebensmittelindustrie",
+      "automotive": "Automotive",
+      "aviation": "Luftfahrtindustrie",
+      "heavy": "Schwerindustrie",
+      "warehouse": "Hochregallager",
+      "medical": "Medizinischer Sektor",
+      "retail": "Einzelhandelsobjekte"
+    },
+    "projectsButton": "Projekte ansehen",
+    "description": "Wir haben Projekte in laufenden Produktionsbetrieben und Anlagen mit hohen betrieblichen Anforderungen realisiert, bei denen die Aufrechterhaltung des Betriebs und die Sicherheit von entscheidender Bedeutung waren."
+  },
+  "howWeWork": {
+    "label": "SO ARBEITEN WIR",
+    "title": "Ein Prozess, der auf die Anforderungen des Investitionsprojekts abgestimmt ist",
+    "subtitle": "Wir führen jedes Projekt schrittweise durch - mit besonderem Augenmerk auf Planbarkeit, Sicherheit und Kostenkontrolle.",
+    "cards": {
+      "audit": {
+        "title": "Infrastrukturprüfung",
+        "content": "Wir bewerten den Zustand bestehender Installationen und identifizieren Einschränkungen sowie Optimierungsmöglichkeiten."
+      },
+      "solutions": {
+        "title": "Auswahl geeigneter Lösungen",
+        "content": "Wir schlagen Lösungen vor, die auf die Betriebsbedingungen, technischen Anforderungen und das Investitionsbudget abgestimmt sind."
+      },
+      "design": {
+        "title": "Planung und Abstimmungen",
+        "content": "Wir erstellen die Planungsunterlagen und führen die erforderlichen Abstimmungen durch (einschließlich Brandschutz und formaler Anforderungen)."
+      },
+      "prefabrication": {
+        "title": "Vorfertigung für die Umsetzung",
+        "content": "Wir führen die Vorfertigung durch und planen die Umsetzung so, dass betriebliche Risiken minimiert werden."
+      },
+      "installation": {
+        "title": "Montage und Inbetriebnahme",
+        "content": "Wir setzen die Installation gemäß dem vereinbarten Zeitplan und den Betriebsbedingungen des Werks um."
+      },
+      "measurements": {
+        "title": "Messungen und Dokumentation",
+        "content": "Wir führen Messungen und Abnahmen durch und übergeben die vollständige Dokumentation."
+      }
+    },
+    "banner": "Jede Phase wird so geplant, dass der laufende Betrieb möglichst wenig beeinträchtigt wird und eine vollständige Kontrolle über den Projektverlauf gewährleistet ist."
+  },
+  "value": {
+    "label": "MEHRWERT FÜR DEN KUNDEN",
+    "title": "Ergebnisse, die für den Betrieb entscheidend sind",
+    "description": "Unsere Projekte werden so konzipiert, dass sie messbare Vorteile bieten - sowohl während der Investitionsphase als auch im täglichen Betrieb.",
+    "cards": {
+      "capex": {
+        "title": "Optimierung der Investitionskosten (CAPEX)",
+        "content": "Wir nutzen bestehende Infrastruktur dort, wo es sinnvoll ist – und reduzieren so den Umfang und die Kosten der Modernisierung."
+      },
+      "opex": {
+        "title": "Niedrigere Betriebskosten (OPEX)",
+        "content": "Moderne Beleuchtungs- und Steuerungssysteme helfen, den Energieverbrauch und die Wartungskosten zu senken."
+      },
+      "risk": {
+        "title": "Reduzierung betrieblicher Risiken",
+        "content": "Wir planen die Umsetzung vorausschauend und berücksichtigen dabei die Betriebsbedingungen und Einschränkungen des Werks."
+      },
+      "compliance": {
+        "title": "Einhaltung von Normen und Anforderungen",
+        "content": "Unsere Installationen erfüllen die Anforderungen des Arbeitsschutzes, der Branchennormen sowie technischer Prüfungen und Brandschutzprüfungen."
+      },
+      "solutions": {
+        "title": "Lösungen für reale Betriebsbedingungen",
+        "content": "Wir entwickeln Systeme für konkrete Arbeitsumgebungen - auf Grundlage tatsächlicher Daten statt theoretischer Annahmen."
+      }
+    },
+    "banner": "Das Ergebnis ist eine Anlage, die zuverlässig funktioniert, wirtschaftlich sinnvoll ist und den betrieblichen Anforderungen des Werks entspricht.",
+    "imageAlt": "Elektrische Schaltanlagen in einem Industriegebäude"
+  }
+}

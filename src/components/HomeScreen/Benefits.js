@@ -1,27 +1,29 @@
-import industrialEngineeringPhoto from "../../assets/img/home/industrial-engineering-photo.png"
+import { useTranslation } from "react-i18next";
+import industrialEngineeringPhoto from "../../assets/img/home/industrial-engineering-photo.png";
 
 const Benefits = () => {
+  const { t } = useTranslation("home");
   return (
     <section className="section-dark">
       <div className="home-benefits-container">
         <div className="home-benefits-content">
-          <h2>Podejście dopasowane do realiów przemysłu</h2>
+          <h2>{t("benefits.title")}</h2>
           <ul className="home-benefits-container-list">
             <li>
               <ion-icon name="checkmark-outline"></ion-icon>
-              <span>Dostosowanie do pracy zakładu</span>
+              <span>{t("benefits.item1")}</span>
             </li>
             <li>
               <ion-icon name="checkmark-outline"></ion-icon>
-              <span>Wykorzystanie istniejącej infrastruktury</span>
+              <span>{t("benefits.item2")}</span>
             </li>
             <li>
               <ion-icon name="checkmark-outline"></ion-icon>
-              <span>Bezpieczeństwo i zgodność z normami</span>
+              <span>{t("benefits.item3")}</span>
             </li>
             <li>
               <ion-icon name="checkmark-outline"></ion-icon>
-              <span>Rozwiązania dopasowane do realnych warunków pracy</span>
+              <span>{t("benefits.item4")}</span>
             </li>
           </ul>
         </div>
@@ -29,7 +31,7 @@ const Benefits = () => {
           <img
             loading="lazy"
             src={industrialEngineeringPhoto}
-            alt="Inżynierowie analizujący dokumentację przy rozdzielnicach elektrycznych"
+            alt={t("benefits.imageAlt")}
           />
         </div>
       </div>

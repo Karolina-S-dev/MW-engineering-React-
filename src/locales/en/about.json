@@ -1,0 +1,107 @@
+{
+  "whyUs": {
+    "label": "WHY CHOOSE US",
+    "title": "An approach tailored to the realities of industrial operations",
+    "description": "Modernizing an operational facility always involves operational risks. That is why we focus on solutions that are predictable, safe and commercially justified.",
+    "experience": "Experience in the chemical, food, automotive, aerospace and heavy industries.",
+    "cards": {
+      "factory": {
+        "title": "Adapted to your facility's operations",
+        "desc": "We plan and carry out work in a way that minimizes disruption to ongoing production."
+      },
+      "infrastructure": {
+        "title": "Optimal use of infrastructure",
+        "desc": "We make use of existing installations wherever justified — effectively reducing investment costs."
+      },
+      "solutions": {
+        "title": "Tailor-made solutions",
+        "desc": "We adapt each project to actual operating conditions rather than standard catalogue assumptions."
+      },
+      "safety": {
+        "title": "Safety and compliance with standards",
+        "desc": "We work in accordance with occupational health and safety requirements, industry standards and agreed fire safety arrangements."
+      },
+      "components": {
+        "title": "Proven components and technologies",
+        "desc": "We use solutions based on components from reputable manufacturers (including Siemens, Eaton, WAGO and Hager)."
+      }
+    }
+  },
+  "industries": {
+    "label": "EXPERIENCE",
+    "title": "Industries we operate in",
+    "cards": {
+      "chemical": "Chemical industry",
+      "food": "Food industry",
+      "automotive": "Automotive",
+      "aviation": "Aviation industry",
+      "heavy": "Heavy industry",
+      "warehouse": "High-bay warehouses",
+      "medical": "Medical sector",
+      "retail": "Retail facilities"
+    },
+    "projectsButton": "View our projects",
+    "description": "We have completed projects in operating production facilities and sites with demanding operational requirements, where maintaining operational continuity and safety was essential."
+  },
+  "howWeWork": {
+    "label": "HOW WE WORK",
+    "title": "A process tailored to the realities of each investment",
+    "subtitle": "We carry out each project in stages — with a focus on predictability, safety and cost control.",
+    "cards": {
+      "audit": {
+        "title": "Infrastructure audit",
+        "content": "We assess the condition of existing installations, identify limitations and opportunities for optimization."
+      },
+      "solutions": {
+        "title": "Selection of solutions",
+        "content": "We propose solutions tailored to operating conditions, technical requirements and the investment budget."
+      },
+      "design": {
+        "title": "Design and approvals",
+        "content": "We prepare design documentation and coordinate the necessary approvals (including fire safety and formal requirements)."
+      },
+      "prefabrication": {
+        "title": "Prefabrication for implementation",
+        "content": "We carry out prefabrication and plan implementation to minimize operational risks."
+      },
+      "installation": {
+        "title": "Installation and commissioning",
+        "content": "We implement installations according to the agreed schedule and the facility's operating conditions."
+      },
+      "measurements": {
+        "title": "Testing and documentation",
+        "content": "We perform measurements and acceptance inspections and provide complete documentation."
+      }
+    },
+    "banner": "Each stage is planned to minimize disruption to the facility's ongoing operations and ensure full control over the project's progress."
+  },
+  "value": {
+    "label": "VALUE FOR THE CLIENT",
+    "title": "Results that matter to operations",
+    "description": "Our projects are designed to deliver measurable benefits — both during the investment phase and in day-to-day operations.",
+    "cards": {
+      "capex": {
+        "title": "Investment cost optimization (CAPEX)",
+        "content": "We make use of existing infrastructure wherever justified — reducing the scope and cost of modernization."
+      },
+      "opex": {
+        "title": "Lower operating costs (OPEX)",
+        "content": "Modern lighting and control systems help reduce energy consumption and maintenance costs."
+      },
+      "risk": {
+        "title": "Reduction of operational risks",
+        "content": "We plan implementation in a predictable manner, taking into account the facility's operating conditions and limitations."
+      },
+      "compliance": {
+        "title": "Compliance with standards and requirements",
+        "content": "Our installations meet occupational health and safety requirements, industry standards, and technical and fire safety audit requirements."
+      },
+      "solutions": {
+        "title": "Solutions tailored to real-world conditions",
+        "content": "We design systems for specific working environments — based on actual data rather than assumptions."
+      }
+    },
+    "banner": "The result is an installation that operates reliably, is cost-effective and meets the facility's operational requirements.",
+    "imageAlt": "Electrical switchgear in an industrial facility"
+  }
+}

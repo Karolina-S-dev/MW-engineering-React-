@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "label": "PROJEKTE",
+    "title": "Bewährte Erfahrung in anspruchsvollen Industrieumgebungen",
+    "description": "Seit 15 Jahren realisieren wir Elektro- und Beleuchtungsprojekte für die Industrie in Polen und Deutschland. Jede Investition bringt konkrete Ergebnisse und langfristigen Mehrwert für unsere Kunden.",
+    "projectsCount": "abgeschlossene Projekte",
+    "years": "Jahre",
+    "experience": "Erfahrung",
+    "locations": "Projekte in Polen und Deutschland"
+  },
+  "categories": {
+    "logistics": {
+      "title": "Lagerhaltung und Logistik",
+      "desc": "Umfassende Elektroinstallationen und Beleuchtungssysteme für Logistikzentren und Lagerhallen."
+    },
+    "chemical": {
+      "title": "Chemische Industrie",
+      "desc": "Projekte in Umgebungen, die Betriebskontinuität und die Einhaltung strenger Normen erfordern."
+    },
+    "food": {
+      "title": "Lebensmittelindustrie",
+      "desc": "Wir entwickeln Lösungen, die auf die Hygieneanforderungen und die Besonderheiten der Lebensmittelproduktion abgestimmt sind."
+    },
+    "automotive": {
+      "title": "Automotive",
+      "desc": "Wir realisieren Projekte für Fabriken und Produktionsbetriebe, in denen Präzision, Wiederholbarkeit und Zeit entscheidend sind."
+    },
+    "aviation": {
+      "title": "Luftfahrtindustrie",
+      "desc": "Elektroinstallationen in Anlagen mit höchsten Qualitäts- und Sicherheitsanforderungen."
+    },
+    "heavy": {
+      "title": "Schwerindustrie",
+      "desc": "Projekte in Anlagen der Schwerindustrie und Energiewirtschaft."
+    },
+    "medical": {
+      "title": "Medizinischer Sektor",
+      "desc": "Projekte für Labore und medizinische Einrichtungen, die zuverlässige Installationen und einen unterbrechungsfreien Betrieb erfordern."
+    },
+    "retail": {
+      "title": "Retail",
+      "desc": "Umfassende Elektroinstallationen für Handelsobjekte, die Sicherheit, Funktionalität und Betriebskontinuität unterstützen."
+    }
+  },
+  "categoriesCards": {
+    "projectsButton": "Projekte ansehen",
+    "workRangeLabel": "Umfang der ausgeführten Arbeiten:",
+    "locations": {
+      "throughoutPoland": "in ganz Polen",
+      "eurocash": "10 Standorte in ganz Polen"
+    },
+    "amazon": {
+      "workRange": "Montage der Allgemein- und Notbeleuchtung, Installation eines Steuerungssystems und der Stromversorgung einschließlich der Vorfertigung von Schaltanlagen und eines Zentralbatteriesystems. Der Projektumfang umfasste die Installation von 14 km Lichtbandsystemen."
+    },
+    "eurocash": {
+      "workRange": "Modernisierung des Beleuchtungssystems durch den Austausch von 3.500 herkömmlichen Leuchten gegen energieeffiziente LED-Leuchten."
+    },
+    "airLiquide": {
+      "workRange": "Austausch der Außenbeleuchtung auf technischen Plattformen."
+    },
+    "qemetica": {
+      "workRange": "Austausch von 14.000 Leuchten."
+    },
+    "kandelium": {
+      "workRange": "Austausch von 5.000 Leuchten in einem Chemiewerk, einschließlich Außenbereichen, technischen Plattformen, Büroräumen und Industriehallen."
+    },
+    "colian": {
+      "workRange": "Umfassende Modernisierung des Beleuchtungssystems einschließlich des Austauschs von 2.000 Leuchten und der Modernisierung der zugehörigen Elektroinstallationen. Alle Arbeiten wurden bei laufender Produktion durchgeführt."
+    },
+    "delicpol": {
+      "workRange": "Austausch der Allgemein- und Notbeleuchtung in zwei Produktionsbetrieben sowie umfassende Modernisierung der Elektroinstallationen und der Energieversorgungsinfrastruktur."
+    },
+    "emilgrana": {
+      "workRange": "Austausch der Allgemeinbeleuchtung gegen moderne LED-Leuchten in Käseproduktionsbetrieben."
+    },
+    "indykMazury": {
+      "workRange": "Austausch der Allgemein- und Notbeleuchtung in einem Geflügelverarbeitungsbetrieb."
+    },
+    "stellantis": {
+      "workRange": "Modernisierung der Außenbeleuchtung einschließlich des Austauschs von Lichtmasten und der zugehörigen Stromversorgungsinfrastruktur. Im Rahmen des Projekts wurde außerdem eine vollständige technische Dokumentation erstellt."
+    },
+    "aerospace": {
+      "workRange": "Umfassende Modernisierung der Allgemein- und Notbeleuchtung einschließlich der Implementierung eines fortschrittlichen Steuerungs- und Überwachungssystems mit Integration in das Gebäudeleitsystem (BMS), der Vorfertigung von Schaltanlagen sowie der Modernisierung der Stromversorgungsanlage."
+    },
+    "cobraEurope": {
+      "workRange": "Modernisierung der Allgemeinbeleuchtung und der Arbeitsplatzbeleuchtung sowie Installation eines lichtsensorbasierten Steuerungssystems."
+    },
+    "oknoplast": {
+      "workRange": "Modernisierung der Allgemein- und Notbeleuchtung mit einem vollständigen Steuerungssystem. Die Arbeiten wurden bei laufender Produktion durchgeführt."
+    },
+    "simoldes": {
+      "workRange": "Modernisierung der Allgemeinbeleuchtung."
+    },
+    "neuJkf": {
+      "workRange": "Modernisierung der Allgemeinbeleuchtung."
+    },
+    "diagnostyka": {
+      "workRange": "Installation von Stromversorgungssystemen und informationstechnischer Infrastruktur für Diagnose- und Laborgeräte."
+    },
+    "alab": {
+      "workRange": "Installation von Stromversorgungssystemen und informationstechnischer Infrastruktur für Diagnose- und Laborgeräte."
+    },
+    "jysk": {
+      "workRange": "Modernisierung der Allgemeinbeleuchtung des Geschäfts."
+    }
+  },
+  "contactBanner": {
+    "title": "Planen Sie eine Investition?",
+    "description": "Lassen Sie uns über Lösungen sprechen, die auf Ihr Objekt abgestimmt sind.",
+    "contactButton": "Kontaktieren Sie uns"
+  }
+}

@@ -5,10 +5,12 @@ import { useEffect } from "react";
 import headerLogo from "../../../assets/img/header-logo.png";
 import { navUtils } from "../../../utils/HomeScreen/navUtils";
 import NavItem from "./NavItem";
+import { useTranslation } from "react-i18next";
 
 const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
   // const location = useLocation();
   // const isHome = location.pathname === "/";
+  const { t } = useTranslation("common");
 
   // body scroll blockade when mobile nav is open
   useEffect(() => {
@@ -40,16 +42,14 @@ const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
                   alt="MW-Engineering - instalacje elektryczne"
                   className="header-logo-mobile"
                 />
-                <p className="header-tagline-mobile">
-                  ELECTRICAL INSTALLATIONS | LIGHTING | INDUSTRY
-                </p>
+                <p className="header-tagline-mobile">{t("header.tagline")}</p>
               </a>
 
               <nav>
                 <ul className="flex-col">
                   {navUtils.map((util, index) => (
                     <li key={index}>
-                      <NavItem util={util} isMobile={true}/>
+                      <NavItem util={util} isMobile={true} />
                     </li>
                   ))}
                 </ul>

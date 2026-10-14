@@ -1,9 +1,11 @@
 import { useState } from "react";
 import GalleryLightbox from "./Lightbox";
+import { useTranslation } from "react-i18next";
 
 const ProjectCardSingle = ({ category }) => {
   const project = category.projects[0];
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const { t } = useTranslation("projects");
 
   return (
     <>
@@ -12,8 +14,8 @@ const ProjectCardSingle = ({ category }) => {
         <div className="single-card-overlay">
           <h3>{project.cardTitle}</h3>
           <p className="project-description">
-            <span>Zakres wykonanych prac: </span>
-            {project.cardWorkRange}
+            <span>{t("categoriesCards.workRangeLabel")} </span>
+            {t(project.cardWorkRange)}
           </p>
           <div className="location-div">
             <ion-icon name="location"></ion-icon>
@@ -26,7 +28,7 @@ const ProjectCardSingle = ({ category }) => {
                 setIsGalleryOpen(true);
               }}
             >
-              Zobacz realizację
+              {t("categoriesCards.projectsButton")}
             </button>
           )}
         </div>

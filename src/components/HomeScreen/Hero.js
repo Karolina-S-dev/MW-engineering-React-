@@ -1,22 +1,25 @@
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
+  const { t } = useTranslation("home");
   return (
     <section className="home-hero-section flex-col">
       <div className="home-hero-content">
         <h1>
-          Oświetlenie przemysłowe <br />i instalacje elektryczne dopasowane do
-          pracy zakładu
+          {t("hero.title1")} <br />
+          {t("hero.title2")}
         </h1>
         <p>
-          Realizujemy modernizacje w istniejącej infrastrukturze —
-          <br />z uwzględnieniem organizacji produkcji, wymagań BHP i
-          optymalizacji kosztów inwestycji.
+          {t("hero.description1")}
+          <br />
+          {t("hero.description2")}
         </p>
         <div className="home-hero-buttons flex-row">
           <a href="/contact" className="btn btn-primary">
-            Skontaktuj się
+            {t("hero.contactButton")}
           </a>
           <a href="/projects" className="btn btn-secondary">
-            Zobacz realizacje
+            {t("hero.projectsButton")}
           </a>
         </div>
       </div>

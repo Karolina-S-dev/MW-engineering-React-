@@ -1,21 +1,21 @@
 const navUtils = [
   {
-    text: "STRONA GŁÓWNA",
+    text: "header.home",
     route: "/",
     type: "common",
   },
   {
-    text: "O FIRMIE",
+    text: "header.about",
     route: "/about-company",
     type: "common",
   },
   {
-    text: "REALIZACJE",
+    text: "header.projects",
     route: "/projects",
     type: "common",
   },
   {
-    text: "KONTAKT",
+    text: "header.contact",
     route: "/contact",
     type: "contact",
   },
@@ -23,16 +23,19 @@ const navUtils = [
     text: "PL",
     route: "",
     type: "languagePL",
+    lang: "pl",
   },
   {
     text: "DE",
     route: "",
     type: "languageDE",
+    lang: "de",
   },
   {
     text: "ENG",
     route: "",
     type: "languageENG",
+    lang: "en",
   },
 ];
 

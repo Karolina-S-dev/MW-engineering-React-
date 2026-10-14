@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "label": "REALIZACJE",
+    "title": "Doświadczenie potwierdzone w wymagających środowiskach",
+    "description": "Od 15 lat realizujemy projekty elektryczne i oświetleniowe dla przemysłu w Polsce i w Niemczech. Każda inwestycja to realne efekty i długofalowa wartość dla klienta.",
+    "projectsCount": "zrealizowanych projektów",
+    "years": "lat",
+    "experience": "doświadczenia",
+    "locations": "realizacje w Polsce i Niemczech"
+  },
+  "categories": {
+    "logistics": {
+      "title": "Magazyny i logistyka",
+      "desc": "Kompleksowe instalacje i systemy oświetleniowe dla centrów logistycznych i magazynów."
+    },
+    "chemical": {
+      "title": "Przemysł chemiczny",
+      "desc": "Realizacje wykonywane w środowiskach wymagających ciągłości pracy i zgodności z rygorystycznymi normami."
+    },
+    "food": {
+      "title": "Przemysł spożywczy",
+      "desc": "Tworzymy rozwiązania dopasowane do wymagań sanitarnych i specyfiki produkcji spożywczej."
+    },
+    "automotive": {
+      "title": "Automotive",
+      "desc": "Realizujemy projekty dla fabryk i zakładów produkcyjnych, gdzie liczy się precyzja, powtarzalność i czas."
+    },
+    "aviation": {
+      "title": "Przemysł lotniczy",
+      "desc": "Instalacje elektryczne w obiektach o najwyższych wymaganiach jakości i bezpieczeństwa."
+    },
+    "heavy": {
+      "title": "Przemysł ciężki",
+      "desc": "Realizacje w obiektach przemysłu ciężkiego i energetycznego."
+    },
+    "medical": {
+      "title": "Sektor medyczny",
+      "desc": "Realizacje wykonywane dla laboratoriów i obiektów medycznych, wymagających niezawodności instalacji oraz ciągłości działania."
+    },
+    "retail": {
+      "title": "Retail",
+      "desc": "Kompleksowe instalacje elektryczne dla obiektów handlowych, wspierające bezpieczeństwo, funkcjonalność i ciągłość działania."
+    }
+  },
+  "categoriesCards": {
+    "projectsButton": "Zobacz realizacje",
+    "workRangeLabel": "Zakres wykonanych prac:",
+    "locations": {
+      "throughoutPoland": "cała Polska",
+      "eurocash": "10 obiektów na terenie całej Polski"
+    },
+    "amazon": {
+      "workRange": "montaż oświetlenia generalnego i awaryjnego, wykonanie systemu sterowania oraz układu zasilającego wraz z prefabrykacją rozdzielnic i centralną baterią. Zakres inwestycji obejmował wykonanie 14 km tras oświetleniowych w systemie trunking."
+    },
+    "eurocash": {
+      "workRange": "modernizacja systemu oświetlenia poprzez wymianę 3500 tradycyjnych opraw na energooszczędne oprawy LED."
+    },
+    "airLiquide": {
+      "workRange": "wymiana oświetlenia zewnętrznego na platformach technicznych."
+    },
+    "qemetica": {
+      "workRange": "wymiana 14 000 opraw oświetleniowych."
+    },
+    "kandelium": {
+      "workRange": "wymiana 5000 opraw oświetleniowych w zakładzie chemicznym obejmująca tereny zewnętrzne, platformy techniczne, pomieszczenia biurowe oraz hale przemysłowe."
+    },
+    "colian": {
+      "workRange": "kompleksowa modernizacja systemu oświetlenia obejmująca wymianę 2 000 opraw oświetleniowych oraz modernizację instalacji elektrycznej zasilającej oprawy. Wszystkie prace zostały zrealizowane przy zachowaniu ciągłości produkcji."
+    },
+    "delicpol": {
+      "workRange": "wymiana oświetlenia generalnego i awaryjnego w dwóch zakładach produkcyjnych, kompleksowa modernizacja instalacji elektrycznej i energetycznej."
+    },
+    "emilgrana": {
+      "workRange": "wymiana oświetlenia generalnego na nowoczesne oprawy LED w zakładach produkcji serów."
+    },
+    "indykMazury": {
+      "workRange": "wymiana oświetlenia generalnego i awaryjnego w zakładzie przetwórstwa drobiowego."
+    },
+    "stellantis": {
+      "workRange": "modernizacja oświetlenia terenu zewnętrznego obejmująca wymianę słupów oświetleniowych oraz infrastruktury elektroenergetycznej zasilającej. W ramach inwestycji opracowano również kompletną dokumentację techniczną."
+    },
+    "aerospace": {
+      "workRange": "kompleksowa modernizacja oświetlenia ogólnego i awaryjnego wraz z wdrożeniem zaawansowanego systemu sterowania i monitoringu z integracją z systemem BMS, prefabrykacja rozdzielnic oraz modernizacja instalacji zasilającej."
+    },
+    "cobraEurope": {
+      "workRange": "modernizacja oświetlenia generalnego wraz ze stanowiskami pracy, wykonanie systemu sterowania w oparciu o czujniki światła."
+    },
+    "oknoplast": {
+      "workRange": "modernizacja oświetlenia generalnego i awaryjnego z pełnym systemem sterowania. Prace wykonane z zachowaniem ciągłości produkcji."
+    },
+    "simoldes": {
+      "workRange": "modernizacja oświetlenia generalnego."
+    },
+    "neuJkf": {
+      "workRange": "modernizacja oświetlenia generalnego."
+    },
+    "diagnostyka": {
+      "workRange": "wykonanie instalacji zasilających oraz infrastruktury teletechnicznej dla maszyn diagnostycznych i laboratoryjnych."
+    },
+    "alab": {
+      "workRange": "wykonanie instalacji zasilających oraz infrastruktury teletechnicznej dla maszyn diagnostycznych i laboratoryjnych."
+    },
+    "jysk": {
+      "workRange": "modernizacja oświetlenia ogólnego sklepu."
+    }
+  },
+
+  "contactBanner": {
+    "title": "Planujesz inwestycję?",
+    "description": "Porozmawiajmy o rozwiązaniach dopasowanych do Twojego obiektu.",
+    "contactButton": "Skontaktuj się z nami"
+  }
+}

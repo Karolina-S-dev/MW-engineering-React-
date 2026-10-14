@@ -1,3 +1,5 @@
+// tłumaczenia w plikach projects.json
+
 import warehouseIcon from "../../assets/img/projects/warehouse-transparent-icon.png";
 import chemistryIcon from "../../assets/img/projects/chemistry-transparent-icon.png";
 import foodAndDrinkIcon from "../../assets/img/projects/food-and-drink-transparent-icon.png";
@@ -161,8 +163,8 @@ const projectsCategoriesData = [
   // --------------------------- AMAZON ---------------------------- //
   {
     icon: warehouseIcon,
-    title: "Magazyny i logistyka",
-    desc: "Kompleksowe instalacje i systemy oświetleniowe dla centrów logistycznych i magazynów.",
+    title: "categories.logistics.title",
+    desc: "categories.logistics.desc",
     backgroundColor: "projects-light",
     cardBackgroundColor: "project-card-light",
     projects: [
@@ -172,8 +174,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Instalacja oświetlenia i systemu sterowania w centrum logistycznym Amazon",
         cardTitle: "AMAZON",
-        cardWorkRange:
-          "montaż oświetlenia generalnego i awaryjnego, wykonanie systemu sterowania oraz układu zasilającego wraz z prefabrykacją rozdzielnic i centralną baterią. Zakres inwestycji obejmował wykonanie 14 km tras oświetleniowych w systemie trunking.",
+        cardWorkRange: "categoriesCards.amazon.workRange",
         cardLocation: "Bad Hersfeld, DE",
         cardInvestmentPhotos: [
           photoAmazon1,
@@ -220,9 +221,8 @@ const projectsCategoriesData = [
         cardPhoto: projectEurocash3,
         cardPhotoAlt: "Modernizacja oświetlenia LED w obiekcie Eurocash",
         cardTitle: "EUROCASH",
-        cardWorkRange:
-          "modernizacja systemu oświetlenia poprzez wymianę 3500 tradycyjnych opraw na energooszczędne oprawy LED.",
-        cardLocation: "10 obiektów na terenie całej Polski",
+        cardWorkRange: "categoriesCards.eurocash.workRange",
+        cardLocation: "categoriesCards.locations.eurocash",
         cardInvestmentPhotos: [
           projectEurocash1,
           projectEurocash2,
@@ -241,8 +241,8 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
   {
     icon: chemistryIcon,
-    title: "Przemysł chemiczny",
-    desc: "Realizacje wykonywane w środowiskach wymagających ciągłości pracy i zgodności z rygorystycznymi normami.",
+    title: "categories.chemical.title",
+    desc: "categories.chemical.desc",
     backgroundColor: "projects-dark",
     cardBackgroundColor: "project-card-dark",
     projects: [
@@ -253,8 +253,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia zewnętrznego w zakładzie Air Liquide",
         cardTitle: "Air Liquide",
-        cardWorkRange:
-          "wymiana oświetlenia zewnętrznego na platfomach technicznych.",
+        cardWorkRange: "categoriesCards.airLiquide.workRange",
         cardLocation: "Turów",
         cardInvestmentPhotos: [
           projectAirLiquide,
@@ -276,7 +275,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia przemysłowego w zakładzie Qemetica",
         cardTitle: "Qemetica Soda Polska",
-        cardWorkRange: "wymiana 14 000 opraw oświetleniowych.",
+        cardWorkRange: "categoriesCards.qemetica.workRange",
         cardLocation: "Inowrocław, Janikowo",
         cardInvestmentPhotos: [
           projectQemetica1,
@@ -298,8 +297,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia w zakładzie chemicznym Kandelium",
         cardTitle: "KANDELIUM",
-        cardWorkRange:
-          "wymiana 5000 opraw oświetleniowych w zakładzie chemicznym obejmująca tereny zewnętrzne, platformy techniczne, pomieszczenia biurowe oraz hale przemysłowe.",
+        cardWorkRange: "categoriesCards.kandelium.workRange",
         cardLocation: "Bad Hönningen, DE",
         cardInvestmentPhotos: [
           projectKandelium2,
@@ -314,8 +312,8 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
   {
     icon: foodAndDrinkIcon,
-    title: "Przemysł spożywczy",
-    desc: "Tworzymy rozwiązania dopasowane do wymagań sanitarnych i specyfiki produkcji spożywczej.",
+    title: "categories.food.title",
+    desc: "categories.food.desc",
     backgroundColor: "projects-light",
     cardBackgroundColor: "project-card-light",
     projects: [
@@ -326,8 +324,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia i instalacji elektrycznej w zakładzie Colian",
         cardTitle: "Colian",
-        cardWorkRange:
-          "kompleksowa modernizacja systemu oświetlenia obejmująca wymianę 2 000 opraw oświetleniowych oraz modernizację instalacji elektrycznej zasilającej oprawy. Wszystkie prace zostały zrealizowane przy zachowaniu ciągłości produkcji.",
+        cardWorkRange: "categoriesCards.colian.workRange",
         cardLocation: "Lublin, Bydgoszcz",
         cardInvestmentPhotos: [],
       },
@@ -338,8 +335,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia i infrastruktury elektrycznej w zakładzie Delicpol",
         cardTitle: "DELICPOL",
-        cardWorkRange:
-          "wymiana oświetlenia generalnego i awaryjnego w dwóch zakładach produkcyjnych, kompleksowa modernizacja instalacji elektrycznej i energetycznej.",
+        cardWorkRange: "categoriesCards.delicpol.workRange",
         cardLocation: "Częstochowa, Kamion",
         cardInvestmentPhotos: [],
       },
@@ -349,8 +345,7 @@ const projectsCategoriesData = [
         cardPhoto: photosSoon,
         cardPhotoAlt: "Oświetlenie LED w zakładzie produkcji serów Emilgrana",
         cardTitle: "Emilgrana",
-        cardWorkRange:
-          "wymiana oświetlenia generalnego na nowoczesne oprawy LED w zakładach produkcji serów.",
+        cardWorkRange: "categoriesCards.emilgrana.workRange",
         cardLocation: "Siedlec",
         cardInvestmentPhotos: [],
       },
@@ -361,8 +356,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Instalacja oświetleniowa w zakładzie przetwórstwa drobiowego",
         cardTitle: "PPH Indyk Mazury",
-        cardWorkRange:
-          "wymiana oświetlenia generalnego i awaryjnego w zakładzie przetwórstwa drobiowego.",
+        cardWorkRange: "categoriesCards.indykMazury.workRange",
         cardLocation: "Ostróda",
         cardInvestmentPhotos: [
           projectIndykMazury2,
@@ -379,8 +373,8 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
   {
     icon: automotiveIcon,
-    title: "Automotive",
-    desc: "Realizujemy projekty dla fabryk i zakładów produkcyjnych, gdzie liczy się precyzja, powtarzalność i czas.",
+    title: "categories.automotive.title",
+    desc: "categories.automotive.desc",
     backgroundColor: "projects-dark",
     cardBackgroundColor: "project-card-dark",
     projects: [
@@ -391,8 +385,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia i infrastruktury elektroenergetycznej w zakładzie Stellantis",
         cardTitle: "Stellantis",
-        cardWorkRange:
-          "modernizacja oświetlenia terenu zewnętrznego obejmująca wymianę słupów oświetleniowych oraz infrastruktury elektroenergetycznej zasilającej. W ramach inwestycji opracowano również kompletną dokumentację techniczną.",
+        cardWorkRange: "categoriesCards.stellantis.workRange",
         cardLocation: "Gliwice",
         cardInvestmentPhotos: [
           projectStellantis2,
@@ -412,8 +405,8 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
   {
     icon: airplaneIcon,
-    title: "Przemysł lotniczy",
-    desc: "Instalacje elektryczne w obiektach o najwyższych wymaganiach jakości i bezpieczeństwa.",
+    title: "categories.aviation.title",
+    desc: "categories.aviation.desc",
     backgroundColor: "projects-light",
     cardBackgroundColor: "project-card-light",
     projects: [
@@ -424,8 +417,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia i instalacji elektrycznej w obiekcie przemysłu lotniczego",
         cardTitle: "NDA",
-        cardWorkRange:
-          "kompleksowa modernizacja oświetlenia ogólnego i awaryjnego wraz z wdrożeniem zaawansowanego systemu sterowania i monitoringu z integracją z systemem BMS, prefabrykacja rozdzielnic oraz modernizacja instalacji zasilającej.",
+        cardWorkRange: "categoriesCards.aerospace.workRange",
         cardLocation: "DE",
         cardInvestmentPhotos: [],
       },
@@ -438,8 +430,8 @@ const projectsCategoriesData = [
 
   {
     icon: heavyIndustryIcon,
-    title: "Przemysł ciężki",
-    desc: "Realizacje w obiektach przemysłu ciężkiego i energetycznego.",
+    title: "categories.heavy.title",
+    desc: "categories.heavy.desc",
     backgroundColor: "projects-dark",
     cardBackgroundColor: "project-card-dark",
     projects: [
@@ -450,8 +442,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia i systemu sterowania w zakładzie Cobra Europe",
         cardTitle: "Cobra Europe",
-        cardWorkRange:
-          "modernizacja oświetlenia generalnego wraz ze stanowiskami pracy, wykonanie systemu sterowania w oparciu o czujniki światła.",
+        cardWorkRange: "categoriesCards.cobraEurope.workRange",
         cardLocation: "Piekary Śląskie",
         cardInvestmentPhotos: [],
       },
@@ -462,8 +453,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia przemysłowego w zakładzie Oknoplast",
         cardTitle: "Oknoplast",
-        cardWorkRange:
-          "modernizacja oświetlenia generalnego i awaryjnego z pełnym systemem sterowania. Prace wykonane z zachowaniem ciągłości produkcji.",
+        cardWorkRange: "categoriesCards.oknoplast.workRange",
         cardLocation: "Ochmanów",
         cardInvestmentPhotos: [],
       },
@@ -474,7 +464,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia przemysłowego w zakładzie Simoldes Plasticos",
         cardTitle: "Simoldes Plasticos",
-        cardWorkRange: "modernizacja oświetlenia generalnego.",
+        cardWorkRange: "categoriesCards.simoldes.workRange",
         cardLocation: "Żory",
         cardInvestmentPhotos: [
           projectSimoldes2,
@@ -492,7 +482,7 @@ const projectsCategoriesData = [
         cardPhotoAlt:
           "Modernizacja oświetlenia przemysłowego w zakładzie NEU-JKF",
         cardTitle: "NEU - JKF",
-        cardWorkRange: "modernizacja oświetlenia generalnego.",
+        cardWorkRange: "categoriesCards.neuJkf.workRange",
         cardLocation: "Berzyna",
         cardInvestmentPhotos: [
           projectJKF2,
@@ -511,8 +501,8 @@ const projectsCategoriesData = [
 
   {
     icon: laboratoryIcon,
-    title: "Sektor medyczny",
-    desc: "Realizacje wykonywane dla laboratoriów i obiektów medycznych, wymagających niezawodności instalacji oraz ciągłości działania.",
+    title: "categories.medical.title",
+    desc: "categories.medical.desc",
     backgroundColor: "projects-light",
     cardBackgroundColor: "project-card-light",
     projects: [
@@ -522,9 +512,8 @@ const projectsCategoriesData = [
         cardPhoto: projectDiagnostyka1,
         cardPhotoAlt: "Instalacje zasilające dla laboratoriów Diagnostyka",
         cardTitle: "Diagnostyka",
-        cardWorkRange:
-          "wykonanie instalacji zasilających oraz infrastruktury teletechnicznej dla maszyn dignostycznych i laboratoryjnych.",
-        cardLocation: "cała Polska",
+        cardWorkRange: "categoriesCards.diagnostyka.workRange",
+        cardLocation: "categoriesCards.locations.throughoutPoland",
         cardInvestmentPhotos: [
           projectDiagnostyka2,
           projectDiagnostyka3,
@@ -540,9 +529,8 @@ const projectsCategoriesData = [
         cardPhoto: projectAlab7,
         cardPhotoAlt: "Instalacje elektryczne dla laboratoriów ALAB",
         cardTitle: "ALAB",
-        cardWorkRange:
-          "wykonanie instalacji zasilających oraz infrastruktury teletechnicznej dla maszyn diagnostycznych i laboratoryjnych.",
-        cardLocation: "cała Polska",
+        cardWorkRange: "categoriesCards.alab.workRange",
+        cardLocation: "categoriesCards.locations.throughoutPoland",
         cardInvestmentPhotos: [
           projectAlab1,
           projectAlab2,
@@ -559,8 +547,8 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
   {
     icon: retailIcon,
-    title: "Retail",
-    desc: "Kompleksowe instalacje elektryczne dla obiektów handlowych, wspierające bezpieczeństwo, funkcjonalność i ciągłość działania.",
+    title: "categories.retail.title",
+    desc: "categories.retail.desc",
     backgroundColor: "projects-dark",
     cardBackgroundColor: "project-card-dark",
     projects: [
@@ -570,8 +558,8 @@ const projectsCategoriesData = [
         cardPhoto: projectJysk,
         cardPhotoAlt: "Modernizacja oświetlenia w sklepach JYSK",
         cardTitle: "JYSK",
-        cardWorkRange: "modernizacja oświetlenia ogólnego sklepu.",
-        cardLocation: "cała Polska",
+        cardWorkRange: "categoriesCards.jysk.workRange",
+        cardLocation: "categoriesCards.locations.throughoutPoland",
         cardInvestmentPhotos: [projectJysk, projectJysk2],
       },
       //  <!----------------------- BRICOMAN  ----------------------->
@@ -581,7 +569,7 @@ const projectsCategoriesData = [
         cardPhotoAlt: "Realizacja dla obiektu Bricoman",
         cardTitle: "BRICOMAN",
         cardWorkRange: "",
-        cardLocation: "cała Polska",
+        cardLocation: "categoriesCards.locations.throughoutPoland",
         cardInvestmentPhotos: [
           projectBricoman,
           projectBricoman2,

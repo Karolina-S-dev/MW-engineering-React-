@@ -1,19 +1,17 @@
+import { useTranslation } from "react-i18next";
 import footerLogo from "../assets/img/footer-logo.png";
 
 const Footer = () => {
+  const { t } = useTranslation("common");
   return (
     <footer>
       <div className="footer-top-main-div-row">
-        <img
-          src={footerLogo}
-          alt="MW-Engineering - instalacje elektryczne"
-          loading="lazy"
-        />
+        <img src={footerLogo} alt={t("footer.logoAlt")} loading="lazy" />
 
         <div className="footer-contact-and-map-data-row">
           <div className="flex-col footer-data">
             <div className="footer-contact-data flex-col">
-              <p className="company-data">Dane firmy</p>
+              <p className="company-data">{t("footer.companyData")}</p>
               <p className="company-name">MW-Engineering Mariusz Wąchocki</p>
             </div>
 
@@ -22,7 +20,7 @@ const Footer = () => {
               <div className="footer-menu-text">
                 <address>
                   <p>ul. Spacerowa 10H/2</p>
-                  <p>26-052 Zagrody</p>
+                  <p>26-052 Zagrody, {t("footer.country")}</p>
                 </address>
               </div>
             </div>
@@ -37,13 +35,14 @@ const Footer = () => {
           </div>
           <div className="flex-col footer-data">
             <div className="footer-contact-data">
-              <p className="company-data">Dane kontaktowe</p>
+              <p className="company-data">{t("footer.contactData")}</p>
             </div>
             <div className="footer-ion-icon-and-data-row">
               <ion-icon name="call-outline"></ion-icon>
               <div className="footer-menu-text">
                 <p>
-                  tel.{" "}<a href="tel:+48695413382">+48 695 413 382</a>
+                  {t("footer.phone")}{" "}
+                  <a href="tel:+48695413382">+48 695 413 382</a>
                 </p>
               </div>
             </div>
@@ -52,7 +51,7 @@ const Footer = () => {
               <ion-icon name="mail-outline"></ion-icon>
               <div className="footer-menu-text">
                 <p>
-                  email:{" "}
+                  {t("footer.email")}{" "}
                   <a href="mailto:biuro@mw-engineering.pl">
                     biuro@mw-engineering.pl
                   </a>
@@ -63,7 +62,7 @@ const Footer = () => {
           <div className="footer-google-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67592.2203266502!2d20.58913883477503!3d50.86295589423068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717862fe4188845%3A0x3804630dd9b9de70!2sSpacerowa%2010H%2F2%2C%2026-052%20Zagrody!5e1!3m2!1spl!2spl!4v1782246513320!5m2!1spl!2spl"
-              title="Lokalizacja MW-Engineering na mapie Google"
+              title={t("footer.mapTitle")}
               width="600"
               height="450"
               allowFullScreen
@@ -75,10 +74,11 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>
-          2026 © Wszystkie prawa zastrzeżone
+          2026 © {t("footer.copyright")}
           <span> | </span>
-          <a href="/privacy-policy">Polityka prywatności</a>
-          <span> | </span>Projekt i wykonanie:{" "}
+          <a href="/privacy-policy">{t("footer.privacyPolicy")}</a>
+          <span> | </span>
+          {t("footer.designedBy")}{" "}
           <a href="https://www.linkedin.com/in/karolina-s-123bb238b/">
             Karolina Szary
           </a>

@@ -1,11 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 const ProjectCategoryHeader = ({category}) => {
+  const {t} = useTranslation("projects")
   return (
     <>
       <div className="projects-content">
         <img src={category.icon} alt="" />
-        <h2 className="projects-title">{category.title}</h2>
+        <h2 className="projects-title">{t(category.title)}</h2>
         <p className="projects-description">
-          {category.desc}
+          {t(category.desc)}
         </p>
       </div>
     </>

@@ -1,0 +1,107 @@
+{
+  "whyUs": {
+    "label": "DLACZEGO MY",
+    "title": "Podejście dopasowane do realiów pracy przemysłu",
+    "description": "Modernizacja w działającym zakładzie to zawsze ryzyko operacyjne. Dlatego skupiamy się na rozwiązaniach, które są przewidywalne, bezpieczne i uzasadnione biznesowo.",
+    "experience": "Doświadczenie w branżach: chemicznej, spożywczej, automotive, lotniczej i ciężkiej.",
+    "cards": {
+      "factory": {
+        "title": "Dostosowanie do pracy zakładu",
+        "desc": "Planujemy i realizujemy prace w taki sposób, aby ograniczyć wpływ na bieżącą produkcję."
+      },
+      "infrastructure": {
+        "title": "Optymalne wykorzystanie infrastruktury",
+        "desc": "Wykorzystujemy istniejące instalacje tam, gdzie jest to uzasadnione — co realnie obniża koszty inwestycji."
+      },
+      "solutions": {
+        "title": "Rozwiązania szyte na miarę",
+        "desc": "Każdy projekt dopasowujemy do warunków pracy, a nie do katalogowych założeń."
+      },
+      "safety": {
+        "title": "Bezpieczeństwo i zgodność z normami",
+        "desc": "Pracujemy zgodnie z wymaganiami BHP, normami branżowymi oraz uzgodnieniami PPOŻ."
+      },
+      "components": {
+        "title": "Sprawdzone komponenty i technologie",
+        "desc": "Stosujemy rozwiązania oparte na komponentach renomowanych producentów (m.in. Siemens, Eaton, WAGO, Hager)."
+      }
+    }
+  },
+  "industries": {
+    "label": "DOŚWIADCZENIE",
+    "title": "Branże, w których działamy",
+    "cards": {
+      "chemical": "Przemysł chemiczny",
+      "food": "Przemysł spożywczy",
+      "automotive": "Automotive",
+      "aviation": "Przemysł lotniczy",
+      "heavy": "Przemysł ciężki",
+      "warehouse": "Magazyny wysokiego składowania",
+      "medical": "Sektor medyczny",
+      "retail": "Obiekty retail"
+    },
+    "projectsButton": "Zobacz realizacje",
+    "description": "Realizowaliśmy projekty w działających zakładach produkcyjnych oraz obiektach o wysokich wymaganiach operacyjnych, gdzie kluczowe było zachowanie ciągłości pracy i bezpieczeństwa."
+  },
+  "howWeWork": {
+    "label": "JAK PRACUJEMY",
+    "title": "Proces dopasowany do realiów inwestycji",
+    "subtitle": "Każdy projekt prowadzimy etapowo — z naciskiem na przewidywalność, bezpieczeństwo i kontrolę kosztów.",
+    "cards": {
+      "audit": {
+        "title": "Audyt infrastruktury",
+        "content": "Oceniamy stan istniejących instalacji, identyfikujemy ograniczenia i możliwości optymalizacji."
+      },
+      "solutions": {
+        "title": "Dobór rozwiązań",
+        "content": "Proponujemy rozwiązania dopasowane do warunków pracy, wymagań technicznych i budżetu inwestycji."
+      },
+      "design": {
+        "title": "Projekt i uzgodnienia",
+        "content": "Przygotowujemy dokumentację projektową oraz prowadzimy uzgodnienia (w tym ppoż i wymagania formalne)."
+      },
+      "prefabrication": {
+        "title": "Prefabrykacja wdrożenia",
+        "content": "Realizujemy prefabrykację oraz planujemy wdrożenie w sposób ograniczający ryzyko operacyjne."
+      },
+      "installation": {
+        "title": "Montaż i uruchomienie",
+        "content": "Wdrażamy instalację zgodnie z ustalonym harmonogramem i warunkami pracy zakładu."
+      },
+      "measurements": {
+        "title": "Pomiary i dokumentacja",
+        "content": "Wykonujemy pomiary, odbiory oraz przekazujemy kompletną dokumentację."
+      }
+    },
+    "banner": "Każdy etap jest planowany tak, aby ograniczyć ingerencję w bieżącą działalność zakładu i zapewnić pełną kontrolę nad przebiegiem inwestycji."
+  },
+  "value": {
+    "label": "WARTOŚĆ DLA KLIENTA",
+    "title": "Efekty, które mają znaczenie operacyjne",
+    "description": "Nasze realizacje są projektowane tak, aby przynosiły wymierne korzyści — zarówno na etapie inwestycji, jak i w codziennej eksploatacji.",
+    "cards": {
+      "capex": {
+        "title": "Optymalizacja kosztów inwestycji (CAPEX)",
+        "content": "Wykorzystujemy istniejącą infrastrukturę tam, gdzie ma to uzasadnienie — ograniczając zakres i koszt modernizacji."
+      },
+      "opex": {
+        "title": "Niższe koszty eksploatacyjne (OPEX)",
+        "content": "Nowoczesne systemy oświetleniowe i sterowania pozwalają ograniczyć zużycie energii oraz koszty utrzymania."
+      },
+      "risk": {
+        "title": "Ograniczenie ryzyka operacyjnego",
+        "content": "Wdrożenia planujemy w sposób przewidywalny, z uwzględnieniem warunków pracy zakładu i jego ograniczeń."
+      },
+      "compliance": {
+        "title": "Zgodność z normami i wymaganiami",
+        "content": "Instalacje spełniają wymagania BHP, norm branżowych oraz audytów technicznych i ppoż."
+      },
+      "solutions": {
+        "title": "Rozwiązania dopasowane do realnych warunków",
+        "content": "Projektujemy systemy pod konkretne środowisko pracy — nie na podstawie założeń, tylko rzeczywistych danych."
+      }
+    },
+    "banner": "Efektem jest instalacja, która działa stabilnie, jest uzasadniona kosztowo i wpisuje się w realia operacyjne zakładu.",
+    "imageAlt": "Rozdzielnice elektryczne w obiekcie przemysłowym"
+  }
+}

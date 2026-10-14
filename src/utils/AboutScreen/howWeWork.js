@@ -2,44 +2,38 @@ const howWeWorkData = [
   {
     id: 1,
     number: "01",
-    title: "Audyt infrastruktury",
-    content:
-      "Oceniamy stan istniejących instalacji, identyfikujemy ograniczenia i możliwości optymalizacji.",
+    title: "howWeWork.cards.audit.title",
+    content: "howWeWork.cards.audit.content",
   },
   {
     id: 2,
     number: "02",
-    title: "Dobór rozwiązań",
-    content:
-      "Proponujemy rozwiązania dopasowane do warunków pracy, wymagań technicznych i budżetu inwestycji.",
+    title: "howWeWork.cards.solutions.title",
+    content: "howWeWork.cards.solutions.content",
   },
   {
     id: 3,
     number: "03",
-    title: "Projekt i uzgodnienia",
-    content:
-      "Przygotowujemy dokumentację projektową oraz prowadzimy uzgodnienia (w tym ppoż i wymagania formalne).",
+    title: "howWeWork.cards.design.title",
+    content: "howWeWork.cards.design.content",
   },
   {
     id: 4,
     number: "04",
-    title: "Prefabrykacja wdrożenia",
-    content:
-      "Realizujemy prefabrykację oraz planujemy wdrożenie w sposób ograniczający ryzyko operacyjne.",
+    title: "howWeWork.cards.prefabrication.title",
+    content: "howWeWork.cards.prefabrication.content",
   },
   {
     id: 5,
     number: "05",
-    title: "Montaż i uruchomienie",
-    content:
-      "Wdrażamy instalację zgodnie z ustalonym harmonogramem i warunkami pracy zakładu.",
+    title: "howWeWork.cards.installation.title",
+    content: "howWeWork.cards.installation.content",
   },
   {
     id: 6,
     number: "06",
-    title: "Pomiary i dokumentacja",
-    content:
-      " Wykonujemy pomiary, odbiory oraz przekazujemy kompletną dokumentację.",
+    title: "howWeWork.cards.measurements.title",
+    content: "howWeWork.cards.measurements.content",
   },
 ];
 

@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title1": "Industrial lighting",
+    "title2": "and electrical installations tailored to your facility's operations",
+    "description1": "We modernize existing infrastructure — ",
+    "description2": "taking into account production schedules, occupational health and safety requirements, and investment cost optimization.",
+    "contactButton": "Contact us",
+    "projectsButton": "View our projects"
+  },
+
+  "offer": {
+    "title1": "Comprehensive execution of electrical",
+    "title2": "and lighting projects",
+    "description": "We deliver projects using the design-build approach — from audits and design to implementation and commissioning of installations.",
+    "cards": {
+      "lighting": {
+        "title": "Industrial lighting",
+        "content": "Design and modernization of general and emergency lighting — taking into account standards, working conditions and energy efficiency."
+      },
+      "installations": {
+        "title": "Electrical installations",
+        "content": "Electrical installation works, power supply upgrades, switchgear assembly and integration with existing infrastructure."
+      },
+      "control": {
+        "title": "Control systems",
+        "content": "Design and implementation of lighting control systems (including WAGO, Helvar and Signify) tailored to the specific requirements of the facility."
+      },
+      "modernization": {
+        "title": "Modernization and optimization",
+        "content": "Analysis of existing installations and selection of solutions to reduce investment and operating costs."
+      }
+    }
+  },
+
+  "proof": {
+    "title": "Proven experience in demanding industrial environments",
+    "projectsCount": "completed projects",
+    "years": "years",
+    "experience": "of experience",
+    "projects": "Projects",
+    "locations": "in Poland and Germany"
+  },
+  "benefits": {
+    "title": "An approach tailored to industrial requirements",
+    "item1": "Adapted to your facility's operations",
+    "item2": "Making use of existing infrastructure",
+    "item3": "Safety and compliance with industry standards",
+    "item4": "Solutions tailored to real-world operating conditions",
+    "imageAlt": "Engineers reviewing technical documentation near electrical distribution panels"
+  },
+  "clients": {
+    "title": "We work with:"
+  }
+}

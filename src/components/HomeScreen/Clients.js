@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { carouselLogosData } from "../../utils/HomeScreen/carouselLogos";
 
 const Clients = () => {
+  const { t } = useTranslation("home");
   return (
     <section className="clients">
-      <h2 className="clients-header">Współpracujemy z:</h2>
+      <h2 className="clients-header">{t("clients.title")}</h2>
       <div className="carousel-main-div">
         <div className="carousel-track">
           {/* <!-- GROUP 1 --> */}

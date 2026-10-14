@@ -1,0 +1,22 @@
+{
+  "header": {
+    "logoAlt": "MW-Engineering - Elektroinstallationen",
+    "tagline": "ELEKTROINSTALLATIONEN | BELEUCHTUNG | INDUSTRIE",
+    "home": "STARTSEITE",
+    "about": "ÜBER UNS",
+    "projects": "PROJEKTE",
+    "contact": "KONTAKT"
+  },
+  "footer": {
+    "companyData": "Firmendaten",
+    "contactData": "Kontaktdaten",
+    "logoAlt": "MW-Engineering - Elektroinstallationen",
+    "country": "Polen",
+    "phone": "Tel.",
+    "email": "E-Mail:",
+    "mapTitle": "Standort von MW-Engineering auf Google Maps",
+    "copyright": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzerklärung",
+    "designedBy": "Konzeption und Umsetzung:"
+  }
+}

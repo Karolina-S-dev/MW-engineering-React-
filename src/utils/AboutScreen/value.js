@@ -8,37 +8,32 @@ const valueData = [
   {
     id: 1,
     icon: costsIcon,
-    title: "Optymalizacja kosztów inwestycji (CAPEX)",
-    content:
-      "Wykorzystujemy istniejącą infrastrukturę tam, gdzie ma to uzasadnienie — ograniczając zakres i koszt modernizacji.",
+    title: "value.cards.capex.title",
+    content: "value.cards.capex.content",
   },
   {
     id: 2,
     icon: diagramIcon,
-    title: "Niższe koszty eksploatacyjne (OPEX)",
-    content:
-      "Nowoczesne systemy oświetleniowe i sterowania pozwalają ograniczyć zużycie energii oraz koszty utrzymania.",
+    title: "value.cards.opex.title",
+    content: "value.cards.opex.content",
   },
   {
     id: 3,
     icon: warningTriangleIcon,
-    title: "Ograniczenie ryzyka operacyjnego",
-    content:
-      "Wdrożenia planujemy w sposób przewidywalny, z uwzględnieniem warunków pracy zakładu i jego ograniczeń.",
+    title: "value.cards.risk.title",
+    content: "value.cards.risk.content",
   },
   {
     id: 4,
     icon: safetyIcon,
-    title: "Zgodność z normami i wymaganiami",
-    content:
-      "Instalacje spełniają wymagania BHP, norm branżowych oraz audytów technicznych i ppoż.",
+    title: "value.cards.compliance.title",
+    content: "value.cards.compliance.content",
   },
   {
     id: 5,
     icon: solutionsIcon2,
-    title: "Rozwiązania dopasowane do realnych warunków",
-    content:
-      "Projektujemy systemy pod konkretne środowisko pracy — nie na podstawie założeń, tylko rzeczywistych danych.",
+    title: "value.cards.solutions.title",
+    content: "value.cards.solutions.content",
   },
 ];
 

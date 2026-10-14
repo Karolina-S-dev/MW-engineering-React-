@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "label": "PROJECTS",
+    "title": "Proven experience in demanding industrial environments",
+    "description": "For 15 years, we have been delivering electrical and lighting projects for industrial facilities in Poland and Germany. Every investment delivers tangible results and long-term value for our clients.",
+    "projectsCount": "completed projects",
+    "years": "years",
+    "experience": "of experience",
+    "locations": "projects in Poland and Germany"
+  },
+  "categories": {
+    "logistics": {
+      "title": "Warehousing and logistics",
+      "desc": "Comprehensive electrical installations and lighting systems for logistics centers and warehouses."
+    },
+    "chemical": {
+      "title": "Chemical industry",
+      "desc": "Projects carried out in environments requiring operational continuity and compliance with strict standards."
+    },
+    "food": {
+      "title": "Food industry",
+      "desc": "We develop solutions tailored to sanitary requirements and the specific needs of food production."
+    },
+    "automotive": {
+      "title": "Automotive",
+      "desc": "We deliver projects for factories and production facilities where precision, repeatability and timing are essential."
+    },
+    "aviation": {
+      "title": "Aviation industry",
+      "desc": "Electrical installations in facilities with the highest quality and safety requirements."
+    },
+    "heavy": {
+      "title": "Heavy industry",
+      "desc": "Projects carried out in heavy industry and energy facilities."
+    },
+    "medical": {
+      "title": "Medical sector",
+      "desc": "Projects carried out for laboratories and medical facilities requiring reliable installations and operational continuity."
+    },
+    "retail": {
+      "title": "Retail",
+      "desc": "Comprehensive electrical installations for retail facilities, supporting safety, functionality and operational continuity."
+    }
+  },
+  "categoriesCards": {
+    "projectsButton": "View our projects",
+    "workRangeLabel": "Scope of work:",
+    "locations": {
+      "throughoutPoland": "throughout Poland",
+      "eurocash": "10 facilities across Poland"
+    },
+    "amazon": {
+      "workRange": "installation of general and emergency lighting, implementation of a control system and power supply system, including switchgear prefabrication and a central battery system. The project included the installation of 14 km of lighting trunking systems."
+    },
+    "eurocash": {
+      "workRange": "modernization of the lighting system by replacing 3,500 conventional luminaires with energy-efficient LED luminaires."
+    },
+    "airLiquide": {
+      "workRange": "replacement of outdoor lighting on technical platforms."
+    },
+    "qemetica": {
+      "workRange": "replacement of 14,000 lighting fixtures."
+    },
+    "kandelium": {
+      "workRange": "replacement of 5,000 lighting fixtures at a chemical plant, covering outdoor areas, technical platforms, office spaces and industrial halls."
+    },
+    "colian": {
+      "workRange": "comprehensive modernization of the lighting system, including the replacement of 2,000 luminaires and modernization of the electrical installations supplying them. All work was completed while maintaining production continuity."
+    },
+    "delicpol": {
+      "workRange": "replacement of general and emergency lighting in two production facilities, including comprehensive modernization of electrical installations and power infrastructure."
+    },
+    "emilgrana": {
+      "workRange": "replacement of general lighting with modern LED luminaires in cheese production facilities."
+    },
+    "indykMazury": {
+      "workRange": "replacement of general and emergency lighting in a poultry processing plant."
+    },
+    "stellantis": {
+      "workRange": "modernization of outdoor lighting, including replacement of lighting poles and the associated electrical power supply infrastructure. Complete technical documentation was also prepared as part of the project."
+    },
+    "aerospace": {
+      "workRange": "comprehensive modernization of general and emergency lighting, including implementation of an advanced control and monitoring system integrated with the BMS, switchgear prefabrication and modernization of the power supply installation."
+    },
+    "cobraEurope": {
+      "workRange": "modernization of general and workplace lighting, including implementation of a lighting control system based on light sensors."
+    },
+    "oknoplast": {
+      "workRange": "modernization of general and emergency lighting with a complete control system. The work was carried out while maintaining production continuity."
+    },
+    "simoldes": {
+      "workRange": "modernization of general lighting."
+    },
+    "neuJkf": {
+      "workRange": "modernization of general lighting."
+    },
+    "diagnostyka": {
+      "workRange": "installation of power supply systems and telecommunications infrastructure for diagnostic and laboratory equipment."
+    },
+    "alab": {
+      "workRange": "installation of power supply systems and telecommunications infrastructure for diagnostic and laboratory equipment."
+    },
+    "jysk": {
+      "workRange": "modernization of general store lighting."
+    }
+  },
+
+  "contactBanner": {
+    "title": "Planning an investment?",
+    "description": "Let's discuss solutions tailored to your facility.",
+    "contactButton": "Contact us"
+  }
+}
