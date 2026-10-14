@@ -1,0 +1,23 @@
+{
+    "contactContent": {
+    "label": "KONTAKT",
+    "title": "Skontaktuj się w sprawie realizacji",
+    "subtitle": "Realizujesz inwestycję, modernizację lub utrzymanie infrastruktury elektrycznej i oświetleniowej?",
+    "description": "Jeśli szukasz partnera, który rozumie realia pracy zakładów przemysłowych i dowozi projekty bez przestojów — zostaw kontakt. Od lat wspieramy firmy produkcyjne w projektach wymagających niezawodności, optymalizacji kosztów i sprawnej realizacji. Odezwiemy się i zaproponujemy konkretne rozwiązania dopasowane do Twojego zakładu.",
+    "imageAlt": "Analiza instalacji elektrycznej w zakładzie przemysłowym",
+    "steps": {
+    "describe": {
+      "header": "Opisz zakres prac",
+      "content": "Napisz, czego dotyczy Twoja inwestycja lub problem do rozwiązania."
+    },
+    "call": {
+      "header": "Oddzwonimy",
+      "content": "Skontaktujemy się z Tobą, aby doprecyzować potrzeby i odpowiedzieć na pytania."
+    },
+    "proposal": {
+      "header": "Przygotujemy propozycję",
+      "content": "Otrzymasz dopasowane rozwiązania i rekomendacje najlepiej odpowiadające Twojemu zakładowi."
+    }
+  }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "contactContent": {
+    "label": "KONTAKT",
+    "title": "Kontaktieren Sie uns bezüglich Ihres Projekts",
+    "subtitle": "Planen Sie eine Investition, Modernisierung oder Instandhaltung Ihrer Elektro- und Beleuchtungsinfrastruktur?",
+    "description": "Wenn Sie einen Partner suchen, der die Anforderungen industrieller Betriebsabläufe versteht und Projekte ohne Produktionsunterbrechungen umsetzt – nehmen Sie Kontakt mit uns auf. Seit Jahren unterstützen wir Produktionsunternehmen bei Projekten, die Zuverlässigkeit, Kostenoptimierung und eine effiziente Umsetzung erfordern. Wir melden uns bei Ihnen und schlagen konkrete Lösungen vor, die auf Ihren Betrieb abgestimmt sind.",
+    "imageAlt": "Analyse einer Elektroinstallation in einem Industriebetrieb",
+    "steps": {
+      "describe": {
+        "header": "Beschreiben Sie den Arbeitsumfang",
+        "content": "Beschreiben Sie Ihr Investitionsprojekt oder das Problem, das gelöst werden soll."
+      },
+      "call": {
+        "header": "Wir rufen Sie zurück",
+        "content": "Wir kontaktieren Sie, um Ihre Anforderungen zu klären und Ihre Fragen zu beantworten."
+      },
+      "proposal": {
+        "header": "Wir erstellen ein Angebot",
+        "content": "Sie erhalten maßgeschneiderte Lösungen und Empfehlungen, die optimal auf die Anforderungen Ihres Betriebs abgestimmt sind."
+      }
+    }
+  }
+}

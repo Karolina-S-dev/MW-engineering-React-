@@ -1,7 +1,7 @@
 import ReactCountryFlag from "react-country-flag";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-// import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const NavItem = ({ util, isMobile }) => {
   const navigate = useNavigate();
@@ -9,8 +9,8 @@ const NavItem = ({ util, isMobile }) => {
 
   const isActiveLanguage = i18n.resolvedLanguage === util.lang;
 
-  // const location = useLocation();
-  // const isActive = location.pathname === util.route;
+  const location = useLocation();
+  const isActive = location.pathname === util.route;
 
   const redirect = () => {
     navigate(util.route);
@@ -21,7 +21,7 @@ const NavItem = ({ util, isMobile }) => {
       {util.type === "common" && (
         <button
           onClick={redirect}
-          className={`nav-button nav-button--secondary ${isMobile && "nav-button-mobile"}`}
+          className={`nav-button ${isActive ? "active" : ""} nav-button--secondary ${isMobile ? "nav-button-mobile" : ""} `}
         >
           <span>{t(util.text)}</span>
         </button>
@@ -29,7 +29,7 @@ const NavItem = ({ util, isMobile }) => {
       {util.type === "contact" && (
         <button
           onClick={redirect}
-          className={`nav-button nav-button--primary ${isMobile && "nav-button-mobile nav-button--primary-mobile"}`}
+          className={`nav-button ${isActive ? "active" : ""} nav-button--primary ${isMobile ? "nav-button-mobile nav-button--primary-mobile" : ""}`}
         >
           <span>{t(util.text)}</span>
         </button>

@@ -13,6 +13,9 @@ import deAbout from "./locales/de/about.json";
 import plProjects from "./locales/pl/projects.json";
 import enProjects from "./locales/en/projects.json";
 import deProjects from "./locales/de/projects.json";
+import plContact from "./locales/pl/contact.json";
+import enContact from "./locales/en/contact.json";
+import deContact from "./locales/de/contact.json";
 
 i18n
   .use(LanguageDetector)
@@ -24,18 +27,21 @@ i18n
         common: plCommon,
         about: plAbout,
         projects: plProjects,
+        contact: plContact,
       },
       de: {
         home: deHomeScreen,
         common: deCommon,
         about: deAbout,
         projects: deProjects,
+        contact: deContact,
       },
       en: {
         home: enHomeScreen,
         common: enCommon,
         about: enAbout,
         projects: enProjects,
+        contact: enContact,
       },
     },
     fallbackLng: "pl",
@@ -44,7 +50,7 @@ i18n
       escapeValue: false,
     },
     defaultNs: "home",
-    ns: ["home", "common", "about", "projects"],
+    ns: ["home", "common", "about", "projects", "contact"],
   });
 
 export default i18n;

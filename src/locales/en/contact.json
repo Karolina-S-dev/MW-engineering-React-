@@ -1,0 +1,23 @@
+{
+  "contactContent": {
+    "label": "CONTACT",
+    "title": "Contact us about your project",
+    "subtitle": "Are you planning an investment, modernization or maintenance of electrical and lighting infrastructure?",
+    "description": "If you're looking for a partner who understands the realities of industrial operations and delivers projects without downtime — get in touch. We have been supporting manufacturing companies for years with projects requiring reliability, cost optimization and efficient execution. We'll contact you and propose specific solutions tailored to your facility.",
+    "imageAlt": "Analysis of an electrical installation in an industrial facility",
+    "steps": {
+      "describe": {
+        "header": "Describe the scope of work",
+        "content": "Tell us about your investment project or the problem you need to solve."
+      },
+      "call": {
+        "header": "We'll call you back",
+        "content": "We'll contact you to clarify your requirements and answer your questions."
+      },
+      "proposal": {
+        "header": "We'll prepare a proposal",
+        "content": "You'll receive tailored solutions and recommendations that best meet your facility's needs."
+      }
+    }
+  }
+}

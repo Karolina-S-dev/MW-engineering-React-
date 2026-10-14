@@ -192,7 +192,6 @@
   align-items: center;
   gap: 1.6rem;
   line-height: 1.6rem;
-  margin-bottom: 1.1rem;
 }
 
 .form-menu-text {
@@ -266,8 +265,8 @@
 }
 
 .form-group textarea {
-  height: 16rem;
-  resize: none;
+  min-height: 13rem;
+  resize: vertical;
   width: 100%;
 }
 
@@ -323,6 +322,29 @@
   font-size: 2rem;
 }
 
+.form-checkbox {
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.form-checkbox input {
+  width: 1.7rem;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  accent-color: #11151b;
+  flex-shrink: 0;
+}
+
+.form-checkbox a {
+  color: #000;
+  font-weight: 700;
+}
+
+.form-checkbox label {
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+
 .btn-submit {
   background: #11151b;
   color: #fff;
@@ -366,4 +388,67 @@
 .response-div p {
   font-size: 1.3rem;
   opacity: 0.7;
+}
+
+/* ---------- TOAST ---------- */
+
+.Toastify__toast.toast-success {
+  font-weight: 600;
+  font-size: 1.4rem;
+  width: 40rem;
+  border-radius: 12px;
+  z-index: 999;
+  background: #efe8cc;
+  color: #0b3023;
+  border: 1px solid #0b3023;
+}
+
+.Toastify__progress-bar--success {
+  background: #3d835dab !important;
+}
+
+.Toastify__toast--success .Toastify__toast-icon svg {
+  fill: #0e2319;
+}
+
+.Toastify__close-button {
+  color: #0e2319;
+}
+
+.Toastify__toast.toast-error {
+  font-weight: 600;
+  font-size: 1.35rem;
+  background-color: #f7ede8;
+  color: #7a2f2f;
+  border: 1px solid #d89a92;
+  border-radius: 12px;
+  line-height: 2rem;
+  z-index: 999;
+  width: 40rem;
+}
+
+.Toastify__progress-bar--error {
+  background: #c95b5b !important;
+}
+
+.Toastify__toast--error .Toastify__toast-icon svg {
+  fill: #b84c4c;
+}
+
+/* ------------------------------------------ */
+
+.form-error-message {
+  color: #e04242;
+}
+
+.error-border {
+  border: 1px solid #e5a8a8 !important;
+}
+
+.form-checkbox input.error-checkbox {
+  appearance: none;
+  border: 1px solid #e53935;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
 }

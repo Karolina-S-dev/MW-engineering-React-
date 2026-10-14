@@ -1,21 +1,18 @@
 const contactStepsData = [
   {
     number: "01",
-    header: "Opisz zakres prac",
-    content:
-      "Napisz, czego dotyczy Twoja inwestycja lub problem do rozwiązania.",
+    header: "contactContent.steps.describe.header",
+    content: "contactContent.steps.describe.content",
   },
-   {
+  {
     number: "02",
-    header: "Oddzwonimy",
-    content:
-      "Skontaktujemy się z Tobą, aby doprecyzować potrzeby i odpowiedzieć na pytania.",
+    header: "contactContent.steps.call.header",
+    content: "contactContent.steps.call.content",
   },
-   {
+  {
     number: "03",
-    header: "Przygotujemy propozycję",
-    content:
-      "Otrzymasz dopasowane rozwiązania i rekomendacje najlepiej odpowiadające Twojemu zakładowi.",
+    header: "contactContent.steps.proposal.header",
+    content: "contactContent.steps.proposal.content",
   },
 ];
 
