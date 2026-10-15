@@ -27,6 +27,7 @@ function App() {
         closeOnClick
         newestOnTop
         style={{ top: "40px" }}
+        hideProgressBar
       />
     </>
   );

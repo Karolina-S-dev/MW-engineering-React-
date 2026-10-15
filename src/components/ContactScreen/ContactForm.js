@@ -10,7 +10,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitting },
     resetField,
     setValue,
     control,
@@ -33,25 +33,32 @@ const ContactForm = () => {
   }, [setFocus]);
 
   const submitFunction = async (data) => {
-    await emailjs.send(
-      process.env.REACT_APP_EMAILJS_SERVICE_ID,
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-      data,
-      process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-    );
+    try {
+      await emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        data,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+      );
 
-    resetField("from_full_name");
-    resetField("from_company");
-    resetField("from_email");
-    resetField("from_phone");
-    resetField("from_position");
-    resetField("from_message");
-    resetField("from_privacy");
+      resetField("from_full_name");
+      resetField("from_company");
+      resetField("from_email");
+      resetField("from_phone");
+      resetField("from_position");
+      resetField("from_message");
+      resetField("from_privacy");
 
-    toast.success("Dziękujemy. Wiadomość została wysłana!", {
-      position: "top-center",
-      className: "toast-success",
-    });
+      toast.success("Dziękujemy. Wiadomość została wysłana!", {
+        position: "top-center",
+        className: "toast-success",
+      });
+    } catch (error) {
+      toast.error("Nie udało się wysłać wiadomości. Spróbuj ponownie.", {
+        position: "top-center",
+        className: "toast-error",
+      });
+    }
   };
 
   const errorFunction = () => {
@@ -213,17 +220,30 @@ const ContactForm = () => {
 
         {/* --------------- Submit Button -------------- */}
         <div className="form-button">
-          <button className="btn-submit" type="submit">
-            Wyślij zapytanie
+          <button className="btn-submit" type="submit" disabled={isSubmitting}>
+            {isSubmitting ? "Wysyłanie ..." : "Wyślij zapytanie"}
           </button>
         </div>
 
         {/* --------------- Company Info -------------- */}
-
         <div className="response-div">
           <ion-icon name="checkmark-outline"></ion-icon>
           <p>Odpowiadamy zwykle w ciągu 24h</p>
         </div>
+
+        {/* --------------- Documentation Info -------------- */}
+        <a href="mailto:biuro@mw-engineering.pl" className="form-documentation-info flex-row">
+          <ion-icon name="attach-outline"></ion-icon>
+          <div className="flex-col">
+            <p className="form-documentation-info-desc">
+              Dokumentację projektową możesz przesłać bezpośrednio e-mailem.
+            </p>
+            <div className="flex-row form-documentation-info-button">
+              <p>Wyślij dokumentację</p>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </a>
       </motion.form>
     </>
   );
