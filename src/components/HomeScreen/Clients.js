@@ -1,10 +1,17 @@
 import { useTranslation } from "react-i18next";
 import { carouselLogosData } from "../../utils/HomeScreen/carouselLogos";
+import { motion } from "motion/react";
 
 const Clients = () => {
   const { t } = useTranslation("home");
   return (
-    <section className="clients">
+    <motion.section
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="clients"
+    >
       <h2 className="clients-header">{t("clients.title")}</h2>
       <div className="carousel-main-div">
         <div className="carousel-track">
@@ -31,7 +38,7 @@ const Clients = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

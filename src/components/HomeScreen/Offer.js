@@ -1,12 +1,19 @@
 import { useTranslation } from "react-i18next";
 import { offerCardData } from "../../utils/HomeScreen/offerCard";
 import OfferCard from "./OfferCard";
+import { motion } from "motion/react";
 
 const Offer = () => {
   const { t } = useTranslation("home");
   return (
     <>
-      <section className="home-offer-section section-light">
+      <motion.section
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="home-offer-section section-light"
+      >
         <div className="home-offer-container">
           <div className="home-offer-intro">
             <h2>
@@ -21,7 +28,7 @@ const Offer = () => {
             ))}
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

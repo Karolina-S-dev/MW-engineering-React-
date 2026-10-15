@@ -1,11 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { industriesData } from "../../utils/AboutScreen/industries";
+import { motion } from "motion/react";
 
 const Industries = () => {
   const { t } = useTranslation("about");
   return (
     <>
-      <section className="industries-section">
+      <motion.section
+        initial={{ opacity: 0, y: 15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="industries-section"
+      >
         <div className="industries-header flex-col">
           <p className="section-label">{t("industries.label")}</p>
           <h2 className="section-title section-title--light section-title--underline">
@@ -20,7 +27,7 @@ const Industries = () => {
                 <img src={item.image} alt={item.alt} />
                 <p>{t(item.text)}</p>
               </div>
-              <a className="realization-links" href={item.link}>
+              <a href="/projects" className="realization-links">
                 <span className="realization-link">
                   {t("industries.projectsButton")}
                 </span>
@@ -34,7 +41,7 @@ const Industries = () => {
             {t("industries.description")}
           </p>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

@@ -1,11 +1,17 @@
 import { proofLogosData } from "../../utils/HomeScreen/proofLogos";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const Proof = () => {
   const { t } = useTranslation("home");
 
   return (
-    <section>
+    <motion.section
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
       <div className="home-proof-container">
         <h2>{t("proof.title")}</h2>
         <div className="home-proof-stats">
@@ -39,7 +45,7 @@ const Proof = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

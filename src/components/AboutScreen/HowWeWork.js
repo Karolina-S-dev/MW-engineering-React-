@@ -1,6 +1,7 @@
 import { howWeWorkData } from "../../utils/AboutScreen/howWeWork";
 import safetyIconDark from "../../assets/img/about/safety-icon-dark.png";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const HowWeWork = () => {
   const { t } = useTranslation("about");
@@ -14,7 +15,13 @@ const HowWeWork = () => {
           </h2>
           <p className="work-subtitle">{t("howWeWork.subtitle")}</p>
         </div>
-        <div className="process-container-row">
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="process-container-row"
+        >
           {howWeWorkData.map((item) => (
             <div className="process-card-main" key={item.id}>
               <div className="process-card flex-col">
@@ -24,7 +31,7 @@ const HowWeWork = () => {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
         <div className="work-banner">
           <img src={safetyIconDark} alt="" />
           <p>{t("howWeWork.banner")}</p>

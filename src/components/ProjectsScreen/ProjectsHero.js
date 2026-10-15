@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import heroMovie from "../../assets/img/movies/hero-movie.mp4";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const ProjectsHero = () => {
   const videoRef = useRef(null);
@@ -23,12 +24,16 @@ const ProjectsHero = () => {
         >
           <source src={heroMovie} type="video/mp4" />
         </video>
-        <div className="hero-content">
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="hero-content"
+        >
           <p className="section-label">{t("hero.label")}</p>
           <h1>{t("hero.title")}</h1>
-          <p className="hero-description">
-            {t("hero.description")}
-          </p>
+          <p className="hero-description">{t("hero.description")}</p>
 
           <div className="hero-stats">
             <div className="hero-stat">
@@ -59,7 +64,7 @@ const ProjectsHero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
     </>
   );

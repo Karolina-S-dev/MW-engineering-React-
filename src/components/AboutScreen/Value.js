@@ -1,12 +1,19 @@
 import { valueData } from "../../utils/AboutScreen/value";
 import factoryValuePhoto from "../../assets/img/about/factory-value-photo.png";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const Value = () => {
   const { t } = useTranslation("about");
   return (
     <>
-      <section className="value-section section-padding">
+      <motion.section
+        initial={{ opacity: 0, y: 15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="value-section section-padding"
+      >
         <div className="value-content flex-col">
           <div className="value-section-main flex-col">
             <p className="section-label">{t("value.label")}</p>
@@ -39,7 +46,7 @@ const Value = () => {
             alt={t("value.imageAlt")}
           />
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

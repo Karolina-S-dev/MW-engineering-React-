@@ -1,6 +1,7 @@
 import { useState } from "react";
 import GalleryLightbox from "./Lightbox";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const ProjectCardSingle = ({ category }) => {
   const project = category.projects[0];
@@ -9,7 +10,13 @@ const ProjectCardSingle = ({ category }) => {
 
   return (
     <>
-      <div className="single-card">
+      <motion.div
+        initial={{ opacity: 0.2, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="single-card"
+      >
         <img src={project.cardPhoto} alt={project.cardPhotoAlt} />
         <div className="single-card-overlay">
           <h3>{project.cardTitle}</h3>
@@ -37,7 +44,7 @@ const ProjectCardSingle = ({ category }) => {
           isGalleryOpen={isGalleryOpen}
           setIsGalleryOpen={setIsGalleryOpen}
         />
-      </div>
+      </motion.div>
     </>
   );
 };

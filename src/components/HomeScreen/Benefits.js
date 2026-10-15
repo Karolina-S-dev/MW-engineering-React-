@@ -1,10 +1,17 @@
 import { useTranslation } from "react-i18next";
 import industrialEngineeringPhoto from "../../assets/img/home/industrial-engineering-photo.png";
+import { motion } from "motion/react";
 
 const Benefits = () => {
   const { t } = useTranslation("home");
   return (
-    <section className="section-dark">
+    <motion.section
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="section-dark"
+    >
       <div className="home-benefits-container">
         <div className="home-benefits-content">
           <h2>{t("benefits.title")}</h2>
@@ -35,7 +42,7 @@ const Benefits = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

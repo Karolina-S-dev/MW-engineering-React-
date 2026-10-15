@@ -1,11 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { whyUsData } from "../../utils/AboutScreen/whyUs";
+import { motion } from "motion/react";
 
 const WhyUs = () => {
   const { t } = useTranslation("about");
   return (
     <>
-      <section className="why-us-section section-padding">
+      <motion.section
+        initial={{ opacity: 0, y: 15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="why-us-section section-padding"
+      >
         {/* <!-- LEFT-COLUMN --> */}
         <div className="why-us-intro flex-col">
           <p className="section-label">{t("whyUs.label")}</p>
@@ -28,7 +35,7 @@ const WhyUs = () => {
             </div>
           ))}
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

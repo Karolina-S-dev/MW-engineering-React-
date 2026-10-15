@@ -1,6 +1,7 @@
 import { useState } from "react";
 import GalleryLightbox from "./Lightbox";
 import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 
 const ProjectCard = ({ project, category }) => {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
@@ -8,7 +9,13 @@ const ProjectCard = ({ project, category }) => {
 
   return (
     <>
-      <div className={`project-card ${category.cardBackgroundColor}`}>
+      <motion.div
+        initial={{ opacity: 0.2, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className={`project-card ${category.cardBackgroundColor}`}
+      >
         <div className="project-card-img">
           <img src={project.cardPhoto} alt={project.cardPhotoAlt} />
         </div>
@@ -38,7 +45,7 @@ const ProjectCard = ({ project, category }) => {
           isGalleryOpen={isGalleryOpen}
           setIsGalleryOpen={setIsGalleryOpen}
         />
-      </div>
+      </motion.div>
     </>
   );
 };
