@@ -221,7 +221,7 @@
 }
 
 .form-ion-icon-and-data-row ion-icon {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   background-color: #11151b;
   border-radius: 6px;
@@ -360,7 +360,7 @@
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  margin: 1rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .btn-submit:hover {
@@ -452,3 +452,62 @@
   width: 16px;
   height: 16px;
 }
+
+/* ---------- PhoneInput ---------- */
+
+.react-tel-input .form-control {
+  width: 10rem !important;
+  height: 100% !important;
+  border: none !important;
+  padding-left: 5.5rem !important;
+  padding-right: 0rem !important;
+  border-bottom: none !important;
+  border-radius: 0px !important;
+  font-size: 1.4rem !important;
+}
+
+.react-tel-input {
+  width: 11rem !important;
+}
+
+.react-tel-input .country-list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem !important;
+  overflow-x: hidden !important;
+}
+
+.react-tel-input .country-list .search-box {
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px !important;
+  font-size: 1.4rem !important;
+  padding: 0.7rem !important;
+}
+
+.search {
+  display: flex;
+}
+
+.search-emoji {
+  display: flex;
+  align-items: center;
+}
+
+.react-tel-input .flag {
+  width: 23px !important;
+  height: 19px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: #fff !important;
+  border-bottom: none !important;
+}
+
+/* ---------- Language change flag ---------- */
+.emoji-flag {
+  width: 2.3rem !important;
+  height: 1.6rem !important;
+  margin-right: 0.6rem;
+}
+
