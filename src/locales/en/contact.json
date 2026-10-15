@@ -19,5 +19,41 @@
         "content": "You'll receive tailored solutions and recommendations that best meet your facility's needs."
       }
     }
+  },
+  "form": {
+    "country":"Poland",
+    "fullName": "Full name",
+    "company": "Company",
+    "email": "Email",
+    "position": "Position",
+    "phone": "Phone number",
+    "message": "Message",
+    "namePlaceholder": "Full name",
+    "companyPlaceholder": "Company name",
+    "emailPlaceholder": "Email address",
+    "positionPlaceholder": "Enter your position",
+    "phonePlaceholder": "Enter your phone number",
+    "messagePlaceholder": "Enter your message",
+    "privacyBefore": "I have read the",
+    "privacyLink": "Privacy Policy",
+    "privacyAfter": "and consent to the processing of my personal data for the purpose of responding to my enquiry.",
+    "submit": "Send enquiry",
+    "submitting": "Sending ...",
+    "responseTime": "We usually respond within 24 hours"
+  },
+  "documentation": {
+    "description": "You can send project documentation directly by email.",
+    "button": "Send documentation"
+  },
+  "validation": {
+    "required": "This field is required",
+    "fullName": "Please enter a valid name",
+    "email": "Invalid email address",
+    "message": "Please enter your message"
+  },
+  "toast": {
+    "success": "Thank you. Your message has been sent!",
+    "error": "Your message could not be sent. Please try again.",
+    "validation": "Please check the form fields."
   }
 }

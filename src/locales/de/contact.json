@@ -3,7 +3,7 @@
     "label": "KONTAKT",
     "title": "Kontaktieren Sie uns bezüglich Ihres Projekts",
     "subtitle": "Planen Sie eine Investition, Modernisierung oder Instandhaltung Ihrer Elektro- und Beleuchtungsinfrastruktur?",
-    "description": "Wenn Sie einen Partner suchen, der die Anforderungen industrieller Betriebsabläufe versteht und Projekte ohne Produktionsunterbrechungen umsetzt – nehmen Sie Kontakt mit uns auf. Seit Jahren unterstützen wir Produktionsunternehmen bei Projekten, die Zuverlässigkeit, Kostenoptimierung und eine effiziente Umsetzung erfordern. Wir melden uns bei Ihnen und schlagen konkrete Lösungen vor, die auf Ihren Betrieb abgestimmt sind.",
+    "description": "Wenn Sie einen Partner suchen, der die Anforderungen industrieller Betriebsabläufe versteht und Projekte ohne Produktionsunterbrechungen umsetzt - nehmen Sie Kontakt mit uns auf. Seit Jahren unterstützen wir Produktionsunternehmen bei Projekten, die Zuverlässigkeit, Kostenoptimierung und eine effiziente Umsetzung erfordern. Wir melden uns bei Ihnen und schlagen konkrete Lösungen vor, die auf Ihren Betrieb abgestimmt sind.",
     "imageAlt": "Analyse einer Elektroinstallation in einem Industriebetrieb",
     "steps": {
       "describe": {
@@ -19,5 +19,41 @@
         "content": "Sie erhalten maßgeschneiderte Lösungen und Empfehlungen, die optimal auf die Anforderungen Ihres Betriebs abgestimmt sind."
       }
     }
+  },
+  "form": {
+    "country": "Polen",
+    "fullName": "Vor- und Nachname",
+    "company": "Unternehmen",
+    "email": "E-Mail",
+    "position": "Position",
+    "phone": "Telefonnummer",
+    "message": "Nachricht",
+    "namePlaceholder": "Vor- und Nachname",
+    "companyPlaceholder": "Unternehmensname",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "positionPlaceholder": "Geben Sie Ihre Position ein",
+    "phonePlaceholder": "Geben Sie Ihre Telefonnummer ein",
+    "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
+    "privacyBefore": "Ich habe die",
+    "privacyLink": "Datenschutzerklärung",
+    "privacyAfter": "gelesen und stimme der Verarbeitung meiner personenbezogenen Daten zur Beantwortung meiner Anfrage zu.",
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet ...",
+    "responseTime": "Wir antworten in der Regel innerhalb von 24 Stunden"
+  },
+  "documentation": {
+    "description": "Sie können Ihre Projektdokumentation direkt per E-Mail senden.",
+    "button": "Projektdokumentation senden"
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "fullName": "Bitte geben Sie einen gültigen Namen ein",
+    "email": "Ungültige E-Mail-Adresse",
+    "message": "Bitte geben Sie Ihre Nachricht ein"
+  },
+  "toast": {
+    "success": "Vielen Dank. Ihre Nachricht wurde gesendet!",
+    "error": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "validation": "Bitte überprüfen Sie Ihre Angaben im Formular."
   }
 }

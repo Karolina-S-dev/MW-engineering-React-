@@ -1,23 +1,59 @@
 {
-    "contactContent": {
+  "contactContent": {
     "label": "KONTAKT",
     "title": "Skontaktuj się w sprawie realizacji",
     "subtitle": "Realizujesz inwestycję, modernizację lub utrzymanie infrastruktury elektrycznej i oświetleniowej?",
     "description": "Jeśli szukasz partnera, który rozumie realia pracy zakładów przemysłowych i dowozi projekty bez przestojów — zostaw kontakt. Od lat wspieramy firmy produkcyjne w projektach wymagających niezawodności, optymalizacji kosztów i sprawnej realizacji. Odezwiemy się i zaproponujemy konkretne rozwiązania dopasowane do Twojego zakładu.",
     "imageAlt": "Analiza instalacji elektrycznej w zakładzie przemysłowym",
     "steps": {
-    "describe": {
-      "header": "Opisz zakres prac",
-      "content": "Napisz, czego dotyczy Twoja inwestycja lub problem do rozwiązania."
-    },
-    "call": {
-      "header": "Oddzwonimy",
-      "content": "Skontaktujemy się z Tobą, aby doprecyzować potrzeby i odpowiedzieć na pytania."
-    },
-    "proposal": {
-      "header": "Przygotujemy propozycję",
-      "content": "Otrzymasz dopasowane rozwiązania i rekomendacje najlepiej odpowiadające Twojemu zakładowi."
+      "describe": {
+        "header": "Opisz zakres prac",
+        "content": "Napisz, czego dotyczy Twoja inwestycja lub problem do rozwiązania."
+      },
+      "call": {
+        "header": "Oddzwonimy",
+        "content": "Skontaktujemy się z Tobą, aby doprecyzować potrzeby i odpowiedzieć na pytania."
+      },
+      "proposal": {
+        "header": "Przygotujemy propozycję",
+        "content": "Otrzymasz dopasowane rozwiązania i rekomendacje najlepiej odpowiadające Twojemu zakładowi."
+      }
     }
-  }
+  },
+  "form": {
+    "country":"Polska",
+    "fullName": "Imię i nazwisko",
+    "company": "Firma",
+    "email": "Email",
+    "position": "Stanowisko",
+    "phone": "Numer telefonu",
+    "message": "Wiadomość",
+    "namePlaceholder": "Imię i nazwisko",
+    "companyPlaceholder": "Firma",
+    "emailPlaceholder": "Adres e-mail",
+    "positionPlaceholder": "Podaj swoje stanowisko",
+    "phonePlaceholder": "Podaj swój numer telefonu",
+    "messagePlaceholder": "Wpisz swoją wiadomość",
+    "privacyBefore": "Zapoznałem(-am) się z",
+    "privacyLink": "Polityką Prywatności",
+    "privacyAfter": "i wyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na przesłane zapytanie.",
+    "submit": "Wyślij zapytanie",
+    "submitting": "Wysyłanie ...",
+    "responseTime": "Odpowiadamy zwykle w ciągu 24h"
+  },
+  "documentation": {
+    "description": "Dokumentację projektową możesz przesłać bezpośrednio e-mailem.",
+    "button": "Wyślij dokumentację"
+  },
+  "validation": {
+    "required": "To pole jest wymagane",
+    "fullName": "Wpisz poprawne imię i nazwisko",
+    "email": "Nieprawidłowy adres e-mail",
+    "message": "Wpisz treść wiadomości"
+  },
+  "toast": {
+    "success": "Dziękujemy. Wiadomość została wysłana!",
+    "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie.",
+    "validation": "Uzupełnij wymagane pola."
   }
 }

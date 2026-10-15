@@ -5,8 +5,10 @@ import InputPhone from "./InputPhone";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
+  const { t } = useTranslation("contact");
   const {
     register,
     handleSubmit,
@@ -38,7 +40,9 @@ const ContactForm = () => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         data,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        },
       );
 
       resetField("from_full_name");
@@ -49,12 +53,12 @@ const ContactForm = () => {
       resetField("from_message");
       resetField("from_privacy");
 
-      toast.success("Dziękujemy. Wiadomość została wysłana!", {
+      toast.success(t("toast.success"), {
         position: "top-center",
         className: "toast-success",
       });
     } catch (error) {
-      toast.error("Nie udało się wysłać wiadomości. Spróbuj ponownie.", {
+      toast.error(t("toast.error"), {
         position: "top-center",
         className: "toast-error",
       });
@@ -62,7 +66,7 @@ const ContactForm = () => {
   };
 
   const errorFunction = () => {
-    toast.error("Uzupełnij wymagane pola", {
+    toast.error(t("toast.validation"), {
       position: "top-center",
       className: "toast-error",
     });
@@ -89,7 +93,7 @@ const ContactForm = () => {
           </div>
           <div className="form-menu-text">
             <p>ul. Spacerowa 10H/2 </p>
-            <p>26-052 Zagrody, Polska</p>
+            <p>26-052 Zagrody, {t("form.country")}</p>
           </div>
         </div>
         <div className="form-ion-icon-and-data-row">
@@ -101,16 +105,16 @@ const ContactForm = () => {
         <div className="form-group-row">
           {/* --------------- Input Name -------------- */}
           <div className="form-group">
-            <label htmlFor="name">Imię i nazwisko*</label>
+            <label htmlFor="name">{t("form.fullName")}*</label>
             <input
               type="text"
-              placeholder="Imię i nazwisko"
+              placeholder={t("form.namePlaceholder")}
               id="name"
               autoComplete="name"
               {...register("from_full_name", {
-                required: "To pole jest wymagane",
+                required: t("validation.required"),
                 validate: (value) =>
-                  value.trim().length >= 2 || "Wpisz poprawne imię i nazwisko",
+                  value.trim().length >= 2 || t("validation.fullName"),
               })}
               className={errors.from_full_name?.message && "error-border"}
             />
@@ -120,14 +124,14 @@ const ContactForm = () => {
           </div>
           {/* --------------- Input Company -------------- */}
           <div className="form-group">
-            <label htmlFor="company">Firma*</label>
+            <label htmlFor="company">{t("form.company")}*</label>
             <input
               type="text"
-              placeholder="Firma"
+              placeholder={t("form.companyPlaceholder")}
               id="company"
               autoComplete="organization"
               {...register("from_company", {
-                required: "To pole jest wymagane",
+                required: t("validation.required"),
               })}
               className={errors.from_company?.message && "error-border"}
             />
@@ -137,17 +141,17 @@ const ContactForm = () => {
         <div className="form-group-row">
           {/* --------------- Input E-mail -------------- */}
           <div className="form-group">
-            <label htmlFor="email">Email*</label>
+            <label htmlFor="email">{t("form.email")}*</label>
             <input
               type="email"
-              placeholder="Adres e-mail"
+              placeholder={t("form.emailPlaceholder")}
               id="email"
               autoComplete="email"
               {...register("from_email", {
-                required: "To pole jest wymagane",
+                required: t("validation.required"),
                 pattern: {
                   value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                  message: "Nieprawidłowy adres e-mail",
+                  message: t("validation.email"),
                 },
               })}
               className={errors.from_email?.message && "error-border"}
@@ -157,10 +161,10 @@ const ContactForm = () => {
 
           {/* --------------- Input Position -------------- */}
           <div className="form-group">
-            <label htmlFor="position">Stanowisko</label>
+            <label htmlFor="position">{t("form.position")}</label>
             <input
               type="text"
-              placeholder="Podaj swoje stanowisko"
+              placeholder={t("form.positionPlaceholder")}
               id="position"
               {...register("from_position")}
             />
@@ -178,14 +182,14 @@ const ContactForm = () => {
 
         {/* --------------- Input Message -------------- */}
         <div className="form-group">
-          <label htmlFor="message">Wiadomość*</label>
+          <label htmlFor="message">{t("form.message")}*</label>
           <textarea
             id="message"
-            placeholder="Wpisz swoją wiadomość"
+            placeholder={t("form.messagePlaceholder")}
             {...register("from_message", {
-              required: "To pole jest wymagane",
+              required: t("validation.required"),
               validate: (value) =>
-                value.trim().length > 0 || "Wpisz treść wiadomości",
+                value.trim().length > 0 || t("validation.message"),
             })}
             className={errors.from_message?.message && "error-border"}
           ></textarea>
@@ -205,15 +209,14 @@ const ContactForm = () => {
             type="checkbox"
             id="privacy"
             {...register("from_privacy", {
-              required: "To pole jest wymagane",
+              required: t("validation.required"),
             })}
             className={errors.from_privacy?.message && "error-checkbox"}
           />
           <label htmlFor="privacy">
-            Zapoznałem(-am) się z{" "}
-            <a href="/privacy-policy">Polityką Prywatności</a> i wyrażam zgodę
-            na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi
-            na przesłane zapytanie.
+            {t("form.privacyBefore")}{" "}
+            <a href="/privacy-policy">{t("form.privacyLink")}</a>{" "}
+            {t("form.privacyAfter")}
           </label>
         </div>
         <p className="form-error-message">{errors.from_privacy?.message}</p>
@@ -221,25 +224,28 @@ const ContactForm = () => {
         {/* --------------- Submit Button -------------- */}
         <div className="form-button">
           <button className="btn-submit" type="submit" disabled={isSubmitting}>
-            {isSubmitting ? "Wysyłanie ..." : "Wyślij zapytanie"}
+            {isSubmitting ? t("form.submitting") : t("form.submit")}
           </button>
         </div>
 
         {/* --------------- Company Info -------------- */}
         <div className="response-div">
           <ion-icon name="checkmark-outline"></ion-icon>
-          <p>Odpowiadamy zwykle w ciągu 24h</p>
+          <p>{t("form.responseTime")}</p>
         </div>
 
         {/* --------------- Documentation Info -------------- */}
-        <a href="mailto:biuro@mw-engineering.pl" className="form-documentation-info flex-row">
+        <a
+          href="mailto:biuro@mw-engineering.pl"
+          className="form-documentation-info flex-row"
+        >
           <ion-icon name="attach-outline"></ion-icon>
           <div className="flex-col">
             <p className="form-documentation-info-desc">
-              Dokumentację projektową możesz przesłać bezpośrednio e-mailem.
+              {t("documentation.description")}
             </p>
             <div className="flex-row form-documentation-info-button">
-              <p>Wyślij dokumentację</p>
+              <p>{t("documentation.button")}</p>
               <ion-icon name="arrow-forward-outline"></ion-icon>
             </div>
           </div>

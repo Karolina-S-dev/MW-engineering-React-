@@ -1,10 +1,12 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Controller } from "react-hook-form";
+import { useTranslation } from "react-i18next";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/high-res.css";
 
 const InputPhone = ({ register, errors, control, setValue }) => {
+  const { t } = useTranslation("contact");
   const [localization, setLocalization] = useState(null);
 
   // detection of user localization
@@ -28,7 +30,7 @@ const InputPhone = ({ register, errors, control, setValue }) => {
   return (
     <>
       <div className="form-group">
-        <label htmlFor="phone">Numer telefonu*</label>
+        <label htmlFor="phone">{t("form.phone")}*</label>
 
         {/* React-Phone-Input-2 (biblioteka)*/}
         <div className="flex-row">
@@ -49,11 +51,11 @@ const InputPhone = ({ register, errors, control, setValue }) => {
 
           <input
             type="tel"
-            placeholder="Podaj swój numer telefonu"
+            placeholder={t("form.phonePlaceholder")}
             id="phone"
             autoComplete="tel"
             {...register("from_phone", {
-              required: "To pole jest wymagane",
+              required: t("validation.required"),
             })}
             className={errors.from_phone?.message && "error-border"}
           />
