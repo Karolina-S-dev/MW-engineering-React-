@@ -5,7 +5,8 @@
     "home": "HOME",
     "about": "ABOUT US",
     "projects": "PROJECTS",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "question": "HAVE A PROJECT TO REALIZE?"
   },
   "footer": {
     "companyData": "Company details",

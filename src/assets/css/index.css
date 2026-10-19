@@ -29,7 +29,6 @@ header {
 }
 
 .header-tagline {
-  color: #fff;
   font-size: 1.2rem;
   color: #b1b1b1;
   letter-spacing: 1px;
@@ -167,13 +166,13 @@ header {
 }
 
 .header-section-mobile {
-  padding: 4rem 5rem;
-  justify-content: flex-start;
+  padding: 10rem 5rem;
+  justify-content: space-between;
   position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
-  min-width: 85%;
+  width: 80%;
   background-color: #11151b;
   z-index: 999;
 }
@@ -186,31 +185,27 @@ header {
 }
 
 .header-tagline-mobile {
-  font-size: 1rem;
-  color: #b1b1b1;
+  font-size: 1.3rem;
+  color: #fff;
   letter-spacing: 1px;
-  margin-bottom: 10rem;
   position: relative;
 }
 
 .header-tagline-mobile::after {
   position: absolute;
   content: "";
-  background-color: #b1b1b1;
-  bottom: -8px;
+  background-color: #ffffff5c;
+  bottom: -15px;
   height: 1px;
-  width: 55%;
+  width: 100%;
   opacity: 0.3;
   left: 0;
 }
 
-.nav-button-mobile {
-  font-size: 1.7rem;
-  margin-bottom: 1.5rem;
-}
-
-.nav-button--primary-mobile {
-  margin-bottom: 10rem;
+.mobile-util-number {
+  margin-right: 1.5rem;
+  font-size: 2.7rem;
+  color: #ffffff61;
 }
 
 /* --------------------------- */
@@ -636,7 +631,7 @@ footer {
 footer img {
   max-width: 21rem;
   width: 100%;
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .footer-contact-and-map-data-row {

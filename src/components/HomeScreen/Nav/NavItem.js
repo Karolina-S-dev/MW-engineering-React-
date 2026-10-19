@@ -1,13 +1,10 @@
-import ReactCountryFlag from "react-country-flag";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const NavItem = ({ util, isMobile }) => {
   const navigate = useNavigate();
-  const { t, i18n } = useTranslation("common");
-
-  const isActiveLanguage = i18n.resolvedLanguage === util.lang;
+  const { t } = useTranslation("common");
 
   const location = useLocation();
   const isActive = location.pathname === util.route;
@@ -21,46 +18,23 @@ const NavItem = ({ util, isMobile }) => {
       {util.type === "common" && (
         <button
           onClick={redirect}
-          className={`nav-button ${isActive ? "active" : ""} nav-button--secondary ${isMobile ? "nav-button-mobile" : ""} `}
+          className={`nav-button ${isActive ? "active" : ""} nav-button--secondary `}
         >
-          <span>{t(util.text)}</span>
+          {isMobile ? (
+            <span className="mobile-util-number">{util.number}</span>
+          ) : null}
+          {t(util.text)}
         </button>
       )}
       {util.type === "contact" && (
         <button
           onClick={redirect}
-          className={`nav-button ${isActive ? "active" : ""} nav-button--primary ${isMobile ? "nav-button-mobile nav-button--primary-mobile" : ""}`}
+          className={`nav-button ${isActive ? "active" : ""} nav-button--primary`}
         >
-          <span>{t(util.text)}</span>
-        </button>
-      )}
-
-      {util.type === "languagePL" && (
-        <button
-          className={`language-change ${isActiveLanguage ? "active" : ""}`}
-          onClick={() => i18n.changeLanguage("pl")}
-        >
-          <ReactCountryFlag countryCode="PL" svg className="emoji-flag" />
-          {util.text}
-        </button>
-      )}
-
-      {util.type === "languageDE" && (
-        <button
-          className={`language-change ${isActiveLanguage ? "active" : ""}`}
-          onClick={() => i18n.changeLanguage("de")}
-        >
-          <ReactCountryFlag countryCode="DE" svg className="emoji-flag" />
-          {util.text}
-        </button>
-      )}
-      {util.type === "languageENG" && (
-        <button
-          className={`language-change ${isActiveLanguage ? "active" : ""}`}
-          onClick={() => i18n.changeLanguage("en")}
-        >
-          <ReactCountryFlag countryCode="GB" svg className="emoji-flag" />
-          {util.text}
+          {isMobile ? (
+            <span className="mobile-util-number">{util.number}</span>
+          ) : null}
+          {t(util.text)}
         </button>
       )}
     </>

@@ -510,13 +510,6 @@
   border-bottom: none !important;
 }
 
-/* ---------- Language change flag ---------- */
-.emoji-flag {
-  width: 2.3rem !important;
-  height: 1.6rem !important;
-  margin-right: 0.6rem;
-}
-
 /* ---------- Documentation Info ---------- */
 .form-documentation-info {
   gap: 1.5rem;

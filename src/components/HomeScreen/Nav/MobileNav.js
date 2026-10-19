@@ -6,6 +6,7 @@ import headerLogo from "../../../assets/img/header-logo.png";
 import { navUtils } from "../../../utils/HomeScreen/navUtils";
 import NavItem from "./NavItem";
 import { useTranslation } from "react-i18next";
+import LanguageChange from "./LanguageChange";
 
 const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
   // const location = useLocation();
@@ -54,6 +55,21 @@ const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
                   ))}
                 </ul>
               </nav>
+
+              <div className="flex-col mobile-nav-contact">
+                <p className="mobile-nav-contact-title">
+                  {t("header.question")}
+                </p>
+                <a
+                  href="mailto:biuro@mw-engineering.pl"
+                  className="flex-row mobile-nav-contact-link"
+                >
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <p>biuro@mw-engineering.pl</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+              <LanguageChange/>
             </motion.div>
           </div>
         )}

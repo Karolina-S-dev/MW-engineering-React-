@@ -4,6 +4,7 @@ import { navUtils } from "../../../utils/HomeScreen/navUtils";
 import NavItem from "./NavItem";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
+import LanguageChange from "./LanguageChange";
 
 const DesktopNav = ({ isMobileNavOpen }) => {
   const location = useLocation();
@@ -17,6 +18,7 @@ const DesktopNav = ({ isMobileNavOpen }) => {
           <NavItem util={util} />
         </li>
       ))}
+      <LanguageChange/>
     </ul>
   );
 
@@ -37,10 +39,18 @@ const DesktopNav = ({ isMobileNavOpen }) => {
             animate={{ y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            {navLinks}
+            <div className="flex-row">
+              {navLinks}
+              <LanguageChange />
+            </div>
           </motion.nav>
         ) : (
-          <nav>{navLinks}</nav>
+          <nav>
+            <div className="flex-row">
+              {navLinks}
+              <LanguageChange />
+            </div>
+          </nav>
         )}
       </header>
     </>
