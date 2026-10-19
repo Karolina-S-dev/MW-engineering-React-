@@ -18,7 +18,7 @@ const DesktopNav = ({ isMobileNavOpen }) => {
           <NavItem util={util} />
         </li>
       ))}
-      <LanguageChange/>
+      <LanguageChange />
     </ul>
   );
 
@@ -39,17 +39,11 @@ const DesktopNav = ({ isMobileNavOpen }) => {
             animate={{ y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <div className="flex-row">
-              {navLinks}
-              <LanguageChange />
-            </div>
+            <div className="flex-row">{navLinks}</div>
           </motion.nav>
         ) : (
           <nav>
-            <div className="flex-row">
-              {navLinks}
-              <LanguageChange />
-            </div>
+            <div className="flex-row">{navLinks}</div>
           </nav>
         )}
       </header>
