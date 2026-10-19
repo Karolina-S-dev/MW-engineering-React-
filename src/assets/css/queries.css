@@ -279,7 +279,7 @@
   }
 
   .nav-links {
-    opacity: 0;
+    display: none;
   }
 
   .header-tagline {
