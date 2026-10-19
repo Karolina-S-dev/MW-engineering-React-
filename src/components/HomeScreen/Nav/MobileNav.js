@@ -69,7 +69,7 @@ const MobileNav = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
               </div>
-              <LanguageChange/>
+              <LanguageChange />
             </motion.div>
           </div>
         )}
