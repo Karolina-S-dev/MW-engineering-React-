@@ -166,7 +166,7 @@ header {
 }
 
 .header-section-mobile {
-  padding: 10rem 5rem;
+  padding: 5rem;
   justify-content: space-between;
   position: fixed;
   right: 0;
