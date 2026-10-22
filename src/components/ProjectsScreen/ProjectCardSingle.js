@@ -18,7 +18,9 @@ const ProjectCardSingle = ({ category }) => {
         className="single-card"
       >
         <img src={project.cardPhoto} alt={project.cardPhotoAlt} />
-        <div className="single-card-overlay">
+        <div
+          className={`single-card-overlay ${category.title === "categories.aviation.title" ? "aviation-overlay" : ""}`}
+        >
           <h3>{project.cardTitle}</h3>
           <p className="project-description">
             <span>{t("categoriesCards.workRangeLabel")} </span>

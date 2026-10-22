@@ -1,20 +1,52 @@
-/* adjustment for nav width and cards icons */
-@media only screen and (max-width: 1450px) {
-  html,
-  body {
-    font-size: 9.5px !important;
+/* ----------- ABOUT ---------- */
+@media only screen and (max-width: 1500px) {
+  .industries-section {
+    padding: 7rem 3rem 12rem 9rem ;
   }
 
-  header {
-    padding: 1.5rem 7rem;
+  .work-section {
+    margin: 0 5rem ;
+    padding: 7rem 9rem ;
   }
+
+  .industries-cards-container {
+    flex: 0 0 calc(55% - 2rem) ;
+  }
+
+  .industries-description {
+    flex: 0 0 calc(20% - 2rem) ;
+  }
+
+  .industries-description-text {
+    margin: 0 1rem ;
+  }
+  .industry-card-header {
+    gap: 1.8rem;
+  }
+  .industry-card {
+    padding: 1rem;
+  }
+  .realization-links {
+    gap: 2px;
+    padding: 1.2rem 0.1rem;
+  }
+  .realization-link {
+    font-size: 1.1rem ;
+  }
+}
+
+/* HOME and PROJECTS */
+@media only screen and (max-width: 1450px) {
+  /* --------------------------- */
+  /* ----------- HOME ---------- */
+  /* --------------------------- */
 
   .nav-links {
     gap: 0;
   }
 
   .home-offer-container {
-    padding: 4rem;
+    padding: 3rem;
   }
 
   .home-offer-cards-div {
@@ -68,13 +100,109 @@
   .footer-contact-and-map-data-row {
     max-width: 68rem;
   }
+  /* --------------------------- */
+  /* --------- PROJECTS -------- */
+  /* --------------------------- */
+
+  .hero {
+    height: 56vh;
+  }
+
+  .hero::before {
+    background: linear-gradient(
+      135deg,
+      #040404 0%,
+      #1d1d1d 20%,
+      #d3ba8a5f 100%,
+      #ceaf745f 100%
+    );
+  }
+
+  .projects-section {
+    padding: 3rem 2rem;
+    gap: 2rem;
+  }
+
+  .projects-content {
+    flex: 0 0 calc(25% - 1rem);
+  }
+
+  .project-cards-row {
+    flex: 0 0 calc(75% - 1rem);
+  }
+
+  .project-description {
+    font-size: 1.45rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-card-content {
+    padding: 2rem;
+  }
+
+  .location-div {
+    margin-bottom: 1.5rem;
+  }
+
+  .single-card img {
+    aspect-ratio: 25/11;
+  }
+
+  .single-card {
+    flex: 0 0 calc(75% - 1rem);
+  }
+
+  .single-card-overlay {
+    padding: 1.5rem;
+    left: 1rem;
+    bottom: 1rem;
+    max-width: 33%;
+  }
+}
+
+/* --------- ABOUT -------- */
+@media only screen and (max-width: 1320px) {
+  .industries-section {
+    gap: 2rem ;
+    margin: 0 4rem ;
+  }
+
+  .industries-header {
+    flex: 0 0 calc(25% - 4rem / 3) ;
+  }
+
+  .industries-cards-container {
+    flex: 0 0 calc(55% - 4rem / 3) ;
+  }
+  .industries-description {
+    flex: 0 0 calc(20% - 4rem / 3) ;
+  }
+
+  .realization-links {
+    line-height: 1.7rem;
+    padding: 1rem 1.2rem;
+  }
+  .industry-card img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .industries-section::after {
+    max-width: 45rem ;
+  }
+  .work-section {
+    margin: 0 4rem;
+    padding: 7rem 3rem ;
+  }
 }
 
 /* laptops and big tablets - 1024px - 1200px */
 @media only screen and (max-width: 1200px) {
+  /* --------------------------- */
+  /* ----------- HOME ---------- */
+  /* --------------------------- */
   html,
   body {
-    font-size: 8.5px !important;
+    font-size: 8.5px ;
   }
 
   .nav-button {
@@ -84,6 +212,10 @@
 
   .home-hero-content {
     margin-left: 5rem;
+  }
+
+  .header-tagline {
+    max-width: 25rem;
   }
 
   .btn {
@@ -128,18 +260,84 @@
   .footer img {
     max-height: 4rem;
   }
-}
 
-@media only screen and (max-width: 1051px) {
-  .home-offer-container {
+  /* --------------------------- */
+  /* ----------- ABOUT ---------- */
+  /* --------------------------- */
+
+  .section-padding {
+    padding: 5rem 0 ;
+  }
+
+  .industries-section {
+    padding: 4rem 5rem 12rem 3rem ;
+    margin: 0 3rem ;
+  }
+
+  .work-section {
+    margin: 0 3rem ;
+    padding: 4rem 3rem ;
+  }
+
+  .process-card {
+    padding: 3rem 2.5rem 0 0 ;
+  }
+
+  .process-card-main:not(:last-child)::after {
+    right: 1.2rem;
+  }
+
+  .section-description {
+    margin: 1rem 0;
+  }
+
+  .industries-section::after {
+    max-width: 48rem;
+  }
+
+  /* --------------------------- */
+  /* --------- PROJECTS -------- */
+  /* --------------------------- */
+
+  .modal-gallery-content {
+    width: 90vw;
+    height: 90vh;
     padding: 3rem;
   }
-}
 
-/* adjustment for home-offer-card header  */
-@media only screen and (max-width: 800px) {
-  .home-offer-card:last-child h3 {
-    font-size: 1.65rem;
+  .gallery-scroll img {
+    max-height: 75vh;
+  }
+
+  .projects-contact-section {
+    padding: 3rem 2rem;
+  }
+
+  .projects-contact-banner {
+    padding: 3.4rem 7rem;
+  }
+
+  /* --------------------------- */
+  /* ---------- CONTACT -------- */
+  /* --------------------------- */
+
+  .contact-section {
+    padding: 5rem 3rem;
+  }
+  .contact-us-main-row {
+    gap: 3rem;
+  }
+
+  .form-contact-us-main {
+    flex: 0 0 calc(43% - 1.5rem);
+    padding: 3rem;
+  }
+
+  .contact-invitation-and-photos {
+    flex: 0 0 calc(57% - 1.5rem);
+  }
+  .contact-steps {
+    margin-bottom: 1rem;
   }
 }
 
@@ -147,7 +345,7 @@
 @media only screen and (max-width: 1023px) {
   html,
   body {
-    font-size: 7.5px !important;
+    font-size: 7.5px ;
   }
 
   header {
@@ -170,8 +368,15 @@
     gap: 0.7rem;
   }
 
+  .language-change-buttons {
+    flex-direction: column;
+  }
+  .language-change {
+    padding: 0.8rem 0.5rem;
+    font-size: 1.1rem;
+  }
+
   .home-hero-section {
-    height: 53vh;
     background-attachment: scroll;
   }
   .home-hero-content {
@@ -198,7 +403,7 @@
 
   .home-offer-card {
     padding: 1.6rem;
-    flex: 0 0 calc(25% - 0.5rem);
+    flex: 0 0 calc(50% - 0.75rem);
   }
 
   .home-offer-card img {
@@ -206,7 +411,8 @@
   }
 
   .home-offer-cards-div {
-    gap: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
 
   .home-proof-container {
@@ -259,6 +465,202 @@
   .footer-contact-and-map-data-row {
     gap: 2rem;
     max-width: 58rem;
+  }
+
+  /* --------------------------- */
+  /* ---------- ABOUT -------- */
+  /* --------------------------- */
+
+  .why-card {
+    gap: 0.2rem;
+  }
+
+  .why-card img {
+    max-width: 7rem;
+  }
+
+  .why-us-section {
+    gap: 1rem;
+    max-width: 90vw ;
+  }
+  .why-us-intro {
+    flex: 0 0 calc(40% - 0.5rem);
+  }
+  .why-us-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 calc(60% - 0.5rem);
+  }
+
+  .industries-section {
+    flex-direction: column;
+  }
+  .industries-cards-container {
+    max-width: 60vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .industry-card {
+    height: 22rem;
+  }
+
+  .industries-description-text {
+    margin: 0 0.5rem;
+    line-height: 2.3rem;
+  }
+
+  .industries-description {
+    max-width: 30rem;
+    align-self: flex-end;
+    margin-top: 5rem;
+  }
+
+  .industry-card p {
+    line-height: 2.3rem;
+  }
+
+  .process-container-row {
+    flex-direction: column;
+    width: 70vw;
+    margin-top: 2rem;
+  }
+  .work-section {
+    padding: 3rem;
+  }
+
+  .process-card {
+    border-left: 1.6px solid #e2b041 ;
+    border-top: none ;
+    padding: 2rem 0 0 2rem ;
+    margin-top: 0 ;
+  }
+
+  .process-number {
+    margin-bottom: 1rem;
+  }
+
+  .process-card p {
+    margin-top: 1.5rem;
+  }
+
+  .work-banner {
+    gap: 1rem;
+  }
+
+  .process-card-main:not(:first-child) .process-card::before {
+    top: 4rem;
+    left: 0 ;
+  }
+
+  .process-card::after {
+    height: 1.6rem ;
+    width: 1rem ;
+    top: 2.8rem ;
+    left: 0 ;
+  }
+
+  .process-card-main:not(:last-child)::after {
+    display: none;
+  }
+
+  .value-section {
+    max-width: 90vw ;
+    padding: 5rem 0 ;
+    gap: 2rem ;
+  }
+
+  .value-cards-container {
+    gap: 1rem;
+  }
+
+  .value-card {
+    flex: 0 0 calc(20% - 0.8rem);
+  }
+
+  .value-card::after {
+    right: -0.5rem ;
+  }
+
+  .section-title-mb-lg {
+    margin-bottom: 1.5rem;
+  }
+
+  .value-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  .section-title--underline::after {
+    bottom: -1rem;
+  }
+  .value-section-image {
+    flex: 0 0 calc(27% - 1rem);
+  }
+
+  .value-content {
+    flex: 0 0 calc(73% - 1rem);
+    gap: 0;
+  }
+
+  .value-card img {
+    margin-bottom: 0.8rem;
+  }
+  /* --------------------------- */
+  /* ---------- PROJECTS -------- */
+  /* --------------------------- */
+
+  .project-card {
+    width: 100%;
+  }
+
+  .single-card img {
+    aspect-ratio: 25/14;
+  }
+
+  .projects-contact-banner {
+    padding: 3rem;
+  }
+
+  .modal-gallery-content {
+    width: 90vw;
+    height: 80vh;
+    padding: 3rem;
+  }
+  /* --------------------------- */
+  /* ---------- CONTACT -------- */
+  /* --------------------------- */
+
+  .contact-us-main-row {
+    gap: 2rem;
+  }
+
+  .contact-section {
+    padding: 4rem 2rem;
+  }
+
+  .form-contact-us-main {
+    flex: 0 0 calc(45% - 1.5rem);
+    padding: 2rem;
+  }
+
+  .contact-invitation-and-photos {
+    flex: 0 0 calc(55% - 1.5rem);
+  }
+
+  .contact-steps {
+    gap: 1rem;
+  }
+
+  .contact-step {
+    flex: 0 0 calc(33% - 0.5rem);
+  }
+
+  .contact-step p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .image-wrapper img {
+    height: 20vh;
   }
 }
 
@@ -321,10 +723,14 @@
   .nav-button--primary {
     background-color: transparent;
     color: #fff;
-    padding: 1.5rem 1rem !important;
+    padding: 1.5rem 1rem ;
     font-size: 1.9rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
+  }
+
+  .language-change-buttons {
+    flex-direction: row;
   }
 
   .language-change {
@@ -341,8 +747,8 @@
   }
 
   .emoji-flag {
-    width: 2.7rem !important;
-    height: 2rem !important;
+    width: 2.7rem ;
+    height: 2rem ;
   }
 
   .mobile-nav-contact {
@@ -437,7 +843,7 @@
   }
 
   .home-offer-card h3 {
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
   }
 
   .home-offer-card p {
@@ -513,6 +919,10 @@
     font-weight: 500;
   }
 
+  .carousel-main-div {
+    width: 90vw;
+  }
+
   .carousel-group {
     gap: 1.3rem;
     padding-right: 1rem;
@@ -574,8 +984,267 @@
   .footer-bottom {
     padding: 2rem 0;
   }
+
+  /* --------------------------- */
+  /* ---------- ABOUT -------- */
+  /* --------------------------- */
+  .why-us-section {
+    flex-direction: column;
+  }
+  .section-padding {
+    padding: 2rem 0;
+  }
+  .why-us-experience-row {
+    margin-top: 1rem;
+  }
+  .why-card {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .industries-section {
+    margin: 0 2rem;
+    padding: 3rem 3rem 12rem 3rem ;
+  }
+  .industries-cards-container {
+    max-width: 75vw;
+  }
+  .industry-card {
+    flex: 0 0 calc(25% - 1rem);
+    max-height: 21rem;
+  }
+
+  .realization-links {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .industry-card-header {
+    gap: 1rem;
+  }
+
+  .industries-description {
+    justify-content: flex-start;
+  }
+
+  .work-section {
+    margin: 0 2rem;
+  }
+
+  .value-section {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .value-cards-container {
+    flex-direction: column;
+  }
+
+  .value-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .value-card h3 {
+    margin-bottom: 0;
+  }
+
+  .value-card::after {
+    width: 100% ;
+    height: 1.5px ;
+    top: 105% ;
+  }
+
+  .value-card {
+    padding: 0.5rem;
+  }
+
+  .value-content {
+    padding: 0 3rem;
+  }
+
+  .value-section-image img {
+    height: 30vh;
+  }
+
+  .value-section-image {
+    padding: 2rem 0 0 0;
+  }
+
+  .value-card img {
+    margin-bottom: 0;
+  }
+  .value-banner ion-icon {
+    font-size: 3.5rem;
+  }
+  /* --------------------------- */
+  /* ---------- PROJECTS -------- */
+  /* --------------------------- */
+
+  .hero {
+    height: 45vh;
+  }
+
+  .hero-content {
+    left: 0;
+    padding: 2rem;
+  }
+
+  .section-label {
+    margin-bottom: 1rem;
+  }
+
+  .hero-description {
+    margin-bottom: 1.5rem;
+  }
+  .hero-stats {
+    gap: 2rem;
+  }
+
+  .hero-stat {
+    gap: 0.6rem;
+    max-width: 16rem;
+    width: 100%;
+  }
+
+  .hero-stat-text span {
+    font-size: 2rem;
+  }
+
+  .hero-stat ion-icon {
+    font-size: 3.3rem;
+  }
+
+  .projects-section {
+    padding: 2rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .project-cards-row {
+    flex-direction: column;
+  }
+
+  .projects-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projects-content img {
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .projects-content h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 30vw;
+  }
+
+  .projects-content h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .projects-description {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-card-content {
+    padding: 1.5rem;
+  }
+
+  .aviation-overlay{
+    color: #000;
+  }
+
+  .location-div {
+    padding: 0.8rem 1.4rem;
+  }
+  .single-card img {
+    max-height: 30rem;
+  }
+
+  .single-card {
+    flex-direction: column;
+  }
+
+  .single-card-overlay {
+    position: static;
+    max-width: 100%;
+    background-color: transparent;
+  }
+
+  .background-transparent {
+    background-color: transparent;
+    color: #11151b;
+  }
+
+  .projects-contact-button ion-icon {
+    width: 2.8rem ;
+    height: 2.8rem ;
+  }
+  .projects-contact-banner ion-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .projects-contact-col {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1.5rem;
+    max-width: 60vw;
+  }
+
+  .projects-contact-banner {
+    padding: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .projects-contact-button {
+    padding: 1.8rem 2.2rem;
+    line-height: 2.2rem;
+    max-width: 17rem;
+  }
+
+  .modal-gallery-content {
+    width: 90vw;
+    height: 75vh;
+    padding: 2rem;
+  }
+
+  /* --------------------------- */
+  /* --------- CONTACT --------- */
+  /* --------------------------- */
+  .contact-us-main-row {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .contact-section {
+    background: linear-gradient(
+      180deg,
+      #d7d7d7 0%,
+      #dadada 45%,
+      #f5f5f5 75%,
+      #ffffff 100%
+    );
+  }
 }
 
+/* --------- ABOUT --------- */
+@media only screen and (max-width: 640px) {
+  .industries-section {
+    padding-bottom: 28rem;
+  }
+  .industries-description {
+    margin: 2rem 0;
+    max-width: 100%;
+  }
+}
+
+/* --------- HOME --------- */
 @media only screen and (max-width: 500px) {
   .home-proof-container {
     padding: 2rem 2rem;
@@ -607,7 +1276,7 @@
 @media only screen and (max-width: 400px) {
   html,
   body {
-    font-size: 7px !important;
+    font-size: 7px;
   }
 
   .home-hero-content h1 {
@@ -623,5 +1292,14 @@
   }
   .home-proof-stat:last-child strong {
     font-size: 3rem;
+  }
+
+  /* --------------------------- */
+  /* ---------- PROJECTS -------- */
+  /* --------------------------- */
+  .modal-gallery-content {
+    width: 90vw;
+    height: 65vh;
+    padding: 2rem;
   }
 }

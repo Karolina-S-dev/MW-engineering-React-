@@ -3,8 +3,7 @@ import ContactForm from "./ContactScreen/ContactForm";
 import ScreenWrapper from "./ScreenWrapper";
 import { motion } from "motion/react";
 
-import "../assets/css/contact.css";
-import "../assets/css/contact-queries.css";
+
 
 const ContactScreen = () => {
   return (

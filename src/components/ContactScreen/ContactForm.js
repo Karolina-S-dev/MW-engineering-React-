@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import InputPhone from "./InputPhone";
 import { toast } from "react-toastify";
@@ -16,7 +15,6 @@ const ContactForm = () => {
     resetField,
     setValue,
     control,
-    setFocus,
   } = useForm({
     defaultValues: {
       from_full_name: "",
@@ -29,10 +27,6 @@ const ContactForm = () => {
       from_privacy: "",
     },
   });
-
-  useEffect(() => {
-    setFocus("from_full_name");
-  }, [setFocus]);
 
   const submitFunction = async (data) => {
     try {

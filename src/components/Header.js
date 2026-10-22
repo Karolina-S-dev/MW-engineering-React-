@@ -12,7 +12,7 @@ const Header = ({ headerRef }) => {
 
   return (
     <>
-      <header ref={headerRef}>
+      <section ref={headerRef}>
         <MobileNav
           isMobileNavOpen={isMobileNavOpen}
           setIsMobileNavOpen={setIsMobileNavOpen}
@@ -23,7 +23,7 @@ const Header = ({ headerRef }) => {
             name={isMobileNavOpen ? "close-outline" : "menu-outline"}
           ></ion-icon>
         </button>
-      </header>
+      </section>
     </>
   );
 };

@@ -9,7 +9,7 @@ const LanguageChange = () => {
 
   return (
     <>
-      <div className="flex-row">
+      <div className="language-change-buttons flex-row">
         <button
           className={`language-change ${isActiveLanguagePL ? "active" : ""}`}
           onClick={() => i18n.changeLanguage("pl")}

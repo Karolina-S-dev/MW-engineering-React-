@@ -2,13 +2,13 @@
   "contactContent": {
     "label": "CONTACT",
     "title": "Contact us about your project",
-    "subtitle": "Are you planning an investment, modernization or maintenance of electrical and lighting infrastructure?",
-    "description": "If you're looking for a partner who understands the realities of industrial operations and delivers projects without downtime — get in touch. We have been supporting manufacturing companies for years with projects requiring reliability, cost optimization and efficient execution. We'll contact you and propose specific solutions tailored to your facility.",
+    "subtitle": "Are you carrying out an investment, modernization or maintenance of electrical and lighting infrastructure?",
+    "description": "If you're looking for a partner who understands the realities of industrial plant operations and delivers projects without downtime — leave your contact details. For years, we have supported manufacturing companies in projects requiring reliability, cost optimization and efficient execution. We will get in touch and propose specific solutions tailored to your plant.",
     "imageAlt": "Analysis of an electrical installation in an industrial facility",
     "steps": {
       "describe": {
         "header": "Describe the scope of work",
-        "content": "Tell us about your investment project or the problem you need to solve."
+        "content": "Write what your investment concerns or what problem needs to be solved."
       },
       "call": {
         "header": "We'll call you back",
@@ -16,7 +16,7 @@
       },
       "proposal": {
         "header": "We'll prepare a proposal",
-        "content": "You'll receive tailored solutions and recommendations that best meet your facility's needs."
+        "content": "You'll receive tailored solutions and recommendations best suited to your plant."
       }
     }
   },
@@ -36,7 +36,7 @@
     "messagePlaceholder": "Enter your message",
     "privacyBefore": "I have read the",
     "privacyLink": "Privacy Policy",
-    "privacyAfter": "and consent to the processing of my personal data for the purpose of responding to my enquiry.",
+    "privacyAfter": "and consent to the processing of my personal data for the purpose of responding to the submitted enquiry.",
     "submit": "Send enquiry",
     "submitting": "Sending ...",
     "responseTime": "We usually respond within 24 hours"

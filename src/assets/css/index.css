@@ -45,7 +45,7 @@ header {
 .nav-button {
   transition: all 0.4s ease;
   position: relative;
-  padding: 1.3rem 2.5rem;
+  padding: 1.3rem 2.1rem;
   font-size: 1.4rem;
   display: inline-flex;
   justify-content: center;
@@ -76,7 +76,7 @@ header {
   bottom: 6px;
   left: 50%;
   height: 2px;
-  width: 70%;
+  width: 7rem;
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
   transition: transform 0.4s ease;
@@ -96,7 +96,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   height: 2px;
-  width: 75%;
+  width: 7rem;
 }
 
 .nav-button--primary {
@@ -129,6 +129,10 @@ header {
   align-items: center;
   gap: 3rem;
   justify-content: center;
+}
+
+.language-change-buttons {
+  display: flex;
 }
 
 .language-change {
@@ -214,7 +218,7 @@ header {
 
 .home-hero-section {
   background-image: url(../../assets/img/home/landing-background.png);
-  height: 60vh;
+  height: 65vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -262,7 +266,7 @@ header {
   font-size: 1.7rem;
   color: #fff;
   line-height: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-weight: 400;
 }
 

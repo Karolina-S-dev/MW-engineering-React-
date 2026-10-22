@@ -1,22 +1,22 @@
 {
   "contactContent": {
     "label": "KONTAKT",
-    "title": "Kontaktieren Sie uns bezüglich Ihres Projekts",
-    "subtitle": "Planen Sie eine Investition, Modernisierung oder Instandhaltung Ihrer Elektro- und Beleuchtungsinfrastruktur?",
-    "description": "Wenn Sie einen Partner suchen, der die Anforderungen industrieller Betriebsabläufe versteht und Projekte ohne Produktionsunterbrechungen umsetzt - nehmen Sie Kontakt mit uns auf. Seit Jahren unterstützen wir Produktionsunternehmen bei Projekten, die Zuverlässigkeit, Kostenoptimierung und eine effiziente Umsetzung erfordern. Wir melden uns bei Ihnen und schlagen konkrete Lösungen vor, die auf Ihren Betrieb abgestimmt sind.",
+    "title": "Kontaktiere uns bezüglich einer Realisierung",
+    "subtitle": "Realisierst du eine Investition, eine Modernisierung oder die Instandhaltung der Elektro- und Beleuchtungsinfrastruktur?",
+    "description": "Wenn du einen Partner suchst, der die realen Arbeitsbedingungen von Industriebetrieben versteht und Projekte ohne Betriebsunterbrechungen umsetzt - hinterlasse deine Kontaktdaten. Seit Jahren unterstützen wir Produktionsunternehmen bei Projekten, die Zuverlässigkeit, Kostenoptimierung und eine effiziente Umsetzung erfordern. Wir melden uns und schlagen konkrete Lösungen vor, die auf dein Werk abgestimmt sind.",
     "imageAlt": "Analyse einer Elektroinstallation in einem Industriebetrieb",
     "steps": {
       "describe": {
-        "header": "Beschreiben Sie den Arbeitsumfang",
-        "content": "Beschreiben Sie Ihr Investitionsprojekt oder das Problem, das gelöst werden soll."
+        "header": "Beschreibe den Umfang der Arbeiten",
+        "content": "Schreibe, worum es bei deiner Investition oder dem zu lösenden Problem geht."
       },
       "call": {
-        "header": "Wir rufen Sie zurück",
-        "content": "Wir kontaktieren Sie, um Ihre Anforderungen zu klären und Ihre Fragen zu beantworten."
+        "header": "Wir rufen zurück",
+        "content": "Wir kontaktieren dich, um deine Bedürfnisse zu präzisieren und deine Fragen zu beantworten."
       },
       "proposal": {
-        "header": "Wir erstellen ein Angebot",
-        "content": "Sie erhalten maßgeschneiderte Lösungen und Empfehlungen, die optimal auf die Anforderungen Ihres Betriebs abgestimmt sind."
+        "header": "Wir bereiten einen Vorschlag vor",
+        "content": "Du erhältst angepasste Lösungen und Empfehlungen, die am besten zu deinem Werk passen."
       }
     }
   },
@@ -42,7 +42,7 @@
     "responseTime": "Wir antworten in der Regel innerhalb von 24 Stunden"
   },
   "documentation": {
-    "description": "Sie können Ihre Projektdokumentation direkt per E-Mail senden.",
+    "description": "Du kannst die Projektdokumentation direkt per E-Mail senden.",
     "button": "Projektdokumentation senden"
   },
   "validation": {

@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-size: 10px;
+  font-size: 9.5px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -39,8 +39,8 @@ a {
 
 .btn {
   font-family: "Montserrat", sans-serif;
-  padding: 1.5rem 2.5rem;
-  max-width: 22rem;
+  padding: 1.5rem 2.3rem;
+  max-width: 23rem;
   width: 100%;
   font-size: 1.4rem;
   display: inline-flex;
@@ -76,3 +76,5 @@ a {
   border-color: #fff;
   transform: translateY(-1px);
 }
+
+

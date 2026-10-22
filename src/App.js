@@ -1,12 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import "./assets/css/index.css";
-import "./assets/css/queries.css";
 import HomeScreen from "./components/HomeScreen";
 import AboutScreen from "./components/AboutScreen";
 import ProjectsScreen from "./components/ProjectsScreen";
 import ContactScreen from "./components/ContactScreen";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import { Flip, ToastContainer } from "react-toastify";
+
+import "./assets/css/index.css";
+import "./assets/css/about.css";
+import "./assets/css/projects.css";
+import "./assets/css/contact.css";
+import "./assets/css/queries.css";
 
 function App() {
   return (

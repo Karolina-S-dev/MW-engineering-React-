@@ -1,21 +1,21 @@
 {
   "hero": {
     "title1": "Industriebeleuchtung",
-    "title2": "und Elektroinstallationen, abgestimmt auf die Betriebsabläufe Ihres Unternehmens",
-    "description1": "Wir modernisieren bestehende Infrastrukturen - ",
-    "description2": "unter Berücksichtigung der Produktionsabläufe, der Arbeitsschutzanforderungen und der Optimierung der Investitionskosten.",
+    "title2": "und Elektroinstallationen, abgestimmt auf die Betriebsabläufe des Werks",
+    "description1": "Wir führen Modernisierungen innerhalb der bestehenden Infrastruktur durch - ",
+    "description2": "unter Berücksichtigung der Produktionsorganisation, der Arbeitsschutzanforderungen und der Optimierung der Investitionskosten.",
     "contactButton": "Kontaktieren Sie uns",
-    "projectsButton": "Projekt ansehen"
+    "projectsButton": "Realisierungen ansehen"
   },
 
   "offer": {
     "title1": "Umfassende Umsetzung von Elektro-",
     "title2": "und Beleuchtungsprojekten",
-    "description": "Wir realisieren Projekte nach dem Planungs- und Ausführungsmodell „Design-Build“ - von der Bestandsaufnahme über die Planung bis zur Umsetzung und Inbetriebnahme der Anlagen.",
+    "description": "Wir realisieren Projekte nach dem „Design-Build“-Modell - vom Audit über die Planung bis hin zur Umsetzung und Inbetriebnahme der Anlagen.",
     "cards": {
       "lighting": {
         "title": "Industriebeleuchtung",
-        "content": "Planung und Modernisierung der Allgemein- und Notbeleuchtung - unter Berücksichtigung geltender Normen, Arbeitsbedingungen und Energieeffizienz."
+        "content": "Planung und Modernisierung der Allgemein- und Notbeleuchtung - unter Berücksichtigung von Normen, Arbeitsbedingungen und Energieeffizienz."
       },
       "installations": {
         "title": "Elektroinstallationen",
@@ -23,11 +23,11 @@
       },
       "control": {
         "title": "Steuerungssysteme",
-        "content": "Planung und Implementierung von Beleuchtungssteuerungssystemen (u. a. WAGO, Helvar, Signify), abgestimmt auf die spezifischen Anforderungen des Betriebs."
+        "content": "Planung und Implementierung von Beleuchtungssteuerungssystemen (u. a. WAGO, Helvar, Signify), abgestimmt auf die spezifischen Gegebenheiten des Werks."
       },
       "modernization": {
         "title": "Modernisierung und Optimierung",
-        "content": "Analyse bestehender Anlagen und Auswahl geeigneter Lösungen zur Senkung der Investitions- und Betriebskosten."
+        "content": "Analyse der bestehenden Installation und Auswahl von Lösungen, die eine Reduzierung der Investitions- und Betriebskosten ermöglichen."
       }
     }
   },
