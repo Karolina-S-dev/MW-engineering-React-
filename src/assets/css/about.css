@@ -68,7 +68,7 @@
   margin-top: 8rem;
 }
 
-.why-us-experience-row::before {
+/* .why-us-experience-row::before {
   position: absolute;
   content: "";
   background: #e2b041;
@@ -76,7 +76,7 @@
   height: 2px;
   left: 0;
   top: -2rem;
-}
+} */
 
 .why-us-experience-row ion-icon {
   font-size: 6rem;
@@ -439,7 +439,7 @@
 .value-section {
   display: flex;
   gap: 4rem;
-  max-width: 85vw;
+  max-width: 90vw;
   margin: 0 auto;
   align-items: stretch;
 }
@@ -496,6 +496,7 @@
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 2rem;
+  overflow-wrap: anywhere;
 }
 
 .value-banner {

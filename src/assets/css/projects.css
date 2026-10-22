@@ -54,10 +54,11 @@
   position: absolute;
   content: "";
   background-color: #e2b041;
-  height: 1.5px;
+  height: 2px;
   width: 5rem;
-  left: 14rem;
+  right: 0;
   top: 50%;
+  transform: translateX(120%);
 }
 
 .hero-content h1 {
@@ -136,6 +137,7 @@
   font-size: 2.6rem;
   position: relative;
   margin-bottom: 4rem;
+  overflow-wrap: anywhere;
 }
 
 .projects-content h2::after {
@@ -244,8 +246,7 @@
   padding: 1rem 1.4rem;
   width: fit-content;
   gap: 0.6rem;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  border-radius: 8px;  
   margin-top: auto;
 }
 
@@ -268,6 +269,7 @@
   border-radius: 8px;
   z-index: 4;
   position: relative;
+  height: 44rem;
 }
 
 .single-card img {
@@ -296,7 +298,7 @@
   z-index: 5;
   padding: 2rem 2.5rem;
   border-radius: 8px;
-  max-width: 25%;
+  max-width: 35%;
   display: flex;
   flex-direction: column;
 }
@@ -403,6 +405,7 @@
   right: 2rem;
   transition: all 0.3s ease;
   align-self: flex-end;
+  margin-top: 2rem;
 }
 
 .btn-activate-modal:hover {

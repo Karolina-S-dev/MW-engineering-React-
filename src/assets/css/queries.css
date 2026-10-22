@@ -156,7 +156,7 @@
     padding: 1.5rem;
     left: 1rem;
     bottom: 1rem;
-    max-width: 33%;
+    max-width: 40%;
   }
 }
 
@@ -787,7 +787,7 @@
   }
 
   .home-hero-section {
-    max-height: 55rem;
+    max-height: 59rem;
     justify-content: center;
     background-attachment: scroll;
   }
@@ -1082,7 +1082,7 @@
   /* --------------------------- */
 
   .hero {
-    height: 45vh;
+    height: 50vh;
   }
 
   .hero-content {
