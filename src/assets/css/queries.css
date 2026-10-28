@@ -1297,6 +1297,11 @@
     font-size: 1.8rem;
     transform: none;
   }
+
+  .react-tel-input .form-control {
+    padding-left: 6.8rem !important;
+    width: 11rem !important;
+  }
 }
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
