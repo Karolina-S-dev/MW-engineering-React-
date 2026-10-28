@@ -1291,6 +1291,12 @@
     width: 110px;
     height: 70px;
   }
+
+  .lightbox-title {
+    left: 3rem;
+    font-size: 1.8rem;
+    transform: none;
+  }
 }
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
