@@ -668,6 +668,11 @@
   .image-wrapper img {
     height: 20vh;
   }
+
+  .react-tel-input .form-control {
+    width: 11rem !important;
+    padding-left: 7rem !important;
+  }
 }
 
 /* mobile - phones */
@@ -1296,11 +1301,6 @@
     left: 3rem;
     font-size: 1.8rem;
     transform: none;
-  }
-
-  .react-tel-input .form-control {
-    padding-left: 6.8rem !important;
-    width: 11rem !important;
   }
 }
 /* small mobile - phones*/
