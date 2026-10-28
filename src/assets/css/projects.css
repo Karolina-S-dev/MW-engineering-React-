@@ -12,7 +12,8 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 0;
 }
 
@@ -137,7 +138,9 @@
   font-size: 2.6rem;
   position: relative;
   margin-bottom: 4rem;
-  hyphens: auto;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   overflow-wrap: anywhere;
 }
 
@@ -208,7 +211,8 @@
   width: 100%;
   height: 100%;
   transition: all 0.6s ease;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 
@@ -245,6 +249,8 @@
   align-items: center;
   background-color: #aeafb030;
   padding: 1rem 1.4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 0.6rem;
   border-radius: 8px;
@@ -276,13 +282,16 @@
 .single-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 15%;
+     object-position: center 15%;
   transition: all 0.6s ease;
   border-radius: 8px;
   aspect-ratio: 25/9;
   z-index: 4;
-  filter: brightness(0.75);
+  -webkit-filter: brightness(0.75);
+          filter: brightness(0.75);
 }
 
 .single-card img:hover {

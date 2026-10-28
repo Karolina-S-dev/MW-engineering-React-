@@ -119,7 +119,8 @@ header {
 .emoji-flag {
   width: 1.9rem !important;
   height: 1.3rem !important;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-right: 0.6rem;
   box-shadow: 0 1px 5px 2px #313335;
 }
@@ -333,7 +334,9 @@ header {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   flex: 0 0 calc(25% - 1.5rem);
-  hyphens: auto;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   overflow-wrap: anywhere;
 }
 .home-offer-card-icon-header-row {
@@ -481,7 +484,8 @@ header {
 .home-benefits-image {
   flex: 0 0 60%;
   display: flex;
-  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
   height: 100%;
   overflow: hidden;
   border-top-right-radius: 20px;
