@@ -1281,6 +1281,16 @@
     padding: 5rem 4rem;
     width: 90%;
   }
+
+  .yarl__icon {
+    width: 23px;
+    height: 23px;
+  }
+
+  .yarl__thumbnails_thumbnail {
+    width: 110px;
+    height: 70px;
+  }
 }
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
@@ -1303,8 +1313,6 @@
   .home-proof-stat:last-child strong {
     font-size: 3rem;
   }
-
-  
 
   /* --------------------------- */
   /* ---------- PROJECTS -------- */
