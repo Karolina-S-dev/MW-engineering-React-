@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
 
 const Value = () => {
-  const { t } = useTranslation("about");
+  const { t,i18n } = useTranslation("about");
   return (
     <>
       <motion.section
@@ -24,7 +24,7 @@ const Value = () => {
           </div>
           <div className="value-cards-container">
             {valueData.map((item) => (
-              <div className="value-card flex-col" key={item.id}>
+              <div className="value-card flex-col" key={item.id} lang={i18n.language}>
                 <div className="value-row flex-col">
                   <img src={item.icon} alt="" />
                   <h3>{t(item.title)}</h3>

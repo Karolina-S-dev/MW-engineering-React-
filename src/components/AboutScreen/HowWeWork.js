@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
 
 const HowWeWork = () => {
-  const { t } = useTranslation("about");
+  const { t,i18n } = useTranslation("about");
   return (
     <>
       <section className="work-section flex-col">
@@ -24,9 +24,9 @@ const HowWeWork = () => {
         >
           {howWeWorkData.map((item) => (
             <div className="process-card-main" key={item.id}>
-              <div className="process-card flex-col">
+              <div lang={i18n.language} className="process-card flex-col">
                 <h2 className="process-number">{item.number}</h2>
-                <h3>{t(item.title)}</h3>
+                <h3 >{t(item.title)}</h3>
                 <p>{t(item.content)}</p>
               </div>
             </div>

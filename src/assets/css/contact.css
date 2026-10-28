@@ -178,30 +178,34 @@
   width: 100%;
 }
 
-.form-contact-data {
-  border-bottom: 1px solid #e8e8e8;
-  padding-bottom: 1rem;
-}
-
 .form-contact-us-main:hover {
   box-shadow: 0 5px 5px rgba(204, 204, 204, 0.1);
+}
+
+.form-contact-data-wrapper {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 1rem;
+}
+.form-contact-data{
+  padding-bottom: 0.5rem;
 }
 
 .form-ion-icon-and-data-row {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.3rem;
   line-height: 1.6rem;
 }
 
 .form-menu-text {
   font-size: 1.5rem;
-  padding-left: 5.1rem;
+  padding-left: 4rem;
   line-height: 2.5rem;
 }
 
 .form-ion-icon-and-data-row h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
@@ -221,7 +225,7 @@
 }
 
 .form-ion-icon-and-data-row ion-icon {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #fff;
   background-color: #11151b;
   border-radius: 6px;
@@ -400,7 +404,7 @@
 .Toastify__toast.toast-success {
   font-weight: 600;
   font-size: 1.4rem;
-  width: 40rem;
+  width: 42rem;
   border-radius: 10px;
   z-index: 999;
   background: #1b2724;
@@ -432,7 +436,7 @@
   border-radius: 10px;
   line-height: 2rem;
   z-index: 999;
-  width: 40rem;
+  width: 42rem;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }

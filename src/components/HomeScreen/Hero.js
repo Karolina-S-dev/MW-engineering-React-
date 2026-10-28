@@ -2,15 +2,16 @@ import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
 
 const Hero = () => {
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
   const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const isActiveLanguageDE = i18n.resolvedLanguage === "de";
 
   return (
     <section className="home-hero-section flex-col">
       <motion.div
         initial={isMobile ? { opacity: 0, y: 24 } : false}
-        whileInView={  {opacity: 1, y: 0 }}
-        transition={ { duration: 1, ease: "easeOut" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
         className="home-hero-content"
       >
         <h1>
@@ -19,7 +20,7 @@ const Hero = () => {
         </h1>
         <p>
           {t("hero.description1")}
-          <br />
+          {isActiveLanguageDE ? "" : <br />}
           {t("hero.description2")}
         </p>
         <div className="home-hero-buttons flex-row">

@@ -34,7 +34,7 @@
     "positionPlaceholder": "Enter your position",
     "phonePlaceholder": "Enter your phone number",
     "messagePlaceholder": "Enter your message",
-    "privacyBefore": "I have read the",
+    "privacyBefore": "* I have read the",
     "privacyLink": "Privacy Policy",
     "privacyAfter": "and consent to the processing of my personal data for the purpose of responding to the submitted enquiry.",
     "submit": "Send enquiry",

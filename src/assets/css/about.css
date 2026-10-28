@@ -213,6 +213,8 @@
 .industry-card p {
   font-size: 1.4rem;
   line-height: 2.6rem;
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
 .industry-card img {
@@ -220,7 +222,7 @@
   height: 5.5rem;
 }
 
-.realization-links {
+.realization-link {
   display: flex;
   align-items: center;
   gap: 3px;
@@ -231,20 +233,19 @@
   border-radius: 5px;
   width: 100%;
   z-index: 7;
-}
-
-.realization-links ion-icon {
-  font-size: 1.5rem;
-}
-
-.realization-links:hover {
-  text-decoration: underline;
-}
-
-.realization-link {
   font-size: 1.15rem !important;
   color: #b8bcc5;
   z-index: 9;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+}
+
+.realization-link ion-icon {
+  font-size: 1.5rem;
+}
+
+.realization-link:hover {
+  text-decoration: underline;
 }
 
 .industries-description {
@@ -339,6 +340,8 @@
   width: 100%;
   height: 100%;
   max-height: 36rem;
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
 .process-card::before {
@@ -461,6 +464,8 @@
 .value-card {
   position: relative;
   flex: 0 0 calc(20% - 3rem);
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
 .value-card::after {

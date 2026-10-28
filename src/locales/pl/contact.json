@@ -21,7 +21,7 @@
     }
   },
   "form": {
-    "country":"Polska",
+    "country": "Polska",
     "fullName": "Imię i nazwisko",
     "company": "Firma",
     "email": "Email",
@@ -34,7 +34,7 @@
     "positionPlaceholder": "Podaj swoje stanowisko",
     "phonePlaceholder": "Podaj swój numer telefonu",
     "messagePlaceholder": "Wpisz swoją wiadomość",
-    "privacyBefore": "Zapoznałem(-am) się z",
+    "privacyBefore": "* Zapoznałem(-am) się z",
     "privacyLink": "Polityką Prywatności",
     "privacyAfter": "i wyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na przesłane zapytanie.",
     "submit": "Wyślij zapytanie",

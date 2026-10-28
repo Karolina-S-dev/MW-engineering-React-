@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
 const OfferCard = ({ item }) => {
-  const {t} = useTranslation("home")
+  const { t, i18n } = useTranslation("home");
   return (
-    <div className="home-offer-card flex-col">
+    <div lang={i18n.language} className="home-offer-card flex-col">
       <div className="home-offer-card-icon-header-row">
         <img src={item.image} alt="" loading="lazy" />
         <h3>{t(item.title)}</h3>

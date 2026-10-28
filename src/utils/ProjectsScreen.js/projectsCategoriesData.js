@@ -162,6 +162,7 @@ const projectsCategoriesData = [
 
   // --------------------------- AMAZON ---------------------------- //
   {
+    id: 1,
     icon: warehouseIcon,
     title: "categories.logistics.title",
     desc: "categories.logistics.desc",
@@ -240,6 +241,7 @@ const projectsCategoriesData = [
   // -------------------------- CHEMISTRY INDUSTRY ------------------------------
   // ----------------------------------------------------------------------------
   {
+    id: 2,
     icon: chemistryIcon,
     title: "categories.chemical.title",
     desc: "categories.chemical.desc",
@@ -311,6 +313,7 @@ const projectsCategoriesData = [
   // -------------------------- FOOD AND DRINK INDUSTRY -------------------------
   // ----------------------------------------------------------------------------
   {
+    id: 3,
     icon: foodAndDrinkIcon,
     title: "categories.food.title",
     desc: "categories.food.desc",
@@ -372,6 +375,7 @@ const projectsCategoriesData = [
   // ---------------------------------- AUTOMOTIVE ------------------------------
   // ----------------------------------------------------------------------------
   {
+    id: 4,
     icon: automotiveIcon,
     title: "categories.automotive.title",
     desc: "categories.automotive.desc",
@@ -404,6 +408,7 @@ const projectsCategoriesData = [
   // -------------------------- AERONAUTICAL INDUSTRY ---------------------------
   // ----------------------------------------------------------------------------
   {
+    id: 5,
     icon: airplaneIcon,
     title: "categories.aviation.title",
     desc: "categories.aviation.desc",
@@ -429,6 +434,7 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
 
   {
+    id: 6,
     icon: heavyIndustryIcon,
     title: "categories.heavy.title",
     desc: "categories.heavy.desc",
@@ -500,6 +506,7 @@ const projectsCategoriesData = [
   // ----------------------------------------------------------------------------
 
   {
+    id: 7,
     icon: laboratoryIcon,
     title: "categories.medical.title",
     desc: "categories.medical.desc",
@@ -546,6 +553,7 @@ const projectsCategoriesData = [
   // ----------------------------- RETAIL SECTION -------------------------------
   // ----------------------------------------------------------------------------
   {
+    id: 8,
     icon: retailIcon,
     title: "categories.retail.title",
     desc: "categories.retail.desc",

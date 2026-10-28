@@ -30,7 +30,7 @@ const InputPhone = ({ register, errors, control, setValue }) => {
   return (
     <>
       <div className="form-group">
-        <label htmlFor="phone">{t("form.phone")}*</label>
+        <label htmlFor="phone">* {t("form.phone")}</label>
 
         {/* React-Phone-Input-2 (biblioteka)*/}
         <div className="flex-row">

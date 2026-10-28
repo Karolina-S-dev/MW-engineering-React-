@@ -1,9 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { industriesData } from "../../utils/AboutScreen/industries";
 import { motion } from "motion/react";
+import { useRedirectionContext } from "../../context/redirectionContext";
+import { Link } from "react-router-dom";
 
 const Industries = () => {
-  const { t } = useTranslation("about");
+  const { t, i18n} = useTranslation("about");
+  const { setRedirection } = useRedirectionContext();
+
   return (
     <>
       <motion.section
@@ -25,14 +29,15 @@ const Industries = () => {
             <div className="industry-card flex-col" key={item.id}>
               <div className="industry-card-header">
                 <img src={item.image} alt={item.alt} />
-                <p>{t(item.text)}</p>
+                <p lang={i18n.language}>{t(item.text)}</p>
               </div>
-              <a href="/projects" className="realization-links">
-                <span className="realization-link">
-                  {t("industries.projectsButton")}
-                </span>
+              <Link to="/projects"
+                className="realization-link"
+                onClick={() => setRedirection(item.id)}
+              >
+                {t("industries.projectsButton")}
                 <ion-icon name="arrow-forward-outline"></ion-icon>
-              </a>
+              </Link>
             </div>
           ))}
         </div>

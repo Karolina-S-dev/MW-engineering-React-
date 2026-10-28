@@ -10,8 +10,8 @@ const ProjectsScreen = () => {
     <>
       <ScreenWrapper>
         <ProjectsHero />
-        {projectsCategoriesData.map((category, index) => (
-          <ProjectsCategories category={category} key={index} />
+        {projectsCategoriesData.map((category) => (
+          <ProjectsCategories category={category} key={category.id} />
         ))}
         <ContactBanner />
       </ScreenWrapper>

@@ -80,6 +80,7 @@ const ContactForm = () => {
         onSubmit={handleSubmit(submitFunction, errorFunction)}
         noValidate
       >
+        <div className="flex-col form-contact-data-wrapper">
         <div className="form-contact-data">
           <div className="form-ion-icon-and-data-row">
             <ion-icon name="location"></ion-icon>
@@ -96,10 +97,11 @@ const ContactForm = () => {
             tel. <a href="tel:+48695413382">+48 695 413 382</a>
           </p>
         </div>
+        </div>
         <div className="form-group-row">
           {/* --------------- Input Name -------------- */}
           <div className="form-group">
-            <label htmlFor="name">{t("form.fullName")}*</label>
+            <label htmlFor="name">* {t("form.fullName")}</label>
             <input
               type="text"
               placeholder={t("form.namePlaceholder")}
@@ -118,7 +120,7 @@ const ContactForm = () => {
           </div>
           {/* --------------- Input Company -------------- */}
           <div className="form-group">
-            <label htmlFor="company">{t("form.company")}*</label>
+            <label htmlFor="company">* {t("form.company")}</label>
             <input
               type="text"
               placeholder={t("form.companyPlaceholder")}
@@ -135,7 +137,7 @@ const ContactForm = () => {
         <div className="form-group-row">
           {/* --------------- Input E-mail -------------- */}
           <div className="form-group">
-            <label htmlFor="email">{t("form.email")}*</label>
+            <label htmlFor="email">* {t("form.email")}</label>
             <input
               type="email"
               placeholder={t("form.emailPlaceholder")}
@@ -176,7 +178,7 @@ const ContactForm = () => {
 
         {/* --------------- Input Message -------------- */}
         <div className="form-group">
-          <label htmlFor="message">{t("form.message")}*</label>
+          <label htmlFor="message">* {t("form.message")}</label>
           <textarea
             id="message"
             placeholder={t("form.messagePlaceholder")}

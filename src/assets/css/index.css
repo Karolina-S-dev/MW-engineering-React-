@@ -333,6 +333,8 @@ header {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   flex: 0 0 calc(25% - 1.5rem);
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 .home-offer-card-icon-header-row {
   display: flex;

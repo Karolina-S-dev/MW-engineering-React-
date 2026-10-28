@@ -1,24 +1,24 @@
 /* ----------- ABOUT ---------- */
 @media only screen and (max-width: 1500px) {
   .industries-section {
-    padding: 7rem 3rem 12rem 9rem ;
+    padding: 7rem 3rem 12rem 9rem;
   }
 
   .work-section {
-    margin: 0 5rem ;
-    padding: 7rem 9rem ;
+    margin: 0 5rem;
+    padding: 7rem 9rem;
   }
 
   .industries-cards-container {
-    flex: 0 0 calc(55% - 2rem) ;
+    flex: 0 0 calc(55% - 2rem);
   }
 
   .industries-description {
-    flex: 0 0 calc(20% - 2rem) ;
+    flex: 0 0 calc(20% - 2rem);
   }
 
   .industries-description-text {
-    margin: 0 1rem ;
+    margin: 0 1rem;
   }
   .industry-card-header {
     gap: 1.8rem;
@@ -26,12 +26,12 @@
   .industry-card {
     padding: 1rem;
   }
-  .realization-links {
+  .realization-link {
     gap: 2px;
     padding: 1.2rem 0.1rem;
   }
   .realization-link {
-    font-size: 1.1rem ;
+    font-size: 1.1rem;
   }
 }
 
@@ -75,7 +75,7 @@
   }
 
   .home-benefits-container {
-    height: 55vh;
+    height: 55rem;
   }
 
   .home-benefits-container-list li {
@@ -163,22 +163,22 @@
 /* --------- ABOUT -------- */
 @media only screen and (max-width: 1320px) {
   .industries-section {
-    gap: 2rem ;
-    margin: 0 4rem ;
+    gap: 2rem;
+    margin: 0 4rem;
   }
 
   .industries-header {
-    flex: 0 0 calc(25% - 4rem / 3) ;
+    flex: 0 0 calc(25% - 4rem / 3);
   }
 
   .industries-cards-container {
-    flex: 0 0 calc(55% - 4rem / 3) ;
+    flex: 0 0 calc(55% - 4rem / 3);
   }
   .industries-description {
-    flex: 0 0 calc(20% - 4rem / 3) ;
+    flex: 0 0 calc(20% - 4rem / 3);
   }
 
-  .realization-links {
+  .realization-link {
     line-height: 1.7rem;
     padding: 1rem 1.2rem;
   }
@@ -187,11 +187,11 @@
     height: 5rem;
   }
   .industries-section::after {
-    max-width: 45rem ;
+    max-width: 45rem;
   }
   .work-section {
     margin: 0 4rem;
-    padding: 7rem 3rem ;
+    padding: 7rem 3rem;
   }
 }
 
@@ -202,7 +202,7 @@
   /* --------------------------- */
   html,
   body {
-    font-size: 8.5px ;
+    font-size: 8.5px;
   }
 
   .nav-button {
@@ -266,21 +266,21 @@
   /* --------------------------- */
 
   .section-padding {
-    padding: 5rem 0 ;
+    padding: 5rem 0;
   }
 
   .industries-section {
-    padding: 4rem 5rem 12rem 3rem ;
-    margin: 0 3rem ;
+    padding: 4rem 5rem 12rem 3rem;
+    margin: 0 3rem;
   }
 
   .work-section {
-    margin: 0 3rem ;
-    padding: 4rem 3rem ;
+    margin: 0 3rem;
+    padding: 4rem 3rem;
   }
 
   .process-card {
-    padding: 3rem 2.5rem 0 0 ;
+    padding: 3rem 2.5rem 0 0;
   }
 
   .process-card-main:not(:last-child)::after {
@@ -317,6 +317,11 @@
     padding: 3.4rem 7rem;
   }
 
+  .btn-activate-modal {
+    margin-right: 0;
+    letter-spacing: 0.5px;
+  }
+
   /* --------------------------- */
   /* ---------- CONTACT -------- */
   /* --------------------------- */
@@ -345,7 +350,7 @@
 @media only screen and (max-width: 1023px) {
   html,
   body {
-    font-size: 7.5px ;
+    font-size: 7.5px;
   }
 
   header {
@@ -432,7 +437,7 @@
   }
 
   .home-benefits-container {
-    height: 45rem;
+    height: 54rem;
   }
 
   .home-benefits-container-list li {
@@ -481,7 +486,7 @@
 
   .why-us-section {
     gap: 1rem;
-    max-width: 90vw ;
+    max-width: 90vw;
   }
   .why-us-intro {
     flex: 0 0 calc(40% - 0.5rem);
@@ -530,10 +535,10 @@
   }
 
   .process-card {
-    border-left: 1.6px solid #e2b041 ;
-    border-top: none ;
-    padding: 2rem 0 0 2rem ;
-    margin-top: 0 ;
+    border-left: 1.6px solid #e2b041;
+    border-top: none;
+    padding: 2rem 0 0 2rem;
+    margin-top: 0;
   }
 
   .process-number {
@@ -550,14 +555,14 @@
 
   .process-card-main:not(:first-child) .process-card::before {
     top: 4rem;
-    left: 0 ;
+    left: 0;
   }
 
   .process-card::after {
-    height: 1.6rem ;
-    width: 1rem ;
-    top: 2.8rem ;
-    left: 0 ;
+    height: 1.6rem;
+    width: 1rem;
+    top: 2.8rem;
+    left: 0;
   }
 
   .process-card-main:not(:last-child)::after {
@@ -565,9 +570,9 @@
   }
 
   .value-section {
-    max-width: 90vw ;
-    padding: 5rem 0 ;
-    gap: 2rem ;
+    max-width: 90vw;
+    padding: 5rem 0;
+    gap: 2rem;
   }
 
   .value-cards-container {
@@ -579,7 +584,7 @@
   }
 
   .value-card::after {
-    right: -0.5rem ;
+    right: -0.5rem;
   }
 
   .section-title-mb-lg {
@@ -611,6 +616,7 @@
 
   .project-card {
     width: 100%;
+    flex: 0 0 calc(50% - 0.75rem);
   }
 
   .single-card img {
@@ -723,7 +729,7 @@
   .nav-button--primary {
     background-color: transparent;
     color: #fff;
-    padding: 1.5rem 1rem ;
+    padding: 1.5rem 1rem;
     font-size: 1.9rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
@@ -747,8 +753,8 @@
   }
 
   .emoji-flag {
-    width: 2.7rem ;
-    height: 2rem ;
+    width: 2.7rem;
+    height: 2rem;
   }
 
   .mobile-nav-contact {
@@ -843,7 +849,7 @@
   }
 
   .home-offer-card h3 {
-    font-size: 1.8rem ;
+    font-size: 1.8rem;
   }
 
   .home-offer-card p {
@@ -1004,7 +1010,7 @@
 
   .industries-section {
     margin: 0 2rem;
-    padding: 3rem 3rem 12rem 3rem ;
+    padding: 3rem 3rem 12rem 3rem;
   }
   .industries-cards-container {
     max-width: 75vw;
@@ -1014,7 +1020,7 @@
     max-height: 21rem;
   }
 
-  .realization-links {
+  .realization-link {
     padding: 0.6rem 1.2rem;
   }
 
@@ -1050,9 +1056,9 @@
   }
 
   .value-card::after {
-    width: 100% ;
-    height: 1.5px ;
-    top: 105% ;
+    width: 100%;
+    height: 1.5px;
+    top: 105%;
   }
 
   .value-card {
@@ -1155,7 +1161,7 @@
     padding: 1.5rem;
   }
 
-  .aviation-overlay{
+  .aviation-overlay {
     color: #000;
   }
 
@@ -1182,12 +1188,8 @@
   }
 
   .projects-contact-button ion-icon {
-    width: 2.8rem ;
-    height: 2.8rem ;
-  }
-  .projects-contact-banner ion-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 2.8rem;
+    height: 2.8rem;
   }
 
   .projects-contact-col {
@@ -1271,6 +1273,14 @@
   footer img {
     align-self: center;
   }
+  .footer-menu-text p {
+    width: 17rem;
+  }
+
+  .header-section-mobile {
+    padding: 5rem 4rem;
+    width: 90%;
+  }
 }
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
@@ -1293,6 +1303,8 @@
   .home-proof-stat:last-child strong {
     font-size: 3rem;
   }
+
+  
 
   /* --------------------------- */
   /* ---------- PROJECTS -------- */
